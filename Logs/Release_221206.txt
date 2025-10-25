@@ -1,0 +1,2 @@
+#20221206:
+1- When for the first time battery is attached to the device and system is running without main and ACC supplies, GSM LED is OFF and after connecting the ACC supply, if GSM is not Fixed GSM LED will remain off. On ACC on routine GSM LED is always configured

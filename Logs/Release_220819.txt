@@ -1,0 +1,16 @@
+#20220815:
+1- Add error library
+2- create error flag for gps and accelerometer
+
+#20220818:
+3- Add "Error_check_system_errors" function to "AVL_Handle_Tasks" routine
+4- Add sys LED detection on errors. (blinks fast)
+5- Correct GPS config routine and add error on serial communication. In this mode program does not stup in GPS config routine
+6- Change "system_time_unix" to "system_Unixtime"
+7- Reconfigure GPS every 10 minutes of gps signal lost
+8- Add HBT setting to the SMS
+
+#20220819:
+9- move device attachment process into a seperate library
+10- Change I2C recovery routine to reconfigure every 60 seconds
+11- 

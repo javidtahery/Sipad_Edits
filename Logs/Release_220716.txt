@@ -1,0 +1,3 @@
+#20220716:
+1- Bug in device version. System read the device version and sets to default if it is zero or 0xFFFFFFFFFF
+2- Add reseting device version in SMS Factory defaults

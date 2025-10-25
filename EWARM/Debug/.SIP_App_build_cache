@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BuildDb>
+    <Tool>
+        <Name>linker</Name>
+        <Parent>
+            <Path>D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Exe\SIP_App.out</Path>
+            <Output>
+                <Path>D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\List\SIP_App.map</Path>
+            </Output>
+        </Parent>
+    </Tool>
+</BuildDb>

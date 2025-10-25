@@ -1,0 +1,9 @@
+#20220924:
+1- Disable ADC DMA channel and channel request. It causes problem during MCU reset.
+2- Change the algorithm of saving certificate file.
+
+#20220925:
+3- Reset GSM in server packet resend retry for more then 10 times
+
+#20221028:
+4- Add taliya APN and Network provider code

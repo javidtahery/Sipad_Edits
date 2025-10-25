@@ -1,0 +1,14 @@
+#20220528:
+1- Modify SPI Flash structure variables size
+2- Add "SPIF_check_sector_validity" function
+3- Add spi flash sector validity in "SIP_Startup_Update_Records_Indices" function
+4- Add sector read validity in "SPIF_read_n_records" function
+5- Add "Write Sector validity" in "SPIF_write_record" function
+6- Change default setting point time interval to 60s
+7- Change default setting send time interval to 60s
+8- Change default setting angel threshold to 30 degree
+9- Change low battery interval repitition to 3600s
+10- Add "Read Sector validity" in "SPIF_write_record" function
+11- Change '128" number in Reload the next sector in "SPIF_write_record" function to "SPIF_MAX_NUM_RECORDS_IN_ONE_SECTOR" define
+12- Change low battery event. Low battery will be generated once in every ACC on detection.
+13- Add "SPIF_check_sector_validity" erase record function.

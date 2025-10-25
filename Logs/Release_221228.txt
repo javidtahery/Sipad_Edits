@@ -1,0 +1,4 @@
+#221228:
+1- Fix FTP username and password query with SMS (if(setting.ftp_username_length)).
+2- Protect FTP routine for unwanted SMS routine change the gsm stage.
+3- Protect other routine from FTP routine (if(GSM_status == GSM_FTP_PROCESS))

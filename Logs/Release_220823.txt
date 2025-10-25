@@ -1,0 +1,2 @@
+#20220823:
+1- If server gets a packet of events with the same unixtime, accept one event and garbages rest of them. Time of records are shifted.

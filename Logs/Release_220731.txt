@@ -1,0 +1,2 @@
+#20220728:
+1- Change SPI Flash Man ID to support W25Q32 and W25Q64

@@ -1,0 +1,1407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>4</fileVersion>
+    <fileChecksum>4159606246</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\..\Libraries\User\RSA\Crypto\pkc\dsa.c</file>
+            <file>$PROJ_DIR$\..\Libraries\User\GPS\GPS_USART.c</file>
+            <file>$PROJ_DIR$\..\Libraries\User\SPIF\SPIF.c</file>
+            <file>$PROJ_DIR$\..\Libraries\User\GPS\GPS.c</file>
+            <file>$PROJ_DIR$\..\Libraries\User\RSA\Crypto\certificate\x509_cert_parse.c</file>
+            <file>$PROJ_DIR$\..\Libraries\User\RSA\Crypto\hash\md5.c</file>
+            <file>$PROJ_DIR$\..\Libraries\User\GSM\HTTP_Process.c</file>
+            <file>$PROJ_DIR$\..\Libraries\User\RSA\common\resource_manager.c</file>
+            <file>$PROJ_DIR$\..\Libraries\User\RSA\common\date_time.c</file>
+            <file>$PROJ_DIR$\..\Libraries\User\RSA\Crypto\pkc\rsa.c</file>
+            <file>$PROJ_DIR$\..\Libraries\User\RSA\Crypto\mpi\mpi.c</file>
+            <file>$PROJ_DIR$\..\Libraries\User\RSA\RSA_Cryptographic.c</file>
+            <file>$PROJ_DIR$\..\Libraries\User\RSA\Crypto\certificate\pem_import.c</file>
+            <file>$PROJ_DIR$\..\Libraries\User\GSM\SMS_Process.c</file>
+            <file>$PROJ_DIR$\..\Libraries\User\GSM\Module_USART.c</file>
+            <file>$PROJ_DIR$\..\Libraries\User\SIP_Protocol\sip_protocol.c</file>
+            <file>$PROJ_DIR$\..\Libraries\User\Digital_IO\Digital_IO.c</file>
+            <file>$PROJ_DIR$\..\Libraries\User\SIP_Protocol\system.c</file>
+            <file>$PROJ_DIR$\..\Libraries\User\RSA\common\cpu_endian.c</file>
+            <file>$PROJ_DIR$\..\Libraries\User\RSA\common\os_port_none.c</file>
+            <file>$PROJ_DIR$\..\Libraries\User\SIP_Protocol\circular_buffer.c</file>
+            <file>$PROJ_DIR$\..\Libraries\User\RSA\common\str.c</file>
+            <file>$PROJ_DIR$\..\Libraries\User\GSM\GSM_BT.c</file>
+            <file>$PROJ_DIR$\..\Libraries\User\RSA\Crypto\encoding\asn1.c</file>
+            <file>$PROJ_DIR$\..\Libraries\User\RSA\common\debug.c</file>
+            <file>$PROJ_DIR$\..\Libraries\User\RSA\Crypto\encoding\base64.c</file>
+            <file>$PROJ_DIR$\..\Libraries\User\GSM\GSM_Utility.c</file>
+            <file>$PROJ_DIR$\..\Libraries\User\RSA\Crypto\encoding\oid.c</file>
+            <file>$PROJ_DIR$\..\Libraries\User\GSM\SSL_Process.c</file>
+            <file>$PROJ_DIR$\..\Libraries\User\RSA\Crypto\certificate\x509_cert_validate.c</file>
+            <file>$PROJ_DIR$\..\Libraries\User\RSA\Crypto\certificate\x509_common.c</file>
+            <file>$PROJ_DIR$\..\Libraries\User\RSA\Crypto\pkc\dh.c</file>
+            <file>$PROJ_DIR$\..\Libraries\User\Main\main.c</file>
+            <file>$PROJ_DIR$\..\Libraries\User\Main\System_Interrupts.c</file>
+            <file>$PROJ_DIR$\..\Libraries\System\system_stm32g0xx.c</file>
+            <file>$PROJ_DIR$\..\Libraries\User\ADC\ADC_Config.c</file>
+            <file>$PROJ_DIR$\..\Libraries\User\Accelerometer\dev_attachment.c</file>
+            <file>$PROJ_DIR$\..\Libraries\User\Accelerometer\KX023.c</file>
+            <file>$PROJ_DIR$\..\Libraries\User\Flash\Flash.c</file>
+            <file>$PROJ_DIR$\..\Libraries\User\Main\general_functions.c</file>
+            <file>$PROJ_DIR$\..\Libraries\User\Main\System_Utility.c</file>
+            <file>$PROJ_DIR$\..\Libraries\System\startup_stm32g070xx.s</file>
+            <file>$PROJ_DIR$\..\Libraries\User\Accelerometer\accel_i2c.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\mpi.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\System_Interrupts.xcl</file>
+            <file>$PROJ_DIR$\..\Libraries\User\RSA\Crypto\ecc\ecdsa.h</file>
+            <file>$PROJ_DIR$\..\Libraries\User\Timers\System_Timers.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\SPIF_spi.o</file>
+            <file>$PROJ_DIR$\..\Libraries\User\RSA\common\resource_manager.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\System_Utility.xcl</file>
+            <file>$PROJ_DIR$\..\Libraries\User\Main\main.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\RSA_Cryptographic.xcl</file>
+            <file>$PROJ_DIR$\..\Libraries\User\Flash\Flash.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\debug.__cstat.et</file>
+            <file>$PROJ_DIR$\..\Libraries\User\RSA\Crypto\ecc\eddsa.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\GPS.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\base64.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\dsa.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\accel_i2c.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\GSM_Utility.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\SPIF.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\x509_cert_parse.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\debug.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\dh.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cpu_endian.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\System_Interrupts.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+            <file>$PROJ_DIR$\..\Libraries\User\SPIF\SPIF_Driver.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\GSM_BT.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\SPIF_Driver.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\dsa.xcl</file>
+            <file>$PROJ_DIR$\..\Libraries\User\RSA\Crypto\pkc\dsa.h</file>
+            <file>$PROJ_DIR$\..\Libraries\User\GSM\GSM_BT.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\md5.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\SMS_Process.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\oid.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\system.xcl</file>
+            <file>$PROJ_DIR$\..\Libraries\User\SIP_Protocol\circular_buffer.h</file>
+            <file>$PROJ_DIR$\..\Libraries\User\SIP_Protocol\system.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\base64.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\base64.__cstat.et</file>
+            <file>$PROJ_DIR$\..\Libraries\System\cmsis_version.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\KX023.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\x509_cert_validate.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\str.__cstat.et</file>
+            <file>$PROJ_DIR$\..\Libraries\User\RSA\Crypto\core\crypto.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\time.h</file>
+            <file>$PROJ_DIR$\..\Libraries\User\SPIF\SPIF_spi.h</file>
+            <file>$PROJ_DIR$\..\Libraries\User\SPIF\SPIF.h</file>
+            <file>$TOOLKIT_DIR$\lib\rt6M_tl.a</file>
+            <file>$PROJ_DIR$\..\Libraries\User\GSM\HTTP_Process.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.xcl</file>
+            <file>$PROJ_DIR$\..\Libraries\User\RSA\Crypto\certificate\pem_import.h</file>
+            <file>$PROJ_DIR$\..\Libraries\User\RSA\Crypto\certificate\x509_common.h</file>
+            <file>$PROJ_DIR$\..\Libraries\User\RSA\Crypto\encoding\asn1.h</file>
+            <file>$PROJ_DIR$\..\Libraries\User\RSA\common\os_port_none.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\asn1.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\str.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\x509_common.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\LEDs.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\accel_i2c.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\SPIF_Driver.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\mpi.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\lib\m6M_tl.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\GPS_USART.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_float_setup.h</file>
+            <file>$PROJ_DIR$\..\Libraries\User\RSA\Crypto\encoding\oid.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\SPIF.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\asn1.xcl</file>
+            <file>$PROJ_DIR$\..\Libraries\User\RSA\Config\os_port_config.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\mpi.xcl</file>
+            <file>$PROJ_DIR$\..\Libraries\User\RSA\Crypto\ecc\ec_curves.h</file>
+            <file>$PROJ_DIR$\..\Libraries\User\RSA\common\os_port.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\System_Timers.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\circular_buffer.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_stm32g0xx.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\date_time.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\os_port_none.o</file>
+            <file>$PROJ_DIR$\..\Libraries\User\RSA\common\compiler_port.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\x509_cert_validate.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\lib\dl6M_tlf.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\SIP_App.pbd</file>
+            <file>$PROJ_DIR$\..\Libraries\System\stm32g0xx.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\..\Libraries\User\RSA\Crypto\certificate\x509_cert_validate.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+            <file>$PROJ_DIR$\..\Libraries\User\RSA\Crypto\encoding\base64.h</file>
+            <file>$PROJ_DIR$\..\Libraries\System\mpu_armv7.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\HTTP_Process.xcl</file>
+            <file>$TOOLKIT_DIR$\inc\c\time32.h</file>
+            <file>$PROJ_DIR$\..\Libraries\User\Digital_IO\Digital_IO.h</file>
+            <file>$PROJ_DIR$\..\Libraries\User\RSA\common\str.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\GSM_Utility.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\ADC_Config.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\Flash.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\x509_cert_parse.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\x509_cert_validate.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\GSM_BT.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\RSA_Cryptographic.o</file>
+            <file>$PROJ_DIR$\..\Libraries\User\Accelerometer\accel_i2c.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\..\Libraries\User\RSA\Crypto\ecc\ec.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\circular_buffer.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\accel_i2c.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\general_functions.o</file>
+            <file>$PROJ_DIR$\..\Libraries\System\stm32g070xx_flash.icf</file>
+            <file>$PROJ_DIR$\Debug\Obj\circular_buffer.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\System_Timers.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\GSM_BT.xcl</file>
+            <file>$PROJ_DIR$\..\Libraries\User\GPS\GPS_USART.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\LEDs.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\RSA_Cryptographic.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\SMS_Process.xcl</file>
+            <file>$PROJ_DIR$\..\Libraries\User\RSA\common\debug.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\pem_import.o</file>
+            <file>$PROJ_DIR$\..\Libraries\User\RSA\common\date_time.h</file>
+            <file>$PROJ_DIR$\..\Libraries\User\GPS\GPS.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\asn1.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\SSL_Process.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\SPIF_spi.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\KX023.xcl</file>
+            <file>$PROJ_DIR$\..\Libraries\User\Accelerometer\dev_attachment.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\rsa.__cstat.et</file>
+            <file>$PROJ_DIR$\..\Libraries\User\RSA\Crypto\hash\sha224.h</file>
+            <file>$PROJ_DIR$\..\Libraries\User\RSA\Crypto\mac\hmac.h</file>
+            <file>$PROJ_DIR$\..\Libraries\User\GSM\SSL_Process.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\resource_manager.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\md5.xcl</file>
+            <file>$PROJ_DIR$\..\Libraries\User\RSA\Crypto\hash\sha256.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\resource_manager.__cstat.et</file>
+            <file>$PROJ_DIR$\..\Libraries\User\RSA\Crypto\pkc\dh.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\SMS_Process.o</file>
+            <file>$PROJ_DIR$\Debug\Exe\S500_App - V1.4.6.3 - 250426.hex</file>
+            <file>$PROJ_DIR$\Debug\Obj\sip_protocol.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\Flash.o</file>
+            <file>$PROJ_DIR$\..\Libraries\System\core_cm0plus.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\oid.o</file>
+            <file>$PROJ_DIR$\..\Libraries\User\Main\System_Utility.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\Flash.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\Digital_IO.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\System_Timers.xcl</file>
+            <file>$PROJ_DIR$\..\Libraries\User\RSA\Crypto\xof\keccak.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\GPS.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\pem_import.xcl</file>
+            <file>$PROJ_DIR$\..\Libraries\User\SIP_Protocol\sip_protocol.h</file>
+            <file>$PROJ_DIR$\..\Libraries\User\Timers\LEDs.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\ADC_Config.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\system.__cstat.et</file>
+            <file>$PROJ_DIR$\..\Libraries\User\RSA\Crypto\certificate\x509_cert_parse.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\ADC_Config.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\Module_USART.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\Module_USART.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\SPIF_spi.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\date_time.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\dev_attachment.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\cpu_endian.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\GPS_USART.xcl</file>
+            <file>$PROJ_DIR$\..\Libraries\User\RSA\common\error.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\general_functions.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\System_Interrupts.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cpu_endian.xcl</file>
+            <file>$PROJ_DIR$\..\Libraries\User\RSA\Crypto\ecc\ed448.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\sip_protocol.xcl</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\System_Utility.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\GPS_USART.__cstat.et</file>
+            <file>$PROJ_DIR$\..\Libraries\System\stm32g070xx.h</file>
+            <file>$PROJ_DIR$\..\Libraries\User\ADC\ADC_Config.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\md5.__cstat.et</file>
+            <file>$PROJ_DIR$\..\Libraries\User\RSA\Crypto\hash\sha384.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\Digital_IO.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\dh.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\System_Utility.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\pem_import.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\HTTP_Process.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\rsa.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\general_functions.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$PROJ_DIR$\..\Libraries\System\system_stm32g0xx.h</file>
+            <file>$PROJ_DIR$\..\Libraries\User\GSM\GSM_Utility.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\SSL_Process.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\HTTP_Process.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\SPIF_Driver.xcl</file>
+            <file>$PROJ_DIR$\..\Libraries\User\Main\general_functions.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\Digital_IO.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\resource_manager.o</file>
+            <file>$PROJ_DIR$\Debug\Exe\SIP_App.out</file>
+            <file>$PROJ_DIR$\..\Libraries\User\RSA\RSA_Cryptographic.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup_stm32g070xx.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_stm32g0xx.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\os_port_none.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\GPS.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\x509_cert_parse.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\List\SIP_App.map</file>
+            <file>$PROJ_DIR$\..\Libraries\User\RSA\Crypto\mpi\mpi.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_stm32g0xx.xcl</file>
+            <file>$PROJ_DIR$\..\Libraries\User\Accelerometer\KX023.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\os_port_none.__cstat.et</file>
+            <file>$PROJ_DIR$\..\Libraries\User\RSA\Crypto\ecc\ed25519.h</file>
+            <file>$PROJ_DIR$\..\Libraries\User\RSA\Crypto\hash\md5.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\rsa.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\debug.xcl</file>
+            <file>$PROJ_DIR$\..\Libraries\User\RSA\Config\crypto_config.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\SSL_Process.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\dh.__cstat.et</file>
+            <file>$PROJ_DIR$\..\Libraries\User\RSA\Crypto\xof\shake256.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\ctype.h</file>
+            <file>$PROJ_DIR$\..\Libraries\System\cmsis_iccarm.h</file>
+            <file>$PROJ_DIR$\..\Libraries\User\RSA\common\cpu_endian.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\system.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\KX023.o</file>
+            <file>$PROJ_DIR$\..\Libraries\User\GSM\Module_USART.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\Module_USART.o</file>
+            <file>$PROJ_DIR$\..\Libraries\User\RSA\Crypto\pkc\rsa.h</file>
+            <file>$PROJ_DIR$\..\Libraries\System\cmsis_compiler.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\x509_common.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\x509_common.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\dev_attachment.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\date_time.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\str.xcl</file>
+            <file>$PROJ_DIR$\..\Libraries\User\SPIF\SPIF_spi.c</file>
+            <file>$PROJ_DIR$\..\Libraries\User\RSA\Crypto\core\crypto_legacy.h</file>
+            <file>$PROJ_DIR$\..\Libraries\User\Timers\System_Timers.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\sip_protocol.__cstat.et</file>
+            <file>$PROJ_DIR$\..\Libraries\User\SPIF\SPIF_Driver.c</file>
+            <file>$PROJ_DIR$\..\Libraries\User\GSM\SMS_Process.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\dsa.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\oid.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\SPIF.xcl</file>
+            <file>$TOOLKIT_DIR$\inc\c\inttypes.h</file>
+            <file>$PROJ_DIR$\..\Libraries\User\Timers\LEDs.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\dev_attachment.xcl</file>
+            <file>$PROJ_DIR$\..\Libraries\User\RSA\Crypto\hash\sha1.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\GSM_Utility.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\LEDs.__cstat.et</file>
+            <file>$PROJ_DIR$\..\Libraries\User\RSA\Crypto\hash\sha512.h</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 237 244</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\User\RSA\Crypto\pkc\dsa.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 57</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 278</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 70</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 86 117 114 123 100 129 74 101 98 131 139 149 281 96 253 273 260 132 207 228 202 258 71 245 105 95 162</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\User\GPS\GPS_USART.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 109</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 216</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 206</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 158 50 128 217 184 149 129 74 101 98 131 82 266 259 214 134 229 105 139 208 124 228 202 142 110 186 137 88 67 89 193 87 136 207 263 230 174 72 277 91 165 46 194 78 79 218 148 247 170 265 86 117 114 123 100 281 96 253 273 260 132 258 245 93 179 71 150 116 54 238 52</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\User\SPIF\SPIF.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 60</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 112</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 280</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 89 50 128 217 184 149 129 74 101 98 131 82 266 259 214 134 229 105 139 208 124 228 202 142 110 186 137 88 67 263 230 174 72 277 91 158 165 46 194 193 87 136 207 78 79 218 148 247 170 265 86 117 114 123 100 281 96 253 273 260 132 258 245 93 179 71 150 116 54 238 52 234</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\User\GPS\GPS.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 242</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 55</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 191</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 165 50 128 217 184 149 129 74 101 98 131 82 266 259 214 134 229 105 139 208 124 228 202 142 110 186 137 88 67 89 193 87 136 207 263 230 174 72 277 91 158 46 194 78 79 218 148 247 170 265 86 117 114 123 100 281 96 253 273 260 132 258 245 93 179 71 150 116 54 238 52 234</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\User\RSA\Crypto\certificate\x509_cert_parse.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 144</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 243</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 61</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 86 117 114 123 100 129 74 101 98 131 139 149 281 96 253 273 260 132 207 228 202 258 197 94 265 245 105 71 45 150 116 164 87 136 95 111 250 284 172 177 220 287 162</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\User\RSA\Crypto\hash\md5.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 73</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 219</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 176</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 86 117 114 123 100 129 74 101 98 131 139 149 281 96 253 273 260 132 207 228 202 258 250 186 50 128 217 184 82 266 259 214 134 229 105 208 124 142 110 137 88 67 89 193 87 136 263 230 174 72 277 91 158 165 46 194 78 79 218 148 247 170 265 245 93 179 71 150 116 54 238 52</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\User\GSM\HTTP_Process.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 232</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 225</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 135</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 91 50 128 217 184 149 129 74 101 98 131 82 266 259 214 134 229 105 139 208 124 228 202 142 110 186 137 88 67 89 193 87 136 207 263 230 174 72 277 158 165 46 194 78 79 218 148 247 170 265 86 117 114 123 100 281 96 253 273 260 132 258 245 93 179 71 150 116 54 238 52 234</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\User\RSA\common\resource_manager.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 236</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 178</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 175</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 228 129 74 101 98 131 139 202 117 114 123 100 149 281 96 48 207 162 105</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\User\RSA\common\date_time.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 270</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 203</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 121</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 105 129 74 101 98 131 139 228 202 164 87 136 117 114 123 100 149 281 96</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\User\RSA\Crypto\pkc\rsa.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 251</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 171</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 226</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 208 129 74 101 98 131 139 124 86 117 114 123 100 149 281 96 253 273 260 132 207 228 202 258 173 250 284 172 177 220 287 265 245 105 95 111 162</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\User\RSA\Crypto\mpi\mpi.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 43</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 107</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 115</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 86 117 114 123 100 129 74 101 98 131 139 149 281 96 253 273 260 132 207 228 202 258 245 105 162</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\User\RSA\RSA_Cryptographic.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 147</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 160</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 51</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 238 50 128 217 184 149 129 74 101 98 131 82 266 259 214 134 229 105 139 208 124 228 202 142 110 186 137 88 67 89 193 87 136 207 263 230 174 72 277 91 158 165 46 194 78 79 218 148 247 170 265 86 117 114 123 100 281 96 253 273 260 132 258 245 93 179 71 150 116 54 52</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\User\RSA\Crypto\certificate\pem_import.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 163</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 224</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 192</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 86 117 114 123 100 129 74 101 98 131 139 149 281 96 253 273 260 132 207 228 202 258 93 179 245 105 265 71 150 116 54 95 111 133 162</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\User\GSM\SMS_Process.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 180</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 75</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 161</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 277 50 128 217 184 149 129 74 101 98 131 82 266 259 214 134 229 105 139 208 124 228 202 142 110 186 137 88 67 89 193 87 136 207 263 230 174 72 91 158 165 46 194 78 79 218 148 247 170 265 86 117 114 123 100 281 96 253 273 260 132 258 245 93 179 71 150 116 54 238 52 234</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\User\GSM\Module_USART.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 264</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 199</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 200</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 263 50 128 217 184 149 129 74 101 98 131 82 266 259 214 134 229 105 139 208 124 228 202 142 110 186 137 88 67 89 193 87 136 207 230 174 72 277 91 158 165 46 194 78 79 218 148 247 170 265 86 117 114 123 100 281 96 253 273 260 132 258 245 93 179 71 150 116 54 238 52</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\User\SIP_Protocol\sip_protocol.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 182</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 275</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 213</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 193 50 128 217 184 149 129 74 101 98 131 82 266 259 214 134 229 105 139 208 124 228 202 142 110 186 137 88 67 89 263 230 174 72 277 91 158 165 46 194 78 79 218 148 247 170 265 86 117 114 123 100 281 96 253 273 260 132 207 258 245 93 179 71 150 116 54 238 52 87 136 250</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\User\Digital_IO\Digital_IO.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 235</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 221</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 188</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 137 50 128 217 184 149 129 74 101 98 131 82 266 259 214 134 229 105 139 208 124 228 202 142 110 186 88 67 89 193 87 136 207 263 230 174 72 277 91 158 165 46 194 78 79 218 148 247 170 265 86 117 114 123 100 281 96 253 273 260 132 258 245 93 179 71 150 116 54 238 52</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\User\SIP_Protocol\system.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 261</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 196</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 77</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 79 50 128 217 184 149 129 74 101 98 131 82 266 259 214 134 229 105 139 208 124 228 202 142 110 186 137 88 67 89 193 87 136 207 263 230 174 72 277 91 158 165 46 194 78 218 148 247 170 265 86 117 114 123 100 281 96 253 273 260 132 258 245 93 179 71 150 116 54 238 52</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\User\RSA\common\cpu_endian.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 205</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 64</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 211</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 260 149 129 74 101 98 131 132</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\User\RSA\common\os_port_none.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 122</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 248</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 241</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 105 129 74 101 98 131 139 208 124 117 114 123 100 149 281 96 162</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\User\SIP_Protocol\circular_buffer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 151</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 155</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 119</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 78 50 128 217 184 149 129 74 101 98 131 82 266 259 214 134 229 105 139 208 124 228 202 142 110 186 137 88 67 89 193 87 136 207 263 230 174 72 277 91 158 165 46 194 79 218 148 247 170 265 86 117 114 123 100 281 96 253 273 260 132 258 245 93 179 71 150 116 54 238 52</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\User\RSA\common\str.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 99</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 85</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 271</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 105 129 74 101 98 131 139 228 202 258 138 117 114 123 100 149 281 96 207</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\User\GSM\GSM_BT.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 68</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 146</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 157</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 72 230 50 128 217 184 149 129 74 101 98 131 82 266 259 214 134 229 105 139 208 124 228 202 142 110 186 137 88 67 89 193 87 136 207 263 174 277 91 158 165 46 194 78 79 218 148 247 170 265 86 117 114 123 100 281 96 253 273 260 132 258 245 93 179 71 150 116 54 238 52</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\User\RSA\Crypto\encoding\asn1.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 166</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 97</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 113</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 86 117 114 123 100 129 74 101 98 131 139 149 281 96 253 273 260 132 207 228 202 258 95 111 162 105</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\User\RSA\common\debug.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 62</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 53</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 252</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 162 105 129 74 101 98 131 139 117 114 123 100 149 281 96</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\User\RSA\Crypto\encoding\base64.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 80</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 81</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 56</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 86 117 114 123 100 129 74 101 98 131 139 149 281 96 253 273 260 132 207 228 202 258 133</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\User\GSM\GSM_Utility.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 140</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 285</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 59</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 230 50 128 217 184 149 129 74 101 98 131 82 266 259 214 134 229 105 139 208 124 228 202 142 110 186 137 88 67 89 193 87 136 207 263 174 72 277 91 158 165 46 194 78 79 218 148 247 170 265 86 117 114 123 100 281 96 253 273 260 132 258 245 93 179 71 150 116 54 238 52 234</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\User\RSA\Crypto\encoding\oid.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 185</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 279</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 76</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 86 117 114 123 100 129 74 101 98 131 139 149 281 96 253 273 260 132 207 228 202 258 111 162 105</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\User\GSM\SSL_Process.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 167</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 254</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 231</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 174 50 128 217 184 149 129 74 101 98 131 82 266 259 214 134 229 105 139 208 124 228 202 142 110 186 137 88 67 89 193 87 136 207 263 230 72 277 91 158 165 46 194 78 79 218 148 247 170 265 86 117 114 123 100 281 96 253 273 260 132 258 245 93 179 71 150 116 54 238 52</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\User\RSA\Crypto\certificate\x509_cert_validate.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 145</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 125</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 84</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 86 117 114 123 100 129 74 101 98 131 139 149 281 96 253 273 260 132 207 228 202 258 197 94 265 245 105 71 45 150 116 164 87 136 130 95 111 249 287 212 256 190 162</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\User\RSA\Crypto\certificate\x509_common.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 268</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 102</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 267</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 86 117 114 123 100 129 74 101 98 131 139 149 281 96 253 273 260 132 207 228 202 258 94 265 245 105 71 45 150 116 164 87 136 111 250 284 172 177 220 287 162</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\User\RSA\Crypto\pkc\dh.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 222</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 255</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 63</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 86 117 114 123 100 129 74 101 98 131 139 149 281 96 253 273 260 132 207 228 202 258 179 245 105 162</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\User\Main\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 257</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 66</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 92</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 50 128 217 184 149 129 74 101 98 131 82 266 259 214 134 229 105 139 208 124 228 202 142 110 186 137 88 67 89 193 87 136 207 263 230 174 72 277 91 158 165 46 194 78 79 218 148 247 170 265 86 117 114 123 100 281 96 253 273 260 132 258 245 93 179 71 150 116 54 238 52</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\User\Main\System_Interrupts.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 210</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 65</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 44</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 50 128 217 184 149 129 74 101 98 131 82 266 259 214 134 229 105 139 208 124 228 202 142 110 186 137 88 67 89 193 87 136 207 263 230 174 72 277 91 158 165 46 194 78 79 218 148 247 170 265 86 117 114 123 100 281 96 253 273 260 132 258 245 93 179 71 150 116 54 238 52</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\System\system_stm32g0xx.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 120</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 240</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 246</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 128 217 184 149 129 74 101 98 131 82 266 259 214 134 229</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\User\ADC\ADC_Config.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 141</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 198</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 195</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 218 50 128 217 184 149 129 74 101 98 131 82 266 259 214 134 229 105 139 208 124 228 202 142 110 186 137 88 67 89 193 87 136 207 263 230 174 72 277 91 158 165 46 194 78 79 148 247 170 265 86 117 114 123 100 281 96 253 273 260 132 258 245 93 179 71 150 116 54 238 52</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\User\Accelerometer\dev_attachment.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 269</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 204</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 283</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 170 50 128 217 184 149 129 74 101 98 131 82 266 259 214 134 229 105 139 208 124 228 202 142 110 186 137 88 67 89 193 87 136 207 263 230 174 72 277 91 158 165 46 194 78 79 218 148 247 265 86 117 114 123 100 281 96 253 273 260 132 258 245 93 179 71 150 116 54 238 52</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\User\Accelerometer\KX023.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 262</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 83</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 169</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 247 50 128 217 184 149 129 74 101 98 131 82 266 259 214 134 229 105 139 208 124 228 202 142 110 186 137 88 67 89 193 87 136 207 263 230 174 72 277 91 158 165 46 194 78 79 218 148 170 265 86 117 114 123 100 281 96 253 273 260 132 258 245 93 179 71 150 116 54 238 52</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\User\Flash\Flash.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 183</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 143</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 187</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 52 50 128 217 184 149 129 74 101 98 131 82 266 259 214 134 229 105 139 208 124 228 202 142 110 186 137 88 67 89 193 87 136 207 263 230 174 72 277 91 158 165 46 194 78 79 218 148 247 170 265 86 117 114 123 100 281 96 253 273 260 132 258 245 93 179 71 150 116 54 238</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\User\Main\general_functions.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 153</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 227</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 209</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 234</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\User\Main\System_Utility.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 223</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 215</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 49</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 186 50 128 217 184 149 129 74 101 98 131 82 266 259 214 134 229 105 139 208 124 228 202 142 110 137 88 67 89 193 87 136 207 263 230 174 72 277 91 158 165 46 194 78 79 218 148 247 170 265 86 117 114 123 100 281 96 253 273 260 132 258 245 93 179 71 150 116 54 238 52</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\System\startup_stm32g070xx.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 239</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\User\Accelerometer\accel_i2c.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 152</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 104</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 58</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 148 50 128 217 184 149 129 74 101 98 131 82 266 259 214 134 229 105 139 208 124 228 202 142 110 186 137 88 67 89 193 87 136 207 263 230 174 72 277 91 158 165 46 194 78 79 218 247 170 265 86 117 114 123 100 281 96 253 273 260 132 258 245 93 179 71 150 116 54 238 52</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\SIP_App.out</name>
+            <outputs>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 181</file>
+                </tool>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 244</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 154 152 141 166 80 151 205 270 62 269 222 235 57 183 153 242 109 68 140 232 262 159 257 73 264 43 185 122 163 236 251 147 182 180 60 69 47 167 239 99 261 210 120 118 223 144 145 268 90 108 126</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\User\SPIF\SPIF_spi.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 47</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 201</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 168</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 88 50 128 217 184 149 129 74 101 98 131 82 266 259 214 134 229 105 139 208 124 228 202 142 110 186 137 67 89 193 87 136 207 263 230 174 72 277 91 158 165 46 194 78 79 218 148 247 170 265 86 117 114 123 100 281 96 253 273 260 132 258 245 93 179 71 150 116 54 238 52</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\User\Timers\System_Timers.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 118</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 156</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 189</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 46 50 128 217 184 149 129 74 101 98 131 82 266 259 214 134 229 105 139 208 124 228 202 142 110 186 137 88 67 89 193 87 136 207 263 230 174 72 277 91 158 165 194 78 79 218 148 247 170 265 86 117 114 123 100 281 96 253 273 260 132 258 245 93 179 71 150 116 54 238 52</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\User\SPIF\SPIF_Driver.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 69</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 106</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 233</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 67 50 128 217 184 149 129 74 101 98 131 82 266 259 214 134 229 105 139 208 124 228 202 142 110 186 137 88 89 193 87 136 207 263 230 174 72 277 91 158 165 46 194 78 79 218 148 247 170 265 86 117 114 123 100 281 96 253 273 260 132 258 245 93 179 71 150 116 54 238 52</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Libraries\User\Timers\LEDs.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 159</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 286</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 103</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 194 50 128 217 184 149 129 74 101 98 131 82 266 259 214 134 229 105 139 208 124 228 202 142 110 186 137 88 67 89 193 87 136 207 263 230 174 72 277 91 158 165 46 78 79 218 148 247 170 265 86 117 114 123 100 281 96 253 273 260 132 258 245 93 179 71 150 116 54 238 52</file>
+                </tool>
+            </inputs>
+        </file>
+        <forcedrebuild>
+            <name>[REBUILD_ALL]</name>
+        </forcedrebuild>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>[REBUILD_ALL]</name>
+        </forcedrebuild>
+    </configuration>
+</project>

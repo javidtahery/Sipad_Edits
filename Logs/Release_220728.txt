@@ -1,0 +1,2 @@
+#20220728:
+1- Change Login Packet Device version Field to Big endian

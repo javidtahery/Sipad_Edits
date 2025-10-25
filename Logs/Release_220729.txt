@@ -1,0 +1,7 @@
+#20220729:
+1- Change "SIPAAD_2G_FW_IDX" from 2 to 1
+2- Add "system_temp_params.device_version_temp = fota_file_version" before reset the system for firmware upgrade process.
+3- Change read setting process form SPIF.
+4- Reset system in SPIF MNF ID fail read
+5- Remove Hard ware version from "version" SMS and add Bootloader version in SMS
+6- 

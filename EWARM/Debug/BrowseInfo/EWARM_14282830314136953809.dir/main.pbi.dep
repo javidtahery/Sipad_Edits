@@ -1,0 +1,80 @@
+D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\BrowseInfo\EWARM_14282830314136953809.dir\main.pbi: \
+  D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\Libraries\User\Main\main.c \
+  D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\Libraries\User\Main\main.h \
+  D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\..\Libraries\System\stm32g0xx.h \
+  D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\..\Libraries\System\stm32g070xx.h \
+  D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\..\Libraries\System\core_cm0plus.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.2\arm\inc\c\stdint.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.2\arm\inc\c\ycheck.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.2\arm\inc\c\yvals.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.2\arm\inc\c\DLib_Defaults.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.2\arm\inc\c\DLib_Config_Full.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.2\arm\inc\c\DLib_Product.h \
+  D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\..\Libraries\System\cmsis_version.h \
+  D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\..\Libraries\System\cmsis_compiler.h \
+  D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\..\Libraries\System\cmsis_iccarm.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.2\arm\inc\c\aarch32\iccarm_builtin.h \
+  D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\..\Libraries\System\mpu_armv7.h \
+  D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\..\Libraries\System\system_stm32g0xx.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.2\arm\inc\c\stdio.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.2\arm\inc\c\ysizet.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.2\arm\inc\c\stdlib.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.2\arm\inc\c\DLib_Product_stdlib.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.2\arm\inc\c\string.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.2\arm\inc\c\DLib_Product_string.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.2\arm\inc\c\math.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.2\arm\inc\c\DLib_float_setup.h \
+  D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\Libraries\User\Main\System_Utility.h \
+  D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\..\Libraries\User\Digital_IO\Digital_IO.h \
+  D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\Libraries\User\Main\main.h \
+  D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\..\Libraries\User\SPIF\SPIF_spi.h \
+  D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\..\Libraries\User\SPIF\SPIF_Driver.h \
+  D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\..\Libraries\User\SPIF\SPIF.h \
+  D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\..\Libraries\User\SIP_Protocol\sip_protocol.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.2\arm\inc\c\time.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.2\arm\inc\c\time64.h \
+  D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\..\Libraries\User\RSA\common\error.h \
+  D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\..\Libraries\User\GSM\Module_USART.h \
+  D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\..\Libraries\User\GSM\GSM_Utility.h \
+  D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\..\Libraries\User\GSM\SSL_Process.h \
+  D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\..\Libraries\User\GSM\GSM_BT.h \
+  D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\..\Libraries\User\GSM\GSM_Utility.h \
+  D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\..\Libraries\User\GSM\SMS_Process.h \
+  D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\..\Libraries\User\GSM\HTTP_Process.h \
+  D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\..\Libraries\User\GPS\GPS_USART.h \
+  D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\..\Libraries\User\GPS\GPS.h \
+  D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\..\Libraries\User\Timers\System_Timers.h \
+  D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\..\Libraries\User\Timers\LEDs.h \
+  D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\..\Libraries\User\SIP_Protocol\circular_buffer.h \
+  D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\..\Libraries\User\SIP_Protocol\system.h \
+  D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\..\Libraries\User\ADC\ADC_Config.h \
+  D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\..\Libraries\User\Accelerometer\accel_i2c.h \
+  D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\..\Libraries\User\Accelerometer\KX023.h \
+  D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\..\Libraries\User\Accelerometer\dev_attachment.h \
+  D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\..\Libraries\User\RSA\Crypto\PKC\rsa.h \
+  D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\..\Libraries\User\RSA\Crypto\core\crypto.h \
+  D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\..\Libraries\User\RSA\common\os_port.h \
+  D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\..\Libraries\User\RSA\Config\os_port_config.h \
+  D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\..\Libraries\User\RSA\common\compiler_port.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.2\arm\inc\c\stddef.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.2\arm\inc\c\inttypes.h \
+  D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\..\Libraries\User\RSA\common\os_port_none.h \
+  D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\..\Libraries\User\RSA\Common\compiler_port.h \
+  D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\..\Libraries\User\RSA\Config\crypto_config.h \
+  D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\..\Libraries\User\RSA\Crypto\core\crypto_legacy.h \
+  D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\..\Libraries\User\RSA\Common\cpu_endian.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.2\arm\inc\c\stdbool.h \
+  D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\..\Libraries\User\RSA\Common\error.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.2\arm\inc\c\ctype.h \
+  D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\..\Libraries\User\RSA\Crypto\mpi\mpi.h \
+  D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\..\Libraries\User\RSA\Crypto\certificate\pem_import.h \
+  D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\..\Libraries\User\RSA\Crypto\pkc\dh.h \
+  D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\..\Libraries\User\RSA\Crypto\pkc\rsa.h \
+  D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\..\Libraries\User\RSA\Crypto\pkc\dsa.h \
+  D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\..\Libraries\User\RSA\Crypto\ecc\ec.h \
+  D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\..\Libraries\User\RSA\Crypto\ecc\ec_curves.h \
+  D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\..\Libraries\User\RSA\Crypto\ecc\eddsa.h \
+  D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\..\Libraries\User\RSA\RSA_Cryptographic.h \
+  D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\..\Libraries\User\RSA\Config\crypto_config.h \
+  D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\..\Libraries\User\RSA\Config\os_port_config.h \
+  D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\..\Libraries\User\Flash\Flash.h

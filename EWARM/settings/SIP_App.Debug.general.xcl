@@ -1,0 +1,15 @@
+C:\iar\ewarm-9.70.1\arm\bin\armproc.dll
+
+ C:\iar\ewarm-9.70.1\arm\bin\armstlink.dll
+
+ D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Exe\SIP_App.out
+
+ --plugin=C:\iar\ewarm-9.70.1\arm\bin\armLibSupportUniversal.dll
+
+ --device_macro=C:\iar\ewarm-9.70.1\arm/config/debugger/ST/STM32G0xx.dmac
+
+ --flash_loader=C:\iar\ewarm-9.70.1\arm/config/flashloader/ST/FlashSTM32G08xxB.board
+
+ 
+
+

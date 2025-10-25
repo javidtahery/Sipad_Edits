@@ -1,0 +1,7 @@
+#20221105:
+1- Add "SPIF_Erase_certificates()" function.
+2- Download certificates from FTP server
+3- Change LED timer routine
+
+#20221129:
+4- There is bug in setting APN. For old devices which has no APN setting, APN length is 255. "setting.APN_length >= APN_MAX_LENGTH_SIZE" condition should be add along with the "setting.APN_length == 0" condition to avoid hardfault

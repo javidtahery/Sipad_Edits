@@ -1,0 +1,9 @@
+#20220422:
+1- Change defined 'GPS_ENABLE_1PPS_EXTI' and 'GPS_DISABLE_1PPS_EXTI' from 'IM11' to 'IM4'
+2- Size protection on reading the certificate files
+
+#20220423:
+3- CFG: remove 'cfg_receive_packet_timeout' counter for login process and assign to all income packets.
+4- CFG: reset serial buffer in cfg inactivity detection.
+5- Fix startup ADC disable process - 'ADC1->ISR |= ADC_ISR_ADRDY'
+## BUG in downloaing certificate in Application code. Must fix it.

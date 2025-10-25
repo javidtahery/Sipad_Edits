@@ -1,0 +1,10 @@
+#20220611:
+1- Change server from IP to URL
+
+#20220704:
+2- Add 'ENABLE_ODOMETER' define in 'main.h' to enable or disable Odometer.
+3- Turn off System LED in ACC on.
+4- Add variable for enabling system LED in system has problem
+5- Add system LED ON when ACC is Off and Power is disconnected.
+6- Add ACC_ON condition in generating 'change direction' record
+7- Reset System Every 84600 Seconds

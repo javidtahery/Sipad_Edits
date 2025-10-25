@@ -1,0 +1,5 @@
+#20220822:
+1- Fix Heartbeat problem
+2- Fix creating server packet problem
+3- Reconfig GPS after first config bug
+4-

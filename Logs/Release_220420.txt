@@ -1,0 +1,19 @@
+#20220416:
+1- Defined 'REPETITION_EVENTS_THRESHOLD' changed from '60' seconds to '3600' seconds.
+2- Types of 'repetition_odometer_gnss_speed_difference_counter' and 'repetition_low_battery_counter' changed from 'uint8_t' to 'uint16_t'.
+3- Add limitation on firmware download size. @ Line 1268 of 'SIP_Protocol.c'.
+
+#20220419:
+4- CStack memory changed from 0x2800 to 0x2600 and Heap memory changed from 0x2600 to 0x2800.
+5- There were hardfault in calculating the firmware update MD5 process (Lack of memory). The CFG's certificate data buffer with size of 1300 bytes is removed and now we save the certificates data chunk in the SPIF.
+
+#20220420:
+6- Defined 'REPETITION_EVENTS_THRESHOLD' changed from '3600' seconds to '600' seconds.
+7- Add 'repetition_accident_detection_counter' to generate accident every 5 minutes.
+8- Enable start of accelerometer recalibrating in accident event generating. 'Last_Time_of_Device_detached_Flag_has_been_activated = 1'
+9- Change the LED controlling based on ACC input.
+10- Change initial device version to '0x02310004'.
+11- Reset all GSM operation on ACC ON.
+12- When the module's power cut suddenly GSM can't connect to the internet. Disabling gsm power does not work. The key is to turn off the module by power key.
+stage 41 and 42 of retries in SSL_Process is change to 'SIM_STAGE_MODULE_OFF'
+13- Download the new firmware at present of VCC power line. (line 698 of sip_protocol - if(new_firmware_available == SET && IO_Digital.vcc_digital == SET))

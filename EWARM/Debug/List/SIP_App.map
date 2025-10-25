@@ -1,0 +1,2229 @@
+###############################################################################
+#
+# IAR ELF Linker V9.70.1.475/W64 for ARM                  25/Oct/2025  13:30:10
+# Copyright 2007-2025 IAR Systems AB.
+#
+#    Output file  =
+#        D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Exe\SIP_App.out
+#    Map file     =
+#        D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\List\SIP_App.map
+#    Command line =
+#        -f
+#        D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Exe\SIP_App.out.rsp
+#        (D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\Accelerometer_5802565934898969246.dir\accel_i2c.o
+#        D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\A2D_14972411234166948354.dir\ADC_Config.o
+#        D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\Encoding_17640052530797874392.dir\asn1.o
+#        D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\Encoding_17640052530797874392.dir\base64.o
+#        D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\Protocol_10540556707541943501.dir\circular_buffer.o
+#        D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\Common_388439453444075512.dir\cpu_endian.o
+#        D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\Common_388439453444075512.dir\date_time.o
+#        D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\Common_388439453444075512.dir\debug.o
+#        D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\Accelerometer_5802565934898969246.dir\dev_attachment.o
+#        D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\PKC_17023933510945847088.dir\dh.o
+#        D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\IOs_17766050923318551339.dir\Digital_IO.o
+#        D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\PKC_17023933510945847088.dir\dsa.o
+#        D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\Flash_3222999600733985888.dir\Flash.o
+#        D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\EWARM_14282830314136953809.dir\general_functions.o
+#        D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\GPS_13805737646085544899.dir\GPS.o
+#        D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\GPS_13805737646085544899.dir\GPS_USART.o
+#        D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\GSM_14571738266252155766.dir\GSM_BT.o
+#        D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\GSM_14571738266252155766.dir\GSM_Utility.o
+#        D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\GSM_14571738266252155766.dir\HTTP_Process.o
+#        D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\Accelerometer_5802565934898969246.dir\KX023.o
+#        D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\Timers_7884078857485784167.dir\LEDs.o
+#        D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\EWARM_14282830314136953809.dir\main.o
+#        D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\Hash_7788234830195085610.dir\md5.o
+#        D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\GSM_14571738266252155766.dir\Module_USART.o
+#        D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\MPI_4282649160496547225.dir\mpi.o
+#        D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\Encoding_17640052530797874392.dir\oid.o
+#        D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\Common_388439453444075512.dir\os_port_none.o
+#        D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\Certificate_4819519691248422992.dir\pem_import.o
+#        D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\Common_388439453444075512.dir\resource_manager.o
+#        D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\PKC_17023933510945847088.dir\rsa.o
+#        D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\RSA_7683435025872950055.dir\RSA_Cryptographic.o
+#        D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\Protocol_10540556707541943501.dir\sip_protocol.o
+#        D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\GSM_14571738266252155766.dir\SMS_Process.o
+#        D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\SPIF_2069707202072327316.dir\SPIF.o
+#        D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\SPIF_2069707202072327316.dir\SPIF_Driver.o
+#        D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\SPIF_2069707202072327316.dir\SPIF_spi.o
+#        D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\GSM_14571738266252155766.dir\SSL_Process.o
+#        D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\System_14878279498866883008.dir\startup_stm32g070xx.o
+#        D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\Common_388439453444075512.dir\str.o
+#        D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\Protocol_10540556707541943501.dir\system.o
+#        D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\EWARM_14282830314136953809.dir\System_Interrupts.o
+#        D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\System_14878279498866883008.dir\system_stm32g0xx.o
+#        D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\Timers_7884078857485784167.dir\System_Timers.o
+#        D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\EWARM_14282830314136953809.dir\System_Utility.o
+#        D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\Certificate_4819519691248422992.dir\x509_cert_parse.o
+#        D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\Certificate_4819519691248422992.dir\x509_cert_validate.o
+#        D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\Certificate_4819519691248422992.dir\x509_common.o
+#        --no_out_extension -o
+#        D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Exe\SIP_App.out
+#        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
+#        --map
+#        D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\List\SIP_App.map
+#        --config
+#        D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\..\Libraries\System\stm32g070xx_flash.icf
+#        --entry __iar_program_start --vfe --text_out locale --cpu=Cortex-M0+
+#        --fpu=None) --diagnostics_format=sarif_stdout --dependencies=n
+#        D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Exe\SIP_App.out.iar_deps
+#        --dynamic_output
+#        D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Exe\SIP_App.out.iar_dynout
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__CPP_Runtime   = 1
+__Heap_Handler  = Basic
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because --advanced_heap
+was not specified and the application did not appear to
+be primarily optimized for speed.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x800'4000 {  ro section .intvec };
+"P1":  place in [from 0x800'4000 to 0x801'ffff] {  ro };
+define block CSTACK with size = 9'728, alignment = 8 { };
+define block HEAP with size = 10K, alignment = 8 { };
+"P2":  place in [from 0x2000'0100 to 0x2000'8fff] {
+           rw,  block CSTACK,  block HEAP };
+"P3":  place in [from 0x2000'0000 to 0x2000'00ff] {  rw section BOOT_Data };
+initialize by copy {  rw };
+
+  Section            Kind         Address  Alignment      Size  Object
+  -------            ----         -------  ---------      ----  ------
+"A0":                                                     0xb8
+  .intvec            ro code   0x800'4000          4      0xb8  startup_stm32g070xx.o [17]
+                             - 0x800'40b8                 0xb8
+
+"P1":                                                 0x1'7669
+  .text              ro code   0x800'40b8          4    0x3850  HTTP_Process.o [9]
+  .text              ro code   0x800'7908          4     0xc90  LEDs.o [18]
+  .text              ro code   0x800'8598          4      0x4e  ABImemset.o [21]
+  .text              ro code   0x800'85e6          2       0x2  startup_stm32g070xx.o [17]
+  .text              ro code   0x800'85e8          4     0x3c0  SPIF.o [16]
+  .text              ro code   0x800'89a8          4      0xc0  strcmp.o [21]
+  .text              ro code   0x800'8a68          4    0x221c  sip_protocol.o [14]
+  .text              ro code   0x800'ac84          4     0x6ec  System_Utility.o [5]
+  .text              ro code   0x800'b370          4      0x4e  ABImemcpy.o [21]
+  .text              ro code   0x800'b3be          2       0x2  startup_stm32g070xx.o [17]
+  .text              ro code   0x800'b3c0          4    0x1744  GSM_Utility.o [9]
+  .text              ro code   0x800'cb04          4      0x16  uread4.o [21]
+  .text              ro code   0x800'cb1a          2      0xe0  I32DivModFast.o [21]
+  .text              ro code   0x800'cbfa          2      0x1e  localtim64.o [19]
+  .text              ro code   0x800'cc18          4       0xe  strlen.o [21]
+  .text              ro code   0x800'cc26          2      0x2e  strstr.o [19]
+  .text              ro code   0x800'cc54          4     0x488  SPIF_Driver.o [16]
+  .text              ro code   0x800'd0dc          4     0x274  Module_USART.o [9]
+  .text              ro code   0x800'd350          4      0x32  I64Mul.o [21]
+  .text              ro code   0x800'd382          2       0x2  startup_stm32g070xx.o [17]
+  .text              ro code   0x800'd384          4      0x1e  memcmp.o [21]
+  .text              ro code   0x800'd3a2          2       0x2  startup_stm32g070xx.o [17]
+  .text              ro code   0x800'd3a4          4     0x3b0  Flash.o [7]
+  .text              ro code   0x800'd754          2     0x18c  general_functions.o [5]
+  .text              ro code   0x800'd8e0          4      0x14  uwrite4.o [21]
+  .text              ro code   0x800'd8f4          4      0x3a  FltToS32.o [20]
+  .text              ro code   0x800'd92e          2       0x2  startup_stm32g070xx.o [17]
+  .text              ro code   0x800'd930          4      0x26  FltToU32.o [20]
+  .text              ro code   0x800'd956          2       0x2  startup_stm32g070xx.o [17]
+  .text              ro code   0x800'd958          4     0xa04  circular_buffer.o [14]
+  .text              ro code   0x800'e35c          4    0x1554  SSL_Process.o [9]
+  .text              ro code   0x800'f8b0          2      0xa4  FltDiv.o [20]
+  .text              ro code   0x800'f954          2      0xb0  FltMul.o [20]
+  .text              ro code   0x800'fa04          4      0x34  IxxToDbl.o [20]
+  .text              ro code   0x800'fa38          2     0x184  DblMul.o [20]
+  .text              ro code   0x800'fbbc          2      0x62  DblToFlt.o [20]
+  .text              ro code   0x800'fc1e          2      0x54  RSA_Cryptographic.o [15]
+  .text              ro code   0x800'fc72          2       0x2  startup_stm32g070xx.o [17]
+  .text              ro code   0x800'fc74          4     0x408  rsa.o [13]
+  .text              ro code   0x801'007c          4      0x28  os_port_none.o [4]
+  .text              ro code   0x801'00a4          4     0x846  md5.o [10]
+  .text              ro code   0x801'08ea          2       0x2  startup_stm32g070xx.o [17]
+  .text              ro code   0x801'08ec          4     0x418  KX023.o [2]
+  .text              ro code   0x801'0d04          4     0x270  system.o [14]
+  .text              ro code   0x801'0f74          4     0x30c  Digital_IO.o [11]
+  .text              ro code   0x801'1280          4    0x1c68  GPS.o [8]
+  .text              ro code   0x801'2ee8          4    0x19a4  SMS_Process.o [9]
+  .text              ro code   0x801'488c          4     0x958  System_Timers.o [18]
+  .text              ro code   0x801'51e4          4     0x468  SPIF_spi.o [16]
+  .text              ro code   0x801'564c          4     0x5bc  accel_i2c.o [2]
+  .text              ro code   0x801'5c08          4     0x288  GPS_USART.o [8]
+  .text              ro code   0x801'5e90          4     0x3e8  ADC_Config.o [1]
+  .text              ro code   0x801'6278          2      0xba  I64DivMod.o [21]
+  .text              ro code   0x801'6332          2       0x2  startup_stm32g070xx.o [17]
+  .text              ro code   0x801'6334          4      0x20  GSM_BT.o [9]
+  .text              ro code   0x801'6354          4       0x2  IntDivZer.o [21]
+  .text              ro code   0x801'6356          2       0x4  xTzoff_nop.o [19]
+  .text              ro code   0x801'635a          2       0x2  startup_stm32g070xx.o [17]
+  .text              ro code   0x801'635c          4     0x188  xttotm64.o [19]
+  .text              ro code   0x801'64e4          4      0x12  strchr.o [21]
+  .text              ro code   0x801'64f6          2       0x2  startup_stm32g070xx.o [17]
+  .text              ro code   0x801'64f8          4     0x5ba  pem_import.o [3]
+  .text              ro code   0x801'6ab2          2       0x2  startup_stm32g070xx.o [17]
+  .text              ro code   0x801'6ab4          4     0xc4a  mpi.o [12]
+  .text              ro code   0x801'76fe          2       0x2  startup_stm32g070xx.o [17]
+  .text              ro code   0x801'7700          4     0x140  heap0.o [19]
+  .text              ro code   0x801'7840          2       0x8  heaptramp0.o [19]
+  .text              ro code   0x801'7848          2     0x3fe  mpi.o [12]
+  .text              ro code   0x801'7c46          2     0x10a  mpi.o [12]
+  .text              ro code   0x801'7d50          4      0x5e  IxxToFlt.o [20]
+  .text              ro code   0x801'7dae          2       0x2  startup_stm32g070xx.o [17]
+  .text              ro code   0x801'7db0          4      0x32  FltToDbl.o [20]
+  .text              ro code   0x801'7de2          2      0xc2  DblDiv.o [20]
+  .text              ro code   0x801'7ea4          2     0x1b4  DblAddSub.o [20]
+  .text              ro code   0x801'8058          2     0x120  FltAddSub.o [20]
+  .text              ro code   0x801'8178          4     0x44c  cos_sin64.o [20]
+  .text              ro code   0x801'85c4          4     0x1a8  atan2_64.o [20]
+  .text              ro code   0x801'876c          2      0xc0  sqrt.o [20]
+  .text              ro code   0x801'882c          2       0x8  abs.o [19]
+  .text              ro code   0x801'8834          4      0x26  FltCmpLe.o [20]
+  .text              ro code   0x801'885a          2       0x2  startup_stm32g070xx.o [17]
+  .text              ro code   0x801'885c          4      0x28  FltCmpGe.o [20]
+  .text              ro code   0x801'8884          4     0xb90  dev_attachment.o [2]
+  .text              ro code   0x801'9414          4       0x2  I64DivZer.o [21]
+  .text              ro code   0x801'9416          2       0x2  startup_stm32g070xx.o [17]
+  .text              ro code   0x801'9418          4      0xcc  xDaysTo64.o [19]
+  .text              ro code   0x801'94e4          2       0x6  xisdst_nop64.o [19]
+  .text              ro code   0x801'94ea          2       0x2  startup_stm32g070xx.o [17]
+  .text              ro code   0x801'94ec          4      0xcc  base64.o [6]
+  .text              ro code   0x801'95b8          4     0x178  asn1.o [6]
+  .text              ro code   0x801'9730          2      0x6c  mpi.o [12]
+  .text              ro code   0x801'979c          4      0x2c  xgetmemchunk.o [19]
+  .text              ro code   0x801'97c8          2      0x32  DblCmpLe.o [20]
+  .text              ro code   0x801'97fa          2       0x2  startup_stm32g070xx.o [17]
+  .text              ro code   0x801'97fc          4      0x52  DblToI32.o [20]
+  .text              ro code   0x801'984e          2       0x2  startup_stm32g070xx.o [17]
+  .text              ro code   0x801'9850          4     0x228  iar_Atan64.o [20]
+  .text              ro code   0x801'9a78          4      0x42  oid.o [6]
+  .text              ro code   0x801'9aba          2       0x2  startup_stm32g070xx.o [17]
+  .text              ro code   0x801'9abc          4     0x164  System_Interrupts.o [5]
+  .rodata            const     0x801'9c20          4     0x100  md5.o [10]
+  .rodata            const     0x801'9d20          4      0x80  base64.o [6]
+  .text              ro code   0x801'9da0          2      0x80  lz77_init_single.o [21]
+  .rodata            const     0x801'9e20          4      0x48  SSL_Process.o [9]
+  .rodata            const     0x801'9e68          4      0x40  md5.o [10]
+  .rodata            const     0x801'9ea8          8      0x40  iar_Atan64.o [20]
+  .rodata            const     0x801'9ee8          4      0x3c  SSL_Process.o [9]
+  .rodata            const     0x801'9f24          4      0x3c  SSL_Process.o [9]
+  .rodata            const     0x801'9f60          4      0x3c  SSL_Process.o [9]
+  .rodata            const     0x801'9f9c          4      0x3c  SSL_Process.o [9]
+  .text              ro code   0x801'9fd8          2      0x3c  zero_init3.o [21]
+  .rodata            const     0x801'a014          4      0x38  GPS.o [8]
+  .rodata            const     0x801'a04c          4      0x38  GPS.o [8]
+  .rodata            const     0x801'a084          4      0x34  SSL_Process.o [9]
+  .rodata            const     0x801'a0b8          4      0x34  SSL_Process.o [9]
+  .rodata            const     0x801'a0ec          4      0x34  SSL_Process.o [9]
+  .text              ro code   0x801'a120          4      0x30  main.o [5]
+  .rodata            const     0x801'a150          4      0x2c  SSL_Process.o [9]
+  .rodata            const     0x801'a17c          4      0x28  SMS_Process.o [9]
+  .rodata            const     0x801'a1a4          4      0x28  SSL_Process.o [9]
+  .rodata            const     0x801'a1cc          4      0x28  SSL_Process.o [9]
+  .rodata            const     0x801'a1f4          4      0x28  SSL_Process.o [9]
+  .text              ro code   0x801'a21c          4      0x28  data_init.o [21]
+  .rodata            const     0x801'a244          4      0x24  HTTP_Process.o [9]
+  .rodata            const     0x801'a268          4      0x24  rsa.o [13]
+  .rodata            const     0x801'a28c          4      0x24  SMS_Process.o [9]
+  .text              ro code   0x801'a2b0          4      0x22  cmain.o [21]
+  .text              ro code   0x801'a2d2          2       0x4  low_level_init.o [19]
+  .text              ro code   0x801'a2d6          2       0x8  exit.o [19]
+  .text              ro code   0x801'a2de          2       0x2  startup_stm32g070xx.o [17]
+  .text              ro code   0x801'a2e0          4       0x4  cexit.o [21]
+  .text              ro code   0x801'a2e4          4       0xa  cexit_2.o [21]
+  .text              ro code   0x801'a2ee          2       0x2  startup_stm32g070xx.o [17]
+  .text              ro code   0x801'a2f0          4       0xc  XXexit.o [21]
+  .iar.init_table    const     0x801'a2fc          4      0x20  - Linker created -
+  .rodata            const     0x801'a31c          4      0x20  os_port_none.o [4]
+  .rodata            const     0x801'a33c          4      0x20  pem_import.o [3]
+  .rodata            const     0x801'a35c          4      0x20  pem_import.o [3]
+  .rodata            const     0x801'a37c          4      0x20  SSL_Process.o [9]
+  .rodata            const     0x801'a39c          4      0x20  SSL_Process.o [9]
+  .rodata            const     0x801'a3bc          4      0x1c  GSM_BT.o [9]
+  .rodata            const     0x801'a3d8          4      0x1c  GSM_Utility.o [9]
+  .rodata            const     0x801'a3f4          4      0x1c  GSM_Utility.o [9]
+  .rodata            const     0x801'a410          4      0x1c  GSM_Utility.o [9]
+  .rodata            const     0x801'a42c          4      0x1c  os_port_none.o [4]
+  .rodata            const     0x801'a448          4      0x1c  pem_import.o [3]
+  .rodata            const     0x801'a464          4      0x1c  pem_import.o [3]
+  .rodata            const     0x801'a480          4      0x1c  SMS_Process.o [9]
+  .rodata            const     0x801'a49c          4      0x1c  SSL_Process.o [9]
+  .rodata            const     0x801'a4b8          4      0x1c  SSL_Process.o [9]
+  .rodata            const     0x801'a4d4          4      0x1c  SSL_Process.o [9]
+  .rodata            const     0x801'a4f0          4      0x1c  SSL_Process.o [9]
+  .rodata            const     0x801'a50c          4      0x1c  SSL_Process.o [9]
+  .rodata            const     0x801'a528          4      0x1c  SSL_Process.o [9]
+  .text              ro code   0x801'a544          4      0x1c  cstartup_M.o [21]
+  .rodata            const     0x801'a560          4      0x18  GPS.o [8]
+  .rodata            const     0x801'a578          4      0x18  GSM_Utility.o [9]
+  .rodata            const     0x801'a590          4      0x18  GSM_Utility.o [9]
+  .rodata            const     0x801'a5a8          4      0x18  HTTP_Process.o [9]
+  .rodata            const     0x801'a5c0          4      0x18  HTTP_Process.o [9]
+  .rodata            const     0x801'a5d8          4      0x18  HTTP_Process.o [9]
+  .rodata            const     0x801'a5f0          4      0x18  HTTP_Process.o [9]
+  .rodata            const     0x801'a608          4      0x18  pem_import.o [3]
+  .rodata            const     0x801'a620          4      0x18  pem_import.o [3]
+  .rodata            const     0x801'a638          4      0x18  pem_import.o [3]
+  .rodata            const     0x801'a650          4      0x18  pem_import.o [3]
+  .rodata            const     0x801'a668          4      0x18  rsa.o [13]
+  .rodata            const     0x801'a680          4      0x18  rsa.o [13]
+  .rodata            const     0x801'a698          4      0x18  rsa.o [13]
+  .rodata            const     0x801'a6b0          4      0x18  rsa.o [13]
+  .rodata            const     0x801'a6c8          4      0x18  rsa.o [13]
+  .rodata            const     0x801'a6e0          4      0x18  SSL_Process.o [9]
+  .rodata            const     0x801'a6f8          4      0x18  SSL_Process.o [9]
+  .rodata            const     0x801'a710          4      0x14  GPS.o [8]
+  .rodata            const     0x801'a724          4      0x14  GPS.o [8]
+  .rodata            const     0x801'a738          4      0x14  GSM_Utility.o [9]
+  .rodata            const     0x801'a74c          4      0x14  GSM_Utility.o [9]
+  .rodata            const     0x801'a760          4      0x14  GSM_Utility.o [9]
+  .rodata            const     0x801'a774          4      0x14  GSM_Utility.o [9]
+  .rodata            const     0x801'a788          4      0x14  HTTP_Process.o [9]
+  .rodata            const     0x801'a79c          4      0x14  HTTP_Process.o [9]
+  .rodata            const     0x801'a7b0          4      0x14  HTTP_Process.o [9]
+  .rodata            const     0x801'a7c4          4      0x14  HTTP_Process.o [9]
+  .rodata            const     0x801'a7d8          4      0x14  HTTP_Process.o [9]
+  .rodata            const     0x801'a7ec          4      0x14  HTTP_Process.o [9]
+  .rodata            const     0x801'a800          4      0x14  HTTP_Process.o [9]
+  .rodata            const     0x801'a814          4      0x14  HTTP_Process.o [9]
+  .rodata            const     0x801'a828          4      0x14  HTTP_Process.o [9]
+  .rodata            const     0x801'a83c          4      0x14  HTTP_Process.o [9]
+  .rodata            const     0x801'a850          4      0x14  HTTP_Process.o [9]
+  .rodata            const     0x801'a864          4      0x14  HTTP_Process.o [9]
+  .rodata            const     0x801'a878          4      0x14  HTTP_Process.o [9]
+  .rodata            const     0x801'a88c          4      0x14  pem_import.o [3]
+  .rodata            const     0x801'a8a0          4      0x14  pem_import.o [3]
+  .rodata            const     0x801'a8b4          4      0x14  rsa.o [13]
+  .rodata            const     0x801'a8c8          4      0x14  sip_protocol.o [14]
+  .rodata            const     0x801'a8dc          4      0x14  sip_protocol.o [14]
+  .rodata            const     0x801'a8f0          4      0x14  sip_protocol.o [14]
+  .rodata            const     0x801'a904          4      0x14  SMS_Process.o [9]
+  .rodata            const     0x801'a918          4      0x14  SMS_Process.o [9]
+  .rodata            const     0x801'a92c          4      0x14  SMS_Process.o [9]
+  .rodata            const     0x801'a940          4      0x14  SMS_Process.o [9]
+  .rodata            const     0x801'a954          4      0x14  SMS_Process.o [9]
+  .rodata            const     0x801'a968          4      0x14  SSL_Process.o [9]
+  .rodata            const     0x801'a97c          4      0x14  System_Utility.o [5]
+  .rodata            const     0x801'a990          4      0x10  GPS.o [8]
+  .rodata            const     0x801'a9a0          4      0x10  GPS.o [8]
+  .rodata            const     0x801'a9b0          4      0x10  GSM_BT.o [9]
+  .rodata            const     0x801'a9c0          4      0x10  GSM_Utility.o [9]
+  .rodata            const     0x801'a9d0          4      0x10  GSM_Utility.o [9]
+  .rodata            const     0x801'a9e0          4      0x10  GSM_Utility.o [9]
+  .rodata            const     0x801'a9f0          4      0x10  GSM_Utility.o [9]
+  .rodata            const     0x801'aa00          4      0x10  GSM_Utility.o [9]
+  .rodata            const     0x801'aa10          4      0x10  HTTP_Process.o [9]
+  .rodata            const     0x801'aa20          4      0x10  HTTP_Process.o [9]
+  .rodata            const     0x801'aa30          4      0x10  HTTP_Process.o [9]
+  .rodata            const     0x801'aa40          4      0x10  HTTP_Process.o [9]
+  .rodata            const     0x801'aa50          4      0x10  HTTP_Process.o [9]
+  .rodata            const     0x801'aa60          4      0x10  HTTP_Process.o [9]
+  .rodata            const     0x801'aa70          4      0x10  HTTP_Process.o [9]
+  .rodata            const     0x801'aa80          4      0x10  HTTP_Process.o [9]
+  .rodata            const     0x801'aa90          4      0x10  HTTP_Process.o [9]
+  .rodata            const     0x801'aaa0          4      0x10  HTTP_Process.o [9]
+  .rodata            const     0x801'aab0          4      0x10  HTTP_Process.o [9]
+  .rodata            const     0x801'aac0          4      0x10  HTTP_Process.o [9]
+  .rodata            const     0x801'aad0          4      0x10  HTTP_Process.o [9]
+  .rodata            const     0x801'aae0          4      0x10  HTTP_Process.o [9]
+  .rodata            const     0x801'aaf0          4      0x10  HTTP_Process.o [9]
+  .rodata            const     0x801'ab00          4      0x10  HTTP_Process.o [9]
+  .rodata            const     0x801'ab10          4      0x10  HTTP_Process.o [9]
+  .rodata            const     0x801'ab20          4      0x10  HTTP_Process.o [9]
+  .rodata            const     0x801'ab30          4      0x10  HTTP_Process.o [9]
+  .rodata            const     0x801'ab40          4      0x10  HTTP_Process.o [9]
+  .rodata            const     0x801'ab50          4      0x10  HTTP_Process.o [9]
+  .rodata            const     0x801'ab60          4      0x10  HTTP_Process.o [9]
+  .rodata            const     0x801'ab70          4      0x10  HTTP_Process.o [9]
+  .rodata            const     0x801'ab80          4      0x10  HTTP_Process.o [9]
+  .rodata            const     0x801'ab90          4      0x10  HTTP_Process.o [9]
+  .rodata            const     0x801'aba0          4      0x10  HTTP_Process.o [9]
+  .rodata            const     0x801'abb0          4      0x10  HTTP_Process.o [9]
+  .rodata            const     0x801'abc0          4      0x10  HTTP_Process.o [9]
+  .rodata            const     0x801'abd0          4      0x10  HTTP_Process.o [9]
+  .rodata            const     0x801'abe0          4      0x10  HTTP_Process.o [9]
+  .rodata            const     0x801'abf0          4      0x10  HTTP_Process.o [9]
+  .rodata            const     0x801'ac00          4      0x10  HTTP_Process.o [9]
+  .rodata            const     0x801'ac10          4      0x10  pem_import.o [3]
+  .rodata            const     0x801'ac20          4      0x10  pem_import.o [3]
+  .rodata            const     0x801'ac30          4      0x10  pem_import.o [3]
+  .rodata            const     0x801'ac40          4      0x10  rsa.o [13]
+  .rodata            const     0x801'ac50          4      0x10  rsa.o [13]
+  .rodata            const     0x801'ac60          4      0x10  rsa.o [13]
+  .rodata            const     0x801'ac70          4      0x10  rsa.o [13]
+  .rodata            const     0x801'ac80          4      0x10  rsa.o [13]
+  .rodata            const     0x801'ac90          4      0x10  sip_protocol.o [14]
+  .rodata            const     0x801'aca0          4      0x10  SMS_Process.o [9]
+  .rodata            const     0x801'acb0          4      0x10  SMS_Process.o [9]
+  .rodata            const     0x801'acc0          4      0x10  SMS_Process.o [9]
+  .rodata            const     0x801'acd0          4      0x10  SMS_Process.o [9]
+  .rodata            const     0x801'ace0          4      0x10  SMS_Process.o [9]
+  .rodata            const     0x801'acf0          4      0x10  SMS_Process.o [9]
+  .rodata            const     0x801'ad00          4      0x10  SMS_Process.o [9]
+  .rodata            const     0x801'ad10          4      0x10  SMS_Process.o [9]
+  .rodata            const     0x801'ad20          4      0x10  SSL_Process.o [9]
+  .rodata            const     0x801'ad30          4      0x10  SSL_Process.o [9]
+  .rodata            const     0x801'ad40          4      0x10  SSL_Process.o [9]
+  .rodata            const     0x801'ad50          4      0x10  SSL_Process.o [9]
+  .rodata            const     0x801'ad60          4      0x10  SSL_Process.o [9]
+  .rodata            const     0x801'ad70          4      0x10  SSL_Process.o [9]
+  .rodata            const     0x801'ad80          4      0x10  SSL_Process.o [9]
+  .rodata            const     0x801'ad90          4      0x10  SSL_Process.o [9]
+  .rodata            const     0x801'ada0          4      0x10  SSL_Process.o [9]
+  .text              ro code   0x801'adb0          4      0x10  startup_stm32g070xx.o [17]
+  .rodata            const     0x801'adc0          4       0xc  GPS.o [8]
+  .rodata            const     0x801'adcc          4       0xc  GSM_Utility.o [9]
+  .rodata            const     0x801'add8          4       0xc  GSM_Utility.o [9]
+  .rodata            const     0x801'ade4          4       0xc  GSM_Utility.o [9]
+  .rodata            const     0x801'adf0          4       0xc  GSM_Utility.o [9]
+  .rodata            const     0x801'adfc          4       0xc  GSM_Utility.o [9]
+  .rodata            const     0x801'ae08          4       0xc  GSM_Utility.o [9]
+  .rodata            const     0x801'ae14          4       0xc  GSM_Utility.o [9]
+  .rodata            const     0x801'ae20          4       0xc  GSM_Utility.o [9]
+  .rodata            const     0x801'ae2c          4       0xc  GSM_Utility.o [9]
+  .rodata            const     0x801'ae38          4       0xc  GSM_Utility.o [9]
+  .rodata            const     0x801'ae44          4       0xc  GSM_Utility.o [9]
+  .rodata            const     0x801'ae50          4       0xc  GSM_Utility.o [9]
+  .rodata            const     0x801'ae5c          4       0xc  GSM_Utility.o [9]
+  .rodata            const     0x801'ae68          4       0xc  GSM_Utility.o [9]
+  .rodata            const     0x801'ae74          4       0xc  GSM_Utility.o [9]
+  .rodata            const     0x801'ae80          4       0xc  GSM_Utility.o [9]
+  .rodata            const     0x801'ae8c          4       0xc  GSM_Utility.o [9]
+  .rodata            const     0x801'ae98          4       0xc  GSM_Utility.o [9]
+  .rodata            const     0x801'aea4          4       0xc  GSM_Utility.o [9]
+  .rodata            const     0x801'aeb0          4       0xc  GSM_Utility.o [9]
+  .rodata            const     0x801'aebc          4       0xc  GSM_Utility.o [9]
+  .rodata            const     0x801'aec8          4       0xc  GSM_Utility.o [9]
+  .rodata            const     0x801'aed4          4       0xc  GSM_Utility.o [9]
+  .rodata            const     0x801'aee0          4       0xc  GSM_Utility.o [9]
+  .rodata            const     0x801'aeec          4       0xc  GSM_Utility.o [9]
+  .rodata            const     0x801'aef8          4       0xc  GSM_Utility.o [9]
+  .rodata            const     0x801'af04          4       0xc  GSM_Utility.o [9]
+  .rodata            const     0x801'af10          4       0xc  GSM_Utility.o [9]
+  .rodata            const     0x801'af1c          4       0xc  GSM_Utility.o [9]
+  .rodata            const     0x801'af28          4       0xc  GSM_Utility.o [9]
+  .rodata            const     0x801'af34          4       0xc  GSM_Utility.o [9]
+  .rodata            const     0x801'af40          4       0xc  GSM_Utility.o [9]
+  .rodata            const     0x801'af4c          4       0xc  HTTP_Process.o [9]
+  .rodata            const     0x801'af58          4       0xc  HTTP_Process.o [9]
+  .rodata            const     0x801'af64          4       0xc  HTTP_Process.o [9]
+  .rodata            const     0x801'af70          4       0xc  HTTP_Process.o [9]
+  .rodata            const     0x801'af7c          4       0xc  HTTP_Process.o [9]
+  .rodata            const     0x801'af88          4       0xc  HTTP_Process.o [9]
+  .rodata            const     0x801'af94          4       0xc  HTTP_Process.o [9]
+  .rodata            const     0x801'afa0          4       0xc  HTTP_Process.o [9]
+  .rodata            const     0x801'afac          4       0xc  HTTP_Process.o [9]
+  .rodata            const     0x801'afb8          4       0xc  HTTP_Process.o [9]
+  .rodata            const     0x801'afc4          4       0xc  HTTP_Process.o [9]
+  .rodata            const     0x801'afd0          4       0xc  HTTP_Process.o [9]
+  .rodata            const     0x801'afdc          4       0xc  HTTP_Process.o [9]
+  .rodata            const     0x801'afe8          4       0xc  HTTP_Process.o [9]
+  .rodata            const     0x801'aff4          4       0xc  HTTP_Process.o [9]
+  .rodata            const     0x801'b000          4       0xc  HTTP_Process.o [9]
+  .rodata            const     0x801'b00c          4       0xc  HTTP_Process.o [9]
+  .rodata            const     0x801'b018          4       0xc  HTTP_Process.o [9]
+  .rodata            const     0x801'b024          4       0xc  HTTP_Process.o [9]
+  .rodata            const     0x801'b030          4       0xc  HTTP_Process.o [9]
+  .rodata            const     0x801'b03c          4       0xc  HTTP_Process.o [9]
+  .rodata            const     0x801'b048          4       0xc  HTTP_Process.o [9]
+  .rodata            const     0x801'b054          4       0xc  HTTP_Process.o [9]
+  .rodata            const     0x801'b060          4       0xc  HTTP_Process.o [9]
+  .rodata            const     0x801'b06c          4       0xc  HTTP_Process.o [9]
+  .rodata            const     0x801'b078          4       0xc  HTTP_Process.o [9]
+  .rodata            const     0x801'b084          4       0xc  HTTP_Process.o [9]
+  .rodata            const     0x801'b090          4       0xc  HTTP_Process.o [9]
+  .rodata            const     0x801'b09c          4       0xc  HTTP_Process.o [9]
+  .rodata            const     0x801'b0a8          4       0xc  HTTP_Process.o [9]
+  .rodata            const     0x801'b0b4          4       0xc  HTTP_Process.o [9]
+  .rodata            const     0x801'b0c0          4       0xc  HTTP_Process.o [9]
+  .rodata            const     0x801'b0cc          4       0xc  HTTP_Process.o [9]
+  .rodata            const     0x801'b0d8          4       0xc  HTTP_Process.o [9]
+  .rodata            const     0x801'b0e4          4       0xc  rsa.o [13]
+  .rodata            const     0x801'b0f0          4       0xc  rsa.o [13]
+  .rodata            const     0x801'b0fc          4       0xc  SMS_Process.o [9]
+  .rodata            const     0x801'b108          4       0xc  SMS_Process.o [9]
+  .rodata            const     0x801'b114          4       0xc  SMS_Process.o [9]
+  .rodata            const     0x801'b120          4       0xc  SMS_Process.o [9]
+  .rodata            const     0x801'b12c          4       0xc  SMS_Process.o [9]
+  .rodata            const     0x801'b138          4       0xc  SMS_Process.o [9]
+  .rodata            const     0x801'b144          4       0xc  SMS_Process.o [9]
+  .rodata            const     0x801'b150          4       0xc  SMS_Process.o [9]
+  .rodata            const     0x801'b15c          4       0xc  SMS_Process.o [9]
+  .rodata            const     0x801'b168          4       0xc  SMS_Process.o [9]
+  .rodata            const     0x801'b174          4       0xc  SMS_Process.o [9]
+  .rodata            const     0x801'b180          4       0xc  SMS_Process.o [9]
+  .rodata            const     0x801'b18c          4       0xc  SMS_Process.o [9]
+  .rodata            const     0x801'b198          4       0xc  SMS_Process.o [9]
+  .rodata            const     0x801'b1a4          4       0xc  SMS_Process.o [9]
+  .rodata            const     0x801'b1b0          4       0xc  SMS_Process.o [9]
+  .rodata            const     0x801'b1bc          4       0xc  SMS_Process.o [9]
+  .rodata            const     0x801'b1c8          4       0xc  SMS_Process.o [9]
+  .rodata            const     0x801'b1d4          4       0xc  SMS_Process.o [9]
+  .rodata            const     0x801'b1e0          4       0xc  SSL_Process.o [9]
+  .rodata            const     0x801'b1ec          4       0xc  SSL_Process.o [9]
+  .rodata            const     0x801'b1f8          4       0xc  SSL_Process.o [9]
+  .rodata            const     0x801'b204          4       0xc  SSL_Process.o [9]
+  .rodata            const     0x801'b210          4       0xc  SSL_Process.o [9]
+  .rodata            const     0x801'b21c          4       0xc  SSL_Process.o [9]
+  .rodata            const     0x801'b228          4       0xc  SSL_Process.o [9]
+  .rodata            const     0x801'b234          4       0xc  SSL_Process.o [9]
+  .rodata            const     0x801'b240          4       0xc  SSL_Process.o [9]
+  .rodata            const     0x801'b24c          4       0xc  SSL_Process.o [9]
+  .rodata            const     0x801'b258          4       0xc  SSL_Process.o [9]
+  .rodata            const     0x801'b264          4       0xc  SSL_Process.o [9]
+  .rodata            const     0x801'b270          4       0xc  SSL_Process.o [9]
+  .rodata            const     0x801'b27c          4       0xc  SSL_Process.o [9]
+  .rodata            const     0x801'b288          4       0x8  GPS.o [8]
+  .rodata            const     0x801'b290          4       0x8  GPS.o [8]
+  .rodata            const     0x801'b298          4       0x8  GPS.o [8]
+  .rodata            const     0x801'b2a0          4       0x8  GSM_Utility.o [9]
+  .rodata            const     0x801'b2a8          4       0x8  GSM_Utility.o [9]
+  .rodata            const     0x801'b2b0          4       0x8  GSM_Utility.o [9]
+  .rodata            const     0x801'b2b8          4       0x8  GSM_Utility.o [9]
+  .rodata            const     0x801'b2c0          4       0x8  GSM_Utility.o [9]
+  .rodata            const     0x801'b2c8          4       0x8  GSM_Utility.o [9]
+  .rodata            const     0x801'b2d0          4       0x8  GSM_Utility.o [9]
+  .rodata            const     0x801'b2d8          4       0x8  GSM_Utility.o [9]
+  .rodata            const     0x801'b2e0          4       0x8  GSM_Utility.o [9]
+  .rodata            const     0x801'b2e8          4       0x8  GSM_Utility.o [9]
+  .rodata            const     0x801'b2f0          4       0x8  GSM_Utility.o [9]
+  .rodata            const     0x801'b2f8          4       0x8  GSM_Utility.o [9]
+  .rodata            const     0x801'b300          4       0x8  GSM_Utility.o [9]
+  .rodata            const     0x801'b308          4       0x8  GSM_Utility.o [9]
+  .rodata            const     0x801'b310          4       0x8  GSM_Utility.o [9]
+  .rodata            const     0x801'b318          4       0x8  GSM_Utility.o [9]
+  .rodata            const     0x801'b320          4       0x8  GSM_Utility.o [9]
+  .rodata            const     0x801'b328          4       0x8  GSM_Utility.o [9]
+  .rodata            const     0x801'b330          4       0x8  GSM_Utility.o [9]
+  .rodata            const     0x801'b338          4       0x8  GSM_Utility.o [9]
+  .rodata            const     0x801'b340          4       0x8  HTTP_Process.o [9]
+  .rodata            const     0x801'b348          4       0x8  HTTP_Process.o [9]
+  .rodata            const     0x801'b350          4       0x8  HTTP_Process.o [9]
+  .rodata            const     0x801'b358          4       0x8  HTTP_Process.o [9]
+  .rodata            const     0x801'b360          4       0x8  HTTP_Process.o [9]
+  .rodata            const     0x801'b368          4       0x8  HTTP_Process.o [9]
+  .rodata            const     0x801'b370          4       0x8  HTTP_Process.o [9]
+  .rodata            const     0x801'b378          4       0x8  HTTP_Process.o [9]
+  .rodata            const     0x801'b380          4       0x8  HTTP_Process.o [9]
+  .rodata            const     0x801'b388          4       0x8  HTTP_Process.o [9]
+  .rodata            const     0x801'b390          4       0x8  HTTP_Process.o [9]
+  .rodata            const     0x801'b398          4       0x8  HTTP_Process.o [9]
+  .rodata            const     0x801'b3a0          4       0x8  HTTP_Process.o [9]
+  .rodata            const     0x801'b3a8          4       0x8  HTTP_Process.o [9]
+  .rodata            const     0x801'b3b0          4       0x8  HTTP_Process.o [9]
+  .rodata            const     0x801'b3b8          4       0x8  SMS_Process.o [9]
+  .rodata            const     0x801'b3c0          4       0x8  SMS_Process.o [9]
+  .rodata            const     0x801'b3c8          4       0x8  SMS_Process.o [9]
+  .rodata            const     0x801'b3d0          4       0x8  SMS_Process.o [9]
+  .rodata            const     0x801'b3d8          4       0x8  SMS_Process.o [9]
+  .rodata            const     0x801'b3e0          4       0x8  SMS_Process.o [9]
+  .rodata            const     0x801'b3e8          4       0x8  SMS_Process.o [9]
+  .rodata            const     0x801'b3f0          4       0x8  SMS_Process.o [9]
+  .rodata            const     0x801'b3f8          4       0x8  SMS_Process.o [9]
+  .rodata            const     0x801'b400          4       0x8  SMS_Process.o [9]
+  .rodata            const     0x801'b408          4       0x8  SMS_Process.o [9]
+  .rodata            const     0x801'b410          4       0x8  SMS_Process.o [9]
+  .rodata            const     0x801'b418          4       0x8  SMS_Process.o [9]
+  .rodata            const     0x801'b420          4       0x8  SMS_Process.o [9]
+  .rodata            const     0x801'b428          4       0x8  SMS_Process.o [9]
+  .rodata            const     0x801'b430          4       0x8  SMS_Process.o [9]
+  .rodata            const     0x801'b438          4       0x8  SMS_Process.o [9]
+  .rodata            const     0x801'b440          4       0x8  SMS_Process.o [9]
+  .rodata            const     0x801'b448          4       0x8  SMS_Process.o [9]
+  .rodata            const     0x801'b450          4       0x8  SMS_Process.o [9]
+  .rodata            const     0x801'b458          4       0x8  SMS_Process.o [9]
+  .rodata            const     0x801'b460          4       0x8  SMS_Process.o [9]
+  .rodata            const     0x801'b468          4       0x8  SMS_Process.o [9]
+  .rodata            const     0x801'b470          4       0x8  SMS_Process.o [9]
+  .rodata            const     0x801'b478          4       0x8  SMS_Process.o [9]
+  .rodata            const     0x801'b480          4       0x8  SMS_Process.o [9]
+  .rodata            const     0x801'b488          4       0x8  SSL_Process.o [9]
+  .rodata            const     0x801'b490          4       0x8  SSL_Process.o [9]
+  .rodata            const     0x801'b498          4       0x8  SSL_Process.o [9]
+  .rodata            const     0x801'b4a0          4       0x8  SSL_Process.o [9]
+  .text              ro code   0x801'b4a8          4       0x2  system_stm32g0xx.o [17]
+  .rodata            const     0x801'b4aa                  0x1  HTTP_Process.o [9]
+  .rodata            const     0x801'b4ab                  0x1  SSL_Process.o [9]
+  .rodata            const     0x801'b4ac                  0x0  zero_init3.o [21]
+  .rodata            const     0x801'b4ac                  0x0  lz77_init_single.o [21]
+  Initializer bytes  const     0x801'b4ac                0x275  <for P2-1>
+                             - 0x801'b721             0x1'7669
+
+"P3":                                                     0x10
+  BOOT_Data          uninit   0x2000'0000          4       0x4  main.o [5]
+  BOOT_Data          uninit   0x2000'0004          4       0x4  main.o [5]
+  BOOT_Data          uninit   0x2000'0008          4       0x4  main.o [5]
+  BOOT_Data          uninit   0x2000'000c          4       0x4  main.o [5]
+                            - 0x2000'0010                 0x10
+
+"P2", part 1 of 3:                                       0x307
+  P2-1                        0x2000'0100                0x307  <Init block>
+    .data            inited   0x2000'0100          4       0x8  Digital_IO.o [11]
+    .data            inited   0x2000'0108          4       0x8  Digital_IO.o [11]
+    .data            inited   0x2000'0110          4      0x18  GPS.o [8]
+    .data            inited   0x2000'0128          4       0x4  HTTP_Process.o [9]
+    .data            inited   0x2000'012c          4      0x58  HTTP_Process.o [9]
+    .data            inited   0x2000'0184          4      0x58  HTTP_Process.o [9]
+    .data            inited   0x2000'01dc          4      0x24  SMS_Process.o [9]
+    .data            inited   0x2000'0200          4      0x24  SMS_Process.o [9]
+    .data            inited   0x2000'0224          4      0xec  SSL_Process.o [9]
+    .data            inited   0x2000'0310          4      0xec  SSL_Process.o [9]
+    .data            inited   0x2000'03fc          4       0x4  system_stm32g0xx.o [17]
+    .data            inited   0x2000'0400          2       0x2  GSM_Utility.o [9]
+    .data            inited   0x2000'0402                  0x1  main.o [5]
+    .data            inited   0x2000'0403                  0x1  sip_protocol.o [14]
+    .data            inited   0x2000'0404                  0x1  sip_protocol.o [14]
+    .data            inited   0x2000'0405                  0x1  sip_protocol.o [14]
+    .data            inited   0x2000'0406                  0x1  System_Timers.o [18]
+                            - 0x2000'0407                0x307
+
+"P2", part 2 of 3:                                      0x1a60
+  .bss               zero     0x2000'0408          4     0x9c4  HTTP_Process.o [9]
+  .bss               zero     0x2000'0dcc          4     0x354  sip_protocol.o [14]
+  .bss               zero     0x2000'1120          4     0x21c  Module_USART.o [9]
+  .bss               zero     0x2000'133c          4     0x1e0  sip_protocol.o [14]
+  .bss               zero     0x2000'151c          4     0x160  GPS_USART.o [8]
+  .bss               zero     0x2000'167c          4     0x160  GSM_Utility.o [9]
+  .bss               zero     0x2000'17dc          4     0x12c  SMS_Process.o [9]
+  .bss               zero     0x2000'1908          4     0x10c  sip_protocol.o [14]
+  .bss               zero     0x2000'1a14          4      0x80  SMS_Process.o [9]
+  .bss               zero     0x2000'1a94          4      0x3c  HTTP_Process.o [9]
+  .bss               zero     0x2000'1ad0          4      0x3c  sip_protocol.o [14]
+  .bss               zero     0x2000'1b0c          4      0x2c  GPS.o [8]
+  .bss               zero     0x2000'1b38          4      0x2c  xttotm64.o [19]
+  .bss               zero     0x2000'1b64          4      0x28  SPIF.o [16]
+  .bss               zero     0x2000'1b8c          4      0x24  GPS.o [8]
+  .bss               zero     0x2000'1bb0          4      0x20  SMS_Process.o [9]
+  .bss               zero     0x2000'1bd0          4      0x1c  KX023.o [2]
+  .bss               zero     0x2000'1bec                 0x19  circular_buffer.o [14]
+  .bss               zero     0x2000'1c05                 0x19  circular_buffer.o [14]
+  .bss               zero     0x2000'1c1e          2       0x2  ADC_Config.o [1]
+  .bss               zero     0x2000'1c20          4      0x18  ADC_Config.o [1]
+  .bss               zero     0x2000'1c38          4      0x18  GPS.o [8]
+  .bss               zero     0x2000'1c50          4      0x18  GPS.o [8]
+  .bss               zero     0x2000'1c68          4      0x18  HTTP_Process.o [9]
+  .bss               zero     0x2000'1c80          4      0x14  sip_protocol.o [14]
+  .bss               zero     0x2000'1c94          4      0x10  circular_buffer.o [14]
+  .bss               zero     0x2000'1ca4          4      0x10  sip_protocol.o [14]
+  .bss               zero     0x2000'1cb4          4      0x10  system.o [14]
+  .bss               zero     0x2000'1cc4          4       0xc  GSM_Utility.o [9]
+  .bss               zero     0x2000'1cd0          8       0x8  GPS.o [8]
+  .bss               zero     0x2000'1cd8          8       0x8  GPS.o [8]
+  .bss               zero     0x2000'1ce0          4       0x8  sip_protocol.o [14]
+  .bss               zero     0x2000'1ce8          8       0x8  sip_protocol.o [14]
+  .bss               zero     0x2000'1cf0          8       0x8  sip_protocol.o [14]
+  .bss               zero     0x2000'1cf8          4       0x8  heap0.o [19]
+  .bss               zero     0x2000'1d00          4       0x4  ADC_Config.o [1]
+  .bss               zero     0x2000'1d04          4       0x4  ADC_Config.o [1]
+  .bss               zero     0x2000'1d08          4       0x4  Digital_IO.o [11]
+  .bss               zero     0x2000'1d0c          4       0x4  Digital_IO.o [11]
+  .bss               zero     0x2000'1d10          4       0x4  GPS.o [8]
+  .bss               zero     0x2000'1d14          4       0x4  GPS.o [8]
+  .bss               zero     0x2000'1d18          4       0x4  GPS.o [8]
+  .bss               zero     0x2000'1d1c          4       0x4  GPS.o [8]
+  .bss               zero     0x2000'1d20          4       0x4  GPS.o [8]
+  .bss               zero     0x2000'1d24          4       0x4  GSM_Utility.o [9]
+  .bss               zero     0x2000'1d28          4       0x4  GSM_Utility.o [9]
+  .bss               zero     0x2000'1d2c          4       0x4  HTTP_Process.o [9]
+  .bss               zero     0x2000'1d30          4       0x4  HTTP_Process.o [9]
+  .bss               zero     0x2000'1d34          4       0x4  HTTP_Process.o [9]
+  .bss               zero     0x2000'1d38          4       0x4  sip_protocol.o [14]
+  .bss               zero     0x2000'1d3c          4       0x4  sip_protocol.o [14]
+  .bss               zero     0x2000'1d40          4       0x4  sip_protocol.o [14]
+  .bss               zero     0x2000'1d44          4       0x4  sip_protocol.o [14]
+  .bss               zero     0x2000'1d48          4       0x4  sip_protocol.o [14]
+  .bss               zero     0x2000'1d4c          4       0x4  sip_protocol.o [14]
+  .bss               zero     0x2000'1d50          4       0x4  sip_protocol.o [14]
+  .bss               zero     0x2000'1d54          4       0x4  sip_protocol.o [14]
+  .bss               zero     0x2000'1d58          4       0x4  sip_protocol.o [14]
+  .bss               zero     0x2000'1d5c          4       0x4  sip_protocol.o [14]
+  .bss               zero     0x2000'1d60          4       0x4  sip_protocol.o [14]
+  .bss               zero     0x2000'1d64          4       0x4  sip_protocol.o [14]
+  .bss               zero     0x2000'1d68          4       0x4  sip_protocol.o [14]
+  .bss               zero     0x2000'1d6c          4       0x4  sip_protocol.o [14]
+  .bss               zero     0x2000'1d70          4       0x4  System_Timers.o [18]
+  .bss               zero     0x2000'1d74          4       0x4  System_Utility.o [5]
+  .bss               zero     0x2000'1d78          4       0x4  System_Utility.o [5]
+  .bss               zero     0x2000'1d7c          4       0x4  xgetmemchunk.o [19]
+  .bss               zero     0x2000'1d80          2       0x2  dev_attachment.o [2]
+  .bss               zero     0x2000'1d82          2       0x2  dev_attachment.o [2]
+  .bss               zero     0x2000'1d84          2       0x2  dev_attachment.o [2]
+  .bss               zero     0x2000'1d86          2       0x2  dev_attachment.o [2]
+  .bss               zero     0x2000'1d88          2       0x2  dev_attachment.o [2]
+  .bss               zero     0x2000'1d8a          2       0x2  dev_attachment.o [2]
+  .bss               zero     0x2000'1d8c          2       0x2  dev_attachment.o [2]
+  .bss               zero     0x2000'1d8e          2       0x2  dev_attachment.o [2]
+  .bss               zero     0x2000'1d90          2       0x2  dev_attachment.o [2]
+  .bss               zero     0x2000'1d92          2       0x2  dev_attachment.o [2]
+  .bss               zero     0x2000'1d94          2       0x2  dev_attachment.o [2]
+  .bss               zero     0x2000'1d96          2       0x2  dev_attachment.o [2]
+  .bss               zero     0x2000'1d98          2       0x2  dev_attachment.o [2]
+  .bss               zero     0x2000'1d9a          2       0x2  dev_attachment.o [2]
+  .bss               zero     0x2000'1d9c          2       0x2  dev_attachment.o [2]
+  .bss               zero     0x2000'1d9e          2       0x2  dev_attachment.o [2]
+  .bss               zero     0x2000'1da0          2       0x2  dev_attachment.o [2]
+  .bss               zero     0x2000'1da2          2       0x2  dev_attachment.o [2]
+  .bss               zero     0x2000'1da4          2       0x2  dev_attachment.o [2]
+  .bss               zero     0x2000'1da6          2       0x2  Digital_IO.o [11]
+  .bss               zero     0x2000'1da8          2       0x2  GPS.o [8]
+  .bss               zero     0x2000'1daa          2       0x2  GPS.o [8]
+  .bss               zero     0x2000'1dac          2       0x2  GPS.o [8]
+  .bss               zero     0x2000'1dae          2       0x2  GPS.o [8]
+  .bss               zero     0x2000'1db0          2       0x2  GPS.o [8]
+  .bss               zero     0x2000'1db2          2       0x2  GPS_USART.o [8]
+  .bss               zero     0x2000'1db4          2       0x2  GPS_USART.o [8]
+  .bss               zero     0x2000'1db6          2       0x2  GPS_USART.o [8]
+  .bss               zero     0x2000'1db8          2       0x2  GSM_Utility.o [9]
+  .bss               zero     0x2000'1dba          2       0x2  GSM_Utility.o [9]
+  .bss               zero     0x2000'1dbc          2       0x2  GSM_Utility.o [9]
+  .bss               zero     0x2000'1dbe          2       0x2  HTTP_Process.o [9]
+  .bss               zero     0x2000'1dc0          2       0x2  HTTP_Process.o [9]
+  .bss               zero     0x2000'1dc2          2       0x2  HTTP_Process.o [9]
+  .bss               zero     0x2000'1dc4          2       0x2  Module_USART.o [9]
+  .bss               zero     0x2000'1dc6          2       0x2  Module_USART.o [9]
+  .bss               zero     0x2000'1dc8          2       0x2  Module_USART.o [9]
+  .bss               zero     0x2000'1dca          2       0x2  sip_protocol.o [14]
+  .bss               zero     0x2000'1dcc          2       0x2  sip_protocol.o [14]
+  .bss               zero     0x2000'1dce          2       0x2  sip_protocol.o [14]
+  .bss               zero     0x2000'1dd0          2       0x2  sip_protocol.o [14]
+  .bss               zero     0x2000'1dd2          2       0x2  sip_protocol.o [14]
+  .bss               zero     0x2000'1dd4          2       0x2  sip_protocol.o [14]
+  .bss               zero     0x2000'1dd6          2       0x2  sip_protocol.o [14]
+  .bss               zero     0x2000'1dd8          2       0x2  sip_protocol.o [14]
+  .bss               zero     0x2000'1dda          2       0x2  sip_protocol.o [14]
+  .bss               zero     0x2000'1ddc          2       0x2  sip_protocol.o [14]
+  .bss               zero     0x2000'1dde          2       0x2  sip_protocol.o [14]
+  .bss               zero     0x2000'1de0          2       0x2  sip_protocol.o [14]
+  .bss               zero     0x2000'1de2          2       0x2  SMS_Process.o [9]
+  .bss               zero     0x2000'1de4          2       0x2  SPIF.o [16]
+  .bss               zero     0x2000'1de6          2       0x2  SPIF_spi.o [16]
+  .bss               zero     0x2000'1de8          2       0x2  system.o [14]
+  .bss               zero     0x2000'1dea          2       0x2  System_Utility.o [5]
+  .bss               zero     0x2000'1dec                  0x1  ADC_Config.o [1]
+  .bss               zero     0x2000'1ded                  0x1  dev_attachment.o [2]
+  .bss               zero     0x2000'1dee                  0x1  dev_attachment.o [2]
+  .bss               zero     0x2000'1def                  0x1  dev_attachment.o [2]
+  .bss               zero     0x2000'1df0                  0x1  dev_attachment.o [2]
+  .bss               zero     0x2000'1df1                  0x1  dev_attachment.o [2]
+  .bss               zero     0x2000'1df2                  0x1  dev_attachment.o [2]
+  .bss               zero     0x2000'1df3                  0x1  dev_attachment.o [2]
+  .bss               zero     0x2000'1df4                  0x1  dev_attachment.o [2]
+  .bss               zero     0x2000'1df5                  0x1  dev_attachment.o [2]
+  .bss               zero     0x2000'1df6                  0x1  dev_attachment.o [2]
+  .bss               zero     0x2000'1df7                  0x1  dev_attachment.o [2]
+  .bss               zero     0x2000'1df8                  0x1  dev_attachment.o [2]
+  .bss               zero     0x2000'1df9                  0x1  dev_attachment.o [2]
+  .bss               zero     0x2000'1dfa                  0x1  dev_attachment.o [2]
+  .bss               zero     0x2000'1dfb                  0x1  dev_attachment.o [2]
+  .bss               zero     0x2000'1dfc                  0x1  dev_attachment.o [2]
+  .bss               zero     0x2000'1dfd                  0x1  dev_attachment.o [2]
+  .bss               zero     0x2000'1dfe                  0x1  dev_attachment.o [2]
+  .bss               zero     0x2000'1dff                  0x1  dev_attachment.o [2]
+  .bss               zero     0x2000'1e00                  0x1  dev_attachment.o [2]
+  .bss               zero     0x2000'1e01                  0x1  Digital_IO.o [11]
+  .bss               zero     0x2000'1e02                  0x1  Digital_IO.o [11]
+  .bss               zero     0x2000'1e03                  0x1  GPS.o [8]
+  .bss               zero     0x2000'1e04                  0x1  GPS.o [8]
+  .bss               zero     0x2000'1e05                  0x1  GPS.o [8]
+  .bss               zero     0x2000'1e06                  0x1  GPS.o [8]
+  .bss               zero     0x2000'1e07                  0x1  GPS.o [8]
+  .bss               zero     0x2000'1e08                  0x1  GPS.o [8]
+  .bss               zero     0x2000'1e09                  0x1  GPS.o [8]
+  .bss               zero     0x2000'1e0a                  0x1  GPS.o [8]
+  .bss               zero     0x2000'1e0b                  0x1  GPS.o [8]
+  .bss               zero     0x2000'1e0c                  0x1  GPS.o [8]
+  .bss               zero     0x2000'1e0d                  0x1  GPS.o [8]
+  .bss               zero     0x2000'1e0e                  0x1  GPS.o [8]
+  .bss               zero     0x2000'1e0f                  0x1  GSM_Utility.o [9]
+  .bss               zero     0x2000'1e10                  0x1  GSM_Utility.o [9]
+  .bss               zero     0x2000'1e11                  0x1  GSM_Utility.o [9]
+  .bss               zero     0x2000'1e12                  0x1  HTTP_Process.o [9]
+  .bss               zero     0x2000'1e13                  0x1  HTTP_Process.o [9]
+  .bss               zero     0x2000'1e14                  0x1  HTTP_Process.o [9]
+  .bss               zero     0x2000'1e15                  0x1  HTTP_Process.o [9]
+  .bss               zero     0x2000'1e16                  0x1  HTTP_Process.o [9]
+  .bss               zero     0x2000'1e17                  0x1  HTTP_Process.o [9]
+  .bss               zero     0x2000'1e18                  0x1  LEDs.o [18]
+  .bss               zero     0x2000'1e19                  0x1  LEDs.o [18]
+  .bss               zero     0x2000'1e1a                  0x1  LEDs.o [18]
+  .bss               zero     0x2000'1e1b                  0x1  LEDs.o [18]
+  .bss               zero     0x2000'1e1c                  0x1  LEDs.o [18]
+  .bss               zero     0x2000'1e1d                  0x1  LEDs.o [18]
+  .bss               zero     0x2000'1e1e                  0x1  LEDs.o [18]
+  .bss               zero     0x2000'1e1f                  0x1  LEDs.o [18]
+  .bss               zero     0x2000'1e20                  0x1  LEDs.o [18]
+  .bss               zero     0x2000'1e21                  0x1  LEDs.o [18]
+  .bss               zero     0x2000'1e22                  0x1  LEDs.o [18]
+  .bss               zero     0x2000'1e23                  0x1  LEDs.o [18]
+  .bss               zero     0x2000'1e24                  0x1  LEDs.o [18]
+  .bss               zero     0x2000'1e25                  0x1  LEDs.o [18]
+  .bss               zero     0x2000'1e26                  0x1  LEDs.o [18]
+  .bss               zero     0x2000'1e27                  0x1  main.o [5]
+  .bss               zero     0x2000'1e28                  0x1  sip_protocol.o [14]
+  .bss               zero     0x2000'1e29                  0x1  sip_protocol.o [14]
+  .bss               zero     0x2000'1e2a                  0x1  sip_protocol.o [14]
+  .bss               zero     0x2000'1e2b                  0x1  sip_protocol.o [14]
+  .bss               zero     0x2000'1e2c                  0x1  sip_protocol.o [14]
+  .bss               zero     0x2000'1e2d                  0x1  sip_protocol.o [14]
+  .bss               zero     0x2000'1e2e                  0x1  sip_protocol.o [14]
+  .bss               zero     0x2000'1e2f                  0x1  sip_protocol.o [14]
+  .bss               zero     0x2000'1e30                  0x1  sip_protocol.o [14]
+  .bss               zero     0x2000'1e31                  0x1  sip_protocol.o [14]
+  .bss               zero     0x2000'1e32                  0x1  sip_protocol.o [14]
+  .bss               zero     0x2000'1e33                  0x1  sip_protocol.o [14]
+  .bss               zero     0x2000'1e34                  0x1  sip_protocol.o [14]
+  .bss               zero     0x2000'1e35                  0x1  sip_protocol.o [14]
+  .bss               zero     0x2000'1e36                  0x1  sip_protocol.o [14]
+  .bss               zero     0x2000'1e37                  0x1  sip_protocol.o [14]
+  .bss               zero     0x2000'1e38                  0x1  sip_protocol.o [14]
+  .bss               zero     0x2000'1e39                  0x1  sip_protocol.o [14]
+  .bss               zero     0x2000'1e3a                  0x1  sip_protocol.o [14]
+  .bss               zero     0x2000'1e3b                  0x1  sip_protocol.o [14]
+  .bss               zero     0x2000'1e3c                  0x1  sip_protocol.o [14]
+  .bss               zero     0x2000'1e3d                  0x1  sip_protocol.o [14]
+  .bss               zero     0x2000'1e3e                  0x1  sip_protocol.o [14]
+  .bss               zero     0x2000'1e3f                  0x1  sip_protocol.o [14]
+  .bss               zero     0x2000'1e40                  0x1  sip_protocol.o [14]
+  .bss               zero     0x2000'1e41                  0x1  sip_protocol.o [14]
+  .bss               zero     0x2000'1e42                  0x1  sip_protocol.o [14]
+  .bss               zero     0x2000'1e43                  0x1  sip_protocol.o [14]
+  .bss               zero     0x2000'1e44                  0x1  sip_protocol.o [14]
+  .bss               zero     0x2000'1e45                  0x1  sip_protocol.o [14]
+  .bss               zero     0x2000'1e46                  0x1  sip_protocol.o [14]
+  .bss               zero     0x2000'1e47                  0x1  sip_protocol.o [14]
+  .bss               zero     0x2000'1e48                  0x1  sip_protocol.o [14]
+  .bss               zero     0x2000'1e49                  0x1  sip_protocol.o [14]
+  .bss               zero     0x2000'1e4a                  0x1  sip_protocol.o [14]
+  .bss               zero     0x2000'1e4b                  0x1  sip_protocol.o [14]
+  .bss               zero     0x2000'1e4c                  0x1  sip_protocol.o [14]
+  .bss               zero     0x2000'1e4d                  0x1  sip_protocol.o [14]
+  .bss               zero     0x2000'1e4e                  0x1  sip_protocol.o [14]
+  .bss               zero     0x2000'1e4f                  0x1  sip_protocol.o [14]
+  .bss               zero     0x2000'1e50                  0x1  sip_protocol.o [14]
+  .bss               zero     0x2000'1e51                  0x1  sip_protocol.o [14]
+  .bss               zero     0x2000'1e52                  0x1  sip_protocol.o [14]
+  .bss               zero     0x2000'1e53                  0x1  sip_protocol.o [14]
+  .bss               zero     0x2000'1e54                  0x1  sip_protocol.o [14]
+  .bss               zero     0x2000'1e55                  0x1  SMS_Process.o [9]
+  .bss               zero     0x2000'1e56                  0x1  SMS_Process.o [9]
+  .bss               zero     0x2000'1e57                  0x1  SMS_Process.o [9]
+  .bss               zero     0x2000'1e58                  0x1  SMS_Process.o [9]
+  .bss               zero     0x2000'1e59                  0x1  SMS_Process.o [9]
+  .bss               zero     0x2000'1e5a                  0x1  SMS_Process.o [9]
+  .bss               zero     0x2000'1e5b                  0x1  SMS_Process.o [9]
+  .bss               zero     0x2000'1e5c                  0x1  SMS_Process.o [9]
+  .bss               zero     0x2000'1e5d                  0x1  SSL_Process.o [9]
+  .bss               zero     0x2000'1e5e                  0x1  SSL_Process.o [9]
+  .bss               zero     0x2000'1e5f                  0x1  system.o [14]
+  .bss               zero     0x2000'1e60                  0x1  system.o [14]
+  .bss               zero     0x2000'1e61                  0x1  system.o [14]
+  .bss               zero     0x2000'1e62                  0x1  system.o [14]
+  .bss               zero     0x2000'1e63                  0x1  system.o [14]
+  .bss               zero     0x2000'1e64                  0x1  System_Timers.o [18]
+  .bss               zero     0x2000'1e65                  0x1  System_Utility.o [5]
+                            - 0x2000'1e66               0x1a5e
+
+"P2", part 3 of 3:                                      0x4e00
+  CSTACK                      0x2000'1e68          8    0x2600  <Block>
+    CSTACK           uninit   0x2000'1e68               0x2600  <Block tail>
+  HEAP                        0x2000'4468          8    0x2800  <Block>
+    HEAP             uninit   0x2000'4468               0x2800  <Block tail>
+                            - 0x2000'6c68               0x4e00
+
+Unused ranges:
+
+         From           To    Size
+         ----           --    ----
+   0x801'b721   0x801'ffff  0x48df
+  0x2000'0010  0x2000'00ff    0xf0
+  0x2000'0407  0x2000'0407     0x1
+  0x2000'6c68  0x2000'8fff  0x2398
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x1a5e:
+          0x2000'0408  0x1a5e
+
+Copy/lz77 (__iar_lz77_init_single3)
+    1 source range, total size 0x275 (81% of destination):
+           0x801'b4ac   0x275
+    1 destination range, total size 0x307:
+          0x2000'0100   0x307
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                 ro code  ro data  rw data
+    ------                 -------  -------  -------
+command line/config:
+    ------------------------------------------------
+    Total:
+
+D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\A2D_14972411234166948354.dir: [1]
+    ADC_Config.o             1'000                35
+    ------------------------------------------------
+    Total:                   1'000                35
+
+D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\Accelerometer_5802565934898969246.dir: [2]
+    KX023.o                  1'048                28
+    accel_i2c.o              1'468
+    dev_attachment.o         2'960                58
+    ------------------------------------------------
+    Total:                   5'476                86
+
+D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\Certificate_4819519691248422992.dir: [3]
+    pem_import.o             1'466      304
+    ------------------------------------------------
+    Total:                   1'466      304
+
+D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\Common_388439453444075512.dir: [4]
+    os_port_none.o              40       60
+    ------------------------------------------------
+    Total:                      40       60
+
+D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\EWARM_14282830314136953809.dir: [5]
+    System_Interrupts.o        356
+    System_Utility.o         1'772       20       11
+    general_functions.o        396
+    main.o                      48        1       18
+    ------------------------------------------------
+    Total:                   2'572       21       29
+
+D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\Encoding_17640052530797874392.dir: [6]
+    asn1.o                     376
+    base64.o                   204      128
+    oid.o                       66
+    ------------------------------------------------
+    Total:                     646      128
+
+D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\Flash_3222999600733985888.dir: [7]
+    Flash.o                    944
+    ------------------------------------------------
+    Total:                     944
+
+D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\GPS_13805737646085544899.dir: [8]
+    GPS.o                    7'272      264      210
+    GPS_USART.o                648               358
+    ------------------------------------------------
+    Total:                   7'920      264      568
+
+D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\GSM_14571738266252155766.dir: [9]
+    GSM_BT.o                    32       44
+    GSM_Utility.o            5'956      837      383
+    HTTP_Process.o          14'416    1'579    2'788
+    Module_USART.o             628               546
+    SMS_Process.o            6'564      826      542
+    SSL_Process.o            5'460    1'661      474
+    ------------------------------------------------
+    Total:                  33'056    4'947    4'733
+
+D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\Hash_7788234830195085610.dir: [10]
+    md5.o                    2'118      320
+    ------------------------------------------------
+    Total:                   2'118      320
+
+D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\IOs_17766050923318551339.dir: [11]
+    Digital_IO.o               780       12       28
+    ------------------------------------------------
+    Total:                     780       12       28
+
+D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\MPI_4282649160496547225.dir: [12]
+    mpi.o                    4'542
+    ------------------------------------------------
+    Total:                   4'542
+
+D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\PKC_17023933510945847088.dir: [13]
+    rsa.o                    1'032      280
+    ------------------------------------------------
+    Total:                   1'032      280
+
+D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\Protocol_10540556707541943501.dir: [14]
+    circular_buffer.o        2'564                66
+    sip_protocol.o           8'732       79    1'848
+    system.o                   624                23
+    ------------------------------------------------
+    Total:                  11'920       79    1'937
+
+D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\RSA_7683435025872950055.dir: [15]
+    RSA_Cryptographic.o         84
+    ------------------------------------------------
+    Total:                      84
+
+D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\SPIF_2069707202072327316.dir: [16]
+    SPIF.o                     960                42
+    SPIF_Driver.o            1'160
+    SPIF_spi.o               1'128                 2
+    ------------------------------------------------
+    Total:                   3'248                44
+
+D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\System_14878279498866883008.dir: [17]
+    startup_stm32g070xx.o      244
+    system_stm32g0xx.o           2        3        4
+    ------------------------------------------------
+    Total:                     246        3        4
+
+D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\Timers_7884078857485784167.dir: [18]
+    LEDs.o                   3'216                15
+    System_Timers.o          2'392        1        6
+    ------------------------------------------------
+    Total:                   5'608        1       21
+
+dl6M_tlf.a: [19]
+    abs.o                        8
+    exit.o                       8
+    heap0.o                    320                 8
+    heaptramp0.o                 8
+    localtim64.o                30
+    low_level_init.o             4
+    strstr.o                    46
+    xDaysTo64.o                204
+    xTzoff_nop.o                 4
+    xgetmemchunk.o              44                 4
+    xisdst_nop64.o               6
+    xttotm64.o                 392                44
+    ------------------------------------------------
+    Total:                   1'074                56
+
+m6M_tl.a: [20]
+    DblAddSub.o                436
+    DblCmpLe.o                  50
+    DblDiv.o                   194
+    DblMul.o                   388
+    DblToFlt.o                  98
+    DblToI32.o                  82
+    FltAddSub.o                288
+    FltCmpGe.o                  40
+    FltCmpLe.o                  38
+    FltDiv.o                   164
+    FltMul.o                   176
+    FltToDbl.o                  50
+    FltToS32.o                  58
+    FltToU32.o                  38
+    IxxToDbl.o                  52
+    IxxToFlt.o                  94
+    atan2_64.o                 424
+    cos_sin64.o              1'100
+    iar_Atan64.o               552       64
+    sqrt.o                     192
+    ------------------------------------------------
+    Total:                   4'514       64
+
+rt6M_tl.a: [21]
+    ABImemcpy.o                 78
+    ABImemset.o                 78
+    I32DivModFast.o            224
+    I64DivMod.o                186
+    I64DivZer.o                  2
+    I64Mul.o                    50
+    IntDivZer.o                  2
+    XXexit.o                    12
+    cexit.o                      4
+    cexit_2.o                   10
+    cmain.o                     34
+    cstartup_M.o                28
+    data_init.o                 40
+    lz77_init_single.o         128
+    memcmp.o                    30
+    strchr.o                    18
+    strcmp.o                   192
+    strlen.o                    14
+    uread4.o                    22
+    uwrite4.o                   20
+    zero_init3.o                60
+    ------------------------------------------------
+    Total:                   1'232
+
+    Linker created                       32   19'968
+----------------------------------------------------
+    Grand Total:            89'518    6'515   27'509
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base    0x801'a2fc          --   Gb  - Linker created -
+.iar.init_table$$Limit   0x801'a31c          --   Gb  - Linker created -
+?main                    0x801'a2b1         Code  Gb  cmain.o [21]
+ADC1_IRQHandler          0x801'64f7         Code  Wk  startup_stm32g070xx.o [17]
+ADC_Config               0x801'5e91  0x174  Code  Gb  ADC_Config.o [1]
+ADC_Values              0x2000'1c20   0x18  Data  Gb  ADC_Config.o [1]
+ADC_calculate_average    0x801'60ad  0x150  Code  Gb  ADC_Config.o [1]
+AVL_Handle_Tasks         0x800'a869  0x394  Code  Gb  sip_protocol.o [14]
+AVL_Initiate_Setting     0x800'8aa5  0x12a  Code  Gb  sip_protocol.o [14]
+AVL_check_setting_values
+                         0x800'8bcf   0x6c  Code  Gb  sip_protocol.o [14]
+Accel_I2C_config         0x801'564d   0x9e  Code  Gb  accel_i2c.o [2]
+Accel_Recovery_I2C       0x801'0ca1   0x44  Code  Gb  KX023.o [2]
+Accel_movement_check     0x801'91e5  0x1d6  Code  Gb  dev_attachment.o [2]
+Accel_read_byte          0x801'5769  0x186  Code  Gb  accel_i2c.o [2]
+Accel_read_nbytes        0x801'5939  0x1a4  Code  Gb  accel_i2c.o [2]
+Accel_write_byte         0x801'5ae5  0x106  Code  Gb  accel_i2c.o [2]
+Aldata                  0x2000'1cf8    0x8  Data  Lc  heap0.o [19]
+BT_Enable                0x801'6335    0xc  Code  Gb  GSM_BT.o [9]
+BT_Set_BT_Name           0x801'6341    0xc  Code  Gb  GSM_BT.o [9]
+Base_sample_axis        0x2000'1d98    0x2  Data  Gb  dev_attachment.o [2]
+Big_endian_data          0x800'a4e7   0x2a  Code  Gb  sip_protocol.o [14]
+Bootloader_Password     0x2000'0000    0x4  Data  Gb  main.o [5]
+Bootloader_release_date
+                        0x2000'0004    0x4  Data  Gb  main.o [5]
+CRC16_CCITT              0x800'a511   0x3a  Code  Gb  sip_protocol.o [14]
+CSTACK$$Base            0x2000'1e68          --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'4468          --   Gb  - Linker created -
+Calibration_factor      0x2000'1c1e    0x2  Data  Gb  ADC_Config.o [1]
+Car_is_turn_off_for_more_than_4_sec
+                        0x2000'1dff    0x1  Data  Gb  dev_attachment.o [2]
+Check_data_for_half_SEC
+                         0x801'8bb9  0x608  Code  Gb  dev_attachment.o [2]
+Check_disable_record_production
+                         0x800'8d05   0x1e  Code  Gb  sip_protocol.o [14]
+Count_of_pre_detached_occure
+                        0x2000'1d96    0x2  Data  Gb  dev_attachment.o [2]
+Current_ODO_Speed_KMh   0x2000'1d48    0x4  Data  Gb  sip_protocol.o [14]
+DMA1_Ch4_7_DMAMUX1_OVR_IRQHandler
+                         0x801'635b         Code  Wk  startup_stm32g070xx.o [17]
+DMA1_Channel1_IRQHandler
+                         0x801'08eb         Code  Wk  startup_stm32g070xx.o [17]
+DMA1_Channel2_3_IRQHandler
+                         0x801'6333         Code  Wk  startup_stm32g070xx.o [17]
+DMA_Config_for_ADC       0x801'6005   0x76  Code  Gb  ADC_Config.o [1]
+Delay                    0x800'b30b    0xe  Code  Gb  System_Utility.o [5]
+Device_detached_Flag    0x2000'1df3    0x1  Data  Gb  dev_attachment.o [2]
+Device_detached_G_Occur_counter
+                        0x2000'1df2    0x1  Data  Gb  dev_attachment.o [2]
+Device_detached_G_Occur_counter2
+                        0x2000'1dfa    0x1  Data  Gb  dev_attachment.o [2]
+Device_detached_G_Occur_counter3
+                        0x2000'1dfb    0x1  Data  Gb  dev_attachment.o [2]
+Device_detached_G_Occur_counter4
+                        0x2000'1dfc    0x1  Data  Gb  dev_attachment.o [2]
+Device_detached_G_Occur_counter5
+                        0x2000'1dfd    0x1  Data  Gb  dev_attachment.o [2]
+Disable_Relay_process   0x2000'1e30    0x1  Data  Gb  sip_protocol.o [14]
+EXTI0_1_IRQHandler       0x800'fc73         Code  Wk  startup_stm32g070xx.o [17]
+EXTI2_3_IRQHandler       0x801'9bb3    0x2  Code  Gb  System_Interrupts.o [5]
+EXTI4_15_IRQHandler      0x801'9bb5   0x42  Code  Gb  System_Interrupts.o [5]
+Event_Flags             0x2000'1c80   0x14  Data  Gb  sip_protocol.o [14]
+FCB_SPIF_read_header_x   0x800'db43   0x1c  Code  Gb  circular_buffer.o [14]
+FCB_calculate_header_server_x_nsend_count
+                         0x800'da71   0x5e  Code  Gb  circular_buffer.o [14]
+FCB_check_sector_validity
+                         0x800'dacf   0x44  Code  Gb  circular_buffer.o [14]
+FCB_check_server_x_record_nsend_status
+                         0x800'd959   0x6a  Code  Gb  circular_buffer.o [14]
+FCB_erase_all_records    0x800'e2eb   0x4a  Code  Gb  circular_buffer.o [14]
+FCB_erase_sector         0x800'db13   0x16  Code  Gb  circular_buffer.o [14]
+FCB_find_next_read_sector
+                         0x800'dc07   0xc8  Code  Gb  circular_buffer.o [14]
+FCB_increment_sector_index
+                         0x800'db29   0x1a  Code  Gb  circular_buffer.o [14]
+FCB_merge_write_header_with_read_header
+                         0x800'dbd5   0x32  Code  Gb  circular_buffer.o [14]
+FCB_modify_sent_records
+                         0x800'e295   0x56  Code  Gb  circular_buffer.o [14]
+FCB_modify_server_x_record_nsend_status
+                         0x800'd9c3   0xae  Code  Gb  circular_buffer.o [14]
+FCB_profile             0x2000'1c94   0x10  Data  Gb  circular_buffer.o [14]
+FCB_read_header         0x2000'1bec   0x19  Data  Gb  circular_buffer.o [14]
+FCB_read_records         0x800'df11  0x15e  Code  Gb  circular_buffer.o [14]
+FCB_startup_record_analyze
+                         0x800'dcd9  0x228  Code  Gb  circular_buffer.o [14]
+FCB_update_header_of_sector_x
+                         0x800'db5f   0x76  Code  Gb  circular_buffer.o [14]
+FCB_write_header        0x2000'1c05   0x19  Data  Gb  circular_buffer.o [14]
+FCB_write_records        0x800'e081  0x214  Code  Gb  circular_buffer.o [14]
+FLASH_IRQHandler         0x800'd92f         Code  Wk  startup_stm32g070xx.o [17]
+FLASH_Program_Page       0x800'd6c1   0x24  Code  Gb  Flash.o [7]
+FLASH_Program_Page_DoubleWord
+                         0x800'd671   0x50  Code  Gb  Flash.o [7]
+FOTA_Header_calc_CRC16   0x800'a565   0x92  Code  Gb  sip_protocol.o [14]
+FS_file_read_index      0x2000'1d2c    0x4  Data  Gb  HTTP_Process.o [9]
+FS_num_bytes_read       0x2000'1d30    0x4  Data  Gb  HTTP_Process.o [9]
+Fifty_Hz_Timer_Init      0x801'49b3   0x58  Code  Gb  System_Timers.o [18]
+Fifty_Hz_handler         0x801'5021  0x132  Code  Gb  System_Timers.o [18]
+Flag_Check_data_for_half_SEC
+                        0x2000'1df8    0x1  Data  Gb  dev_attachment.o [2]
+Flash_Erase_Page         0x800'd6e5   0x52  Code  Gb  Flash.o [7]
+Flash_Execute_FirmwareUpgrade
+                         0x800'd3a5  0x1f8  Code  Gb  Flash.o [7]
+Flash_Lock_Memory        0x800'd5bb   0x24  Code  Gb  Flash.o [7]
+Flash_Unlock_Memory      0x800'd59d   0x1e  Code  Gb  Flash.o [7]
+Flash_clear_all_Errors   0x800'd5ed   0x7a  Code  Gb  Flash.o [7]
+Force_Produce_Event      0x800'8cd5   0x1a  Code  Gb  sip_protocol.o [14]
+GF_calculate_checksum_8_XOR
+                         0x800'd881   0x26  Code  Gb  general_functions.o [5]
+GF_calculate_number_digit_count
+                         0x800'd8a7   0x3a  Code  Gb  general_functions.o [5]
+GF_convert_string_hex_number_to_integer
+                         0x800'd7cb   0x98  Code  Gb  general_functions.o [5]
+GF_extract_SubArray_from_array
+                         0x800'd787   0x44  Code  Gb  general_functions.o [5]
+GF_find_cell_in_array    0x800'd755   0x32  Code  Gb  general_functions.o [5]
+GGA_Message             0x2000'1c50   0x18  Data  Gb  GPS.o [8]
+GPIO_Pin                0x2000'0108    0x8  Data  Gb  Digital_IO.o [11]
+GPIO_Port               0x2000'0100    0x8  Data  Gb  Digital_IO.o [11]
+GPS_Config_Module        0x801'1509  0x286  Code  Gb  GPS.o [8]
+GPS_NMEA_Parser          0x801'19fd  0xd92  Code  Gb  GPS.o [8]
+GPS_RX_Callback          0x801'5dcb   0x34  Code  Gb  GPS_USART.o [8]
+GPS_Send_Usart           0x801'5dff   0x2e  Code  Gb  GPS_USART.o [8]
+GPS_Update_UnixTimeStamp
+                         0x801'1409   0xf0  Code  Gb  GPS.o [8]
+GPS_calculate_Bearing    0x801'2799  0x15e  Code  Gb  GPS.o [8]
+GPS_cfg_GPIO             0x801'5cc5   0x8c  Code  Gb  GPS_USART.o [8]
+GPS_cfg_USART            0x801'5d51   0x7a  Code  Gb  GPS_USART.o [8]
+GPS_clear_rx_buffer      0x801'13d3   0x28  Code  Gb  GPS.o [8]
+GPS_data                0x2000'1b0c   0x2c  Data  Gb  GPS.o [8]
+GPS_disable_all_NMEA_msgs
+                         0x801'1795   0x22  Code  Gb  GPS.o [8]
+GPS_enable_GSA_RMC_NMEA_msgs
+                         0x801'17b7   0x22  Code  Gb  GPS.o [8]
+GPS_enhance_timing_product
+                         0x801'1811   0x20  Code  Gb  GPS.o [8]
+GPS_get_distance         0x801'2901  0x16c  Code  Gb  GPS.o [8]
+GPS_getline              0x801'12b9   0x60  Code  Gb  GPS.o [8]
+GPS_max_speed           0x2000'1e31    0x1  Data  Gb  sip_protocol.o [14]
+GPS_read_data            0x801'1281   0x38  Code  Gb  GPS.o [8]
+GPS_rx_buffer           0x2000'151c  0x160  Data  Gb  GPS_USART.o [8]
+GPS_rx_counter          0x2000'1db6    0x2  Data  Gb  GPS_USART.o [8]
+GPS_rx_rd_index         0x2000'1db4    0x2  Data  Gb  GPS_USART.o [8]
+GPS_rx_timeout          0x2000'1d78    0x4  Data  Gb  System_Utility.o [5]
+GPS_rx_wr_index         0x2000'1db2    0x2  Data  Gb  GPS_USART.o [8]
+GPS_search_GPS_GNSS_sats
+                         0x801'185b   0x22  Code  Gb  GPS.o [8]
+GPS_set_PPS_2D3D_100ms   0x801'1839   0x22  Code  Gb  GPS.o [8]
+GPS_set_Tracking_mode    0x801'187d   0x20  Code  Gb  GPS.o [8]
+GPS_set_position_Fix     0x801'17dd   0x22  Code  Gb  GPS.o [8]
+GPS_superloop_call       0x801'189d   0x82  Code  Gb  GPS.o [8]
+GPS_traveled_distance   0x2000'1d50    0x4  Data  Gb  sip_protocol.o [14]
+GPS_validate_NMEA_messages
+                         0x801'1965   0x96  Code  Gb  GPS.o [8]
+GSA_Message             0x2000'1c38   0x18  Data  Gb  GPS.o [8]
+GSM_Creg_two_hour_counter
+                        0x2000'1dbc    0x2  Data  Gb  GSM_Utility.o [9]
+GSM_HALT_Timer          0x2000'0400    0x2  Data  Gb  GSM_Utility.o [9]
+GSM_HTTP_routine_pro     0x800'7791  0x128  Code  Gb  HTTP_Process.o [9]
+GSM_Parameters          0x2000'1cc4    0xc  Data  Gb  GSM_Utility.o [9]
+GSM_RX_Callback          0x800'd289   0x34  Code  Gb  Module_USART.o [9]
+GSM_SSL_routine_pro      0x800'f6d1  0x18c  Code  Gb  SSL_Process.o [9]
+GSM_Send_Set_APN_cmd     0x800'c639  0x13e  Code  Gb  GSM_Utility.o [9]
+GSM_Send_Usart           0x800'd2bd   0x2e  Code  Gb  Module_USART.o [9]
+GSM_add_char_number_to_buffer
+                         0x800'b843   0xce  Code  Gb  GSM_Utility.o [9]
+GSM_cfg_GPIO             0x800'd213   0x76  Code  Gb  Module_USART.o [9]
+GSM_cfg_USART            0x800'd199   0x7a  Code  Gb  Module_USART.o [9]
+GSM_check_msg            0x800'b92d  0x8ac  Code  Gb  GSM_Utility.o [9]
+GSM_check_simcard_counter
+                        0x2000'1e3e    0x1  Data  Gb  sip_protocol.o [14]
+GSM_clear_RX_buffer      0x800'b433   0x1c  Code  Gb  GSM_Utility.o [9]
+GSM_cmd_execution_code  0x2000'1e3c    0x1  Data  Gb  sip_protocol.o [14]
+GSM_get_char             0x800'b44f   0x34  Code  Gb  GSM_Utility.o [9]
+GSM_get_char_from_line_buffer
+                         0x800'b483   0x26  Code  Gb  GSM_Utility.o [9]
+GSM_get_line             0x800'b4a9   0x88  Code  Gb  GSM_Utility.o [9]
+GSM_get_n_number_from_line_buffer
+                         0x800'b629   0x7e  Code  Gb  GSM_Utility.o [9]
+GSM_get_number_from_buffer
+                         0x800'b79f   0xa4  Code  Gb  GSM_Utility.o [9]
+GSM_get_number_from_line_buffer
+                         0x800'b595   0x86  Code  Gb  GSM_Utility.o [9]
+GSM_get_string_from_buffer
+                         0x800'b6c1   0x44  Code  Gb  GSM_Utility.o [9]
+GSM_get_upper_case_char
+                         0x800'b911   0x1c  Code  Gb  GSM_Utility.o [9]
+GSM_handle_server_response
+                         0x800'c77d   0x30  Code  Gb  GSM_Utility.o [9]
+GSM_local_IP            0x2000'1d5c    0x4  Data  Gb  sip_protocol.o [14]
+GSM_module_is_configured
+                        0x2000'1e0f    0x1  Data  Gb  GSM_Utility.o [9]
+GSM_network_search_counter
+                        0x2000'1e11    0x1  Data  Gb  GSM_Utility.o [9]
+GSM_parse_CPIN           0x800'c275   0x3a  Code  Gb  GSM_Utility.o [9]
+GSM_parse_CREG           0x800'c2d5  0x132  Code  Gb  GSM_Utility.o [9]
+GSM_parse_CSQ            0x800'c499   0x54  Code  Gb  GSM_Utility.o [9]
+GSM_parse_Connection_STATUS
+                         0x800'c515  0x112  Code  Gb  GSM_Utility.o [9]
+GSM_parse_IMEI           0x800'c1f5   0x72  Code  Gb  GSM_Utility.o [9]
+GSM_parse_IMSI           0x800'c415   0x74  Code  Gb  GSM_Utility.o [9]
+GSM_power_off            0x800'b3e7   0x24  Code  Gb  GSM_Utility.o [9]
+GSM_power_on             0x800'b3c1   0x26  Code  Gb  GSM_Utility.o [9]
+GSM_read_until_from_buffer
+                         0x800'b749   0x56  Code  Gb  GSM_Utility.o [9]
+GSM_read_until_from_line_buffer
+                         0x800'b705   0x34  Code  Gb  GSM_Utility.o [9]
+GSM_rx_buffer           0x2000'1120  0x21c  Data  Gb  Module_USART.o [9]
+GSM_rx_counter          0x2000'1dc8    0x2  Data  Gb  Module_USART.o [9]
+GSM_rx_rd_index         0x2000'1dc6    0x2  Data  Gb  Module_USART.o [9]
+GSM_rx_wr_index         0x2000'1dc4    0x2  Data  Gb  Module_USART.o [9]
+GSM_send_SMS_routine_pro
+                         0x801'46d9  0x172  Code  Gb  SMS_Process.o [9]
+GSM_send_cmd_to_GSM      0x800'c815  0x2bc  Code  Gb  GSM_Utility.o [9]
+GSM_status              0x2000'1e38    0x1  Data  Gb  sip_protocol.o [14]
+HEAP$$Base              0x2000'4468          --   Gb  - Linker created -
+HEAP$$Limit             0x2000'6c68          --   Gb  - Linker created -
+HTTP_Activate_FGCNT      0x800'5fa5    0xc  Code  Gb  HTTP_Process.o [9]
+HTTP_Activate_FGCNT_resp
+                         0x800'5fb1   0x36  Code  Gb  HTTP_Process.o [9]
+HTTP_Create_Hash_message
+                         0x800'5885  0x276  Code  Gb  HTTP_Process.o [9]
+HTTP_Create_Information_message
+                         0x800'4a09  0x2ba  Code  Gb  HTTP_Process.o [9]
+HTTP_Create_Interval_Information
+                         0x800'4da1  0x552  Code  Gb  HTTP_Process.o [9]
+HTTP_Create_Records_Post
+                         0x800'42f1  0x6fc  Code  Gb  HTTP_Process.o [9]
+HTTP_Create_setting_request
+                         0x800'4cd9   0x88  Code  Gb  HTTP_Process.o [9]
+HTTP_Deact_PDP           0x800'7713    0xc  Code  Gb  HTTP_Process.o [9]
+HTTP_Deact_PDP_resp      0x800'771f   0x44  Code  Gb  HTTP_Process.o [9]
+HTTP_Download_File       0x800'6c25  0x1ac  Code  Gb  HTTP_Process.o [9]
+HTTP_Download_File_resp
+                         0x800'6de9  0x190  Code  Gb  HTTP_Process.o [9]
+HTTP_FS_Close_File       0x800'7689   0x5e  Code  Gb  HTTP_Process.o [9]
+HTTP_FS_Close_File_resp
+                         0x800'76f9   0x1a  Code  Gb  HTTP_Process.o [9]
+HTTP_FS_Open_File        0x800'6fa5  0x172  Code  Gb  HTTP_Process.o [9]
+HTTP_FS_Open_File_resp   0x800'7121   0xba  Code  Gb  HTTP_Process.o [9]
+HTTP_FS_Read_File        0x800'7291   0xaa  Code  Gb  HTTP_Process.o [9]
+HTTP_FS_Read_File_resp   0x800'7375  0x300  Code  Gb  HTTP_Process.o [9]
+HTTP_FS_Set_Position     0x800'71e9   0x7e  Code  Gb  HTTP_Process.o [9]
+HTTP_FS_Set_Position_resp
+                         0x800'7267   0x1a  Code  Gb  HTTP_Process.o [9]
+HTTP_FWU                0x2000'1a94   0x3c  Data  Gb  HTTP_Process.o [9]
+HTTP_GET                 0x800'6b4d    0xc  Code  Gb  HTTP_Process.o [9]
+HTTP_GET_resp            0x800'6b6d   0x98  Code  Gb  HTTP_Process.o [9]
+HTTP_Manage_File_Process
+                         0x800'60ed   0xe2  Code  Gb  HTTP_Process.o [9]
+HTTP_Manage_File_Process_resp
+                         0x800'61fd    0x4  Code  Gb  HTTP_Process.o [9]
+HTTP_Params             0x2000'1c68   0x18  Data  Gb  HTTP_Process.o [9]
+HTTP_Post_data           0x800'68ad   0xb8  Code  Gb  HTTP_Process.o [9]
+HTTP_Post_data_resp      0x800'6965   0x18  Code  Gb  HTTP_Process.o [9]
+HTTP_Request_ptr        0x2000'012c   0x58  Data  Gb  HTTP_Process.o [9]
+HTTP_Response_ptr       0x2000'0184   0x58  Data  Gb  HTTP_Process.o [9]
+HTTP_analyze_FWU_file    0x800'5b69  0x146  Code  Gb  HTTP_Process.o [9]
+HTTP_analyze_chunk_header
+                         0x800'5caf   0x54  Code  Gb  HTTP_Process.o [9]
+HTTP_calculate_certificate_CRC16
+                         0x800'424f   0x6e  Code  Gb  HTTP_Process.o [9]
+HTTP_cfg_APN             0x800'5f5d    0x8  Code  Gb  HTTP_Process.o [9]
+HTTP_cfg_APN_resp        0x800'5f65   0x1a  Code  Gb  HTTP_Process.o [9]
+HTTP_cfg_foreground_context
+                         0x800'5f35    0xc  Code  Gb  HTTP_Process.o [9]
+HTTP_cfg_foreground_context_resp
+                         0x800'5f41   0x14  Code  Gb  HTTP_Process.o [9]
+HTTP_compute_chunk_CRC32
+                         0x800'5d25  0x158  Code  Gb  HTTP_Process.o [9]
+HTTP_del_FS_RAM_file     0x800'6af7    0xc  Code  Gb  HTTP_Process.o [9]
+HTTP_del_FS_RAM_file_resp
+                         0x800'6b0d   0x40  Code  Gb  HTTP_Process.o [9]
+HTTP_enter_URL           0x800'6431  0x428  Code  Gb  HTTP_Process.o [9]
+HTTP_enter_URL_length    0x800'6201  0x200  Code  Gb  HTTP_Process.o [9]
+HTTP_enter_URL_length_resp
+                         0x800'6401   0x1a  Code  Gb  HTTP_Process.o [9]
+HTTP_enter_URL_resp      0x800'6869   0x40  Code  Gb  HTTP_Process.o [9]
+HTTP_parse_Hash_response
+                         0x800'5b05   0x3e  Code  Gb  HTTP_Process.o [9]
+HTTP_parse_information_response
+                         0x800'531d   0xde  Code  Gb  HTTP_Process.o [9]
+HTTP_parse_setting_response
+                         0x800'5441  0x3ea  Code  Gb  HTTP_Process.o [9]
+HTTP_preconfig_http_requirments
+                         0x800'40b9   0x76  Code  Gb  HTTP_Process.o [9]
+HTTP_query_Local_IP      0x800'5fe7    0xc  Code  Gb  HTTP_Process.o [9]
+HTTP_query_Local_IP_resp
+                         0x800'6001   0xd8  Code  Gb  HTTP_Process.o [9]
+HTTP_read_Post_data      0x800'69a5   0x42  Code  Gb  HTTP_Process.o [9]
+HTTP_read_Post_data_resp
+                         0x800'69fd   0xfa  Code  Gb  HTTP_Process.o [9]
+HTTP_register_TCP_stack
+                         0x800'5f7f    0xc  Code  Gb  HTTP_Process.o [9]
+HTTP_register_TCP_stack_resp
+                         0x800'5f8b   0x1a  Code  Gb  HTTP_Process.o [9]
+HTTP_reset_module        0x800'5e81   0x40  Code  Gb  HTTP_Process.o [9]
+HTTP_reset_module_resp   0x800'5ec1   0x1a  Code  Gb  HTTP_Process.o [9]
+HTTP_seek_OK             0x800'7769    0x4  Code  Gb  HTTP_Process.o [9]
+HTTP_seek_OK_resp        0x800'776d   0x16  Code  Gb  HTTP_Process.o [9]
+HTTP_send_Post_data      0x800'697d    0xe  Code  Gb  HTTP_Process.o [9]
+HTTP_send_Post_data_resp
+                         0x800'698b   0x1a  Code  Gb  HTTP_Process.o [9]
+HTTP_test_serial_port    0x800'5ee1   0x22  Code  Gb  HTTP_Process.o [9]
+HTTP_test_serial_port_resp
+                         0x800'5f11   0x24  Code  Gb  HTTP_Process.o [9]
+HardFault_Handler        0x801'9af9    0x6  Code  Gb  System_Interrupts.o [5]
+How_the_vehicle_moves    0x801'8885  0x2e8  Code  Gb  dev_attachment.o [2]
+I2C1_IRQHandler          0x801'97fb         Code  Wk  startup_stm32g070xx.o [17]
+I2C2_IRQHandler          0x801'984f         Code  Wk  startup_stm32g070xx.o [17]
+I2C_generate_stop_condition_manually
+                         0x801'5701   0x56  Code  Gb  accel_i2c.o [2]
+IO_Check_IOs             0x801'1073  0x16a  Code  Gb  Digital_IO.o [11]
+IO_Digital              0x2000'1d08    0x4  Data  Gb  Digital_IO.o [11]
+IO_Ignition_Changed      0x801'11dd   0x30  Code  Gb  Digital_IO.o [11]
+IO_ON_OFF_Relay          0x801'1041   0x32  Code  Gb  Digital_IO.o [11]
+IO_cfg_Digital_IOs       0x801'0f75   0xcc  Code  Gb  Digital_IO.o [11]
+IO_states               0x2000'1d0c    0x4  Data  Gb  Digital_IO.o [11]
+IO_vcc_digital_Changed   0x801'1219   0x24  Code  Gb  Digital_IO.o [11]
+IWDG_Init                0x800'b18d   0x56  Code  Gb  System_Utility.o [5]
+Increment_GSM_rx_rd_index
+                         0x800'b40b   0x28  Code  Gb  GSM_Utility.o [9]
+Initiate_RSA_Key         0x800'fc1f   0x1c  Code  Gb  RSA_Cryptographic.o [15]
+Internal_Battery_sumation_value
+                        0x2000'1d04    0x4  Data  Gb  ADC_Config.o [1]
+KX023                   0x2000'1bd0   0x1c  Data  Gb  KX023.o [2]
+KX023_Config             0x801'0c17   0x8a  Code  Gb  KX023.o [2]
+KX023_EXTI_Config        0x801'08ed    0x2  Code  Gb  KX023.o [2]
+KX023_INT1_Handle        0x801'0b17    0x2  Code  Gb  KX023.o [2]
+KX023_INT_Disable        0x801'093d   0x8c  Code  Gb  KX023.o [2]
+KX023_Measure_On         0x801'0ae1   0x36  Code  Gb  KX023.o [2]
+KX023_Set_BW_RATE        0x801'09c9   0x26  Code  Gb  KX023.o [2]
+KX023_Set_FIFO_ctl       0x801'0a5d   0x84  Code  Gb  KX023.o [2]
+KX023_Set_Output_rate    0x801'09ef   0x16  Code  Gb  KX023.o [2]
+KX023_Set_Range_Resolution
+                         0x801'0a05   0x58  Code  Gb  KX023.o [2]
+KX023_Standby            0x801'0907   0x36  Code  Gb  KX023.o [2]
+KX023_Who_AM_I           0x801'08ef   0x18  Code  Gb  KX023.o [2]
+KX023_read_raw_data      0x801'0bbb   0x5c  Code  Gb  KX023.o [2]
+KX023_startup_calibration
+                         0x801'0b19   0xa2  Code  Gb  KX023.o [2]
+LED_Control_LEDs         0x800'7ce5  0x898  Code  Gb  LEDs.o [18]
+LED_change_mode          0x800'7909  0x3aa  Code  Gb  LEDs.o [18]
+Last_Time_of_Device_detached_Flag_has_been_activated
+                        0x2000'1e00    0x1  Data  Gb  dev_attachment.o [2]
+Little_endian_data       0x800'a4c5   0x22  Code  Gb  sip_protocol.o [14]
+NMI_Handler              0x801'9ad5   0x24  Code  Gb  System_Interrupts.o [5]
+NewStart_flag           0x2000'1df9    0x1  Data  Gb  dev_attachment.o [2]
+New_x_sample_that_must_analyze
+                        0x2000'1d9a    0x2  Data  Gb  dev_attachment.o [2]
+New_y_sample_that_must_analyze
+                        0x2000'1d9c    0x2  Data  Gb  dev_attachment.o [2]
+New_z_sample_that_must_analyze
+                        0x2000'1d9e    0x2  Data  Gb  dev_attachment.o [2]
+Odo_max_speed           0x2000'1e32    0x1  Data  Gb  sip_protocol.o [14]
+Odo_travelled_distance  0x2000'1d4c    0x4  Data  Gb  sip_protocol.o [14]
+OnePPS_EXTI_Callback     0x801'2a9d  0x3f4  Code  Gb  GPS.o [8]
+OneSec_Timer_Init        0x801'495d   0x56  Code  Gb  System_Timers.o [18]
+OneSec_handler           0x801'4ac9  0x500  Code  Gb  System_Timers.o [18]
+PRE_Device_detached_Flag
+                        0x2000'1df4    0x1  Data  Gb  dev_attachment.o [2]
+PT_compute_Firmware_CRC16
+                         0x800'a721  0x132  Code  Gb  sip_protocol.o [14]
+PT_generate_firmware_MD5
+                         0x800'a611   0xca  Code  Gb  sip_protocol.o [14]
+PT_send_sms_panel_information
+                         0x800'a46d   0x4c  Code  Gb  sip_protocol.o [14]
+PT_test_login_packet_is_created
+                        0x2000'1e4f    0x1  Data  Gb  sip_protocol.o [14]
+PT_test_server_sipaad_login
+                        0x2000'1e4e    0x1  Data  Gb  sip_protocol.o [14]
+PendSV_Handler           0x800'b3bf         Code  Wk  startup_stm32g070xx.o [17]
+Previous_X_axis         0x2000'1da0    0x2  Data  Gb  dev_attachment.o [2]
+Previous_Y_axis         0x2000'1da2    0x2  Data  Gb  dev_attachment.o [2]
+Previous_Z_axis         0x2000'1da4    0x2  Data  Gb  dev_attachment.o [2]
+RCC_IRQHandler           0x800'd957         Code  Wk  startup_stm32g070xx.o [17]
+RMC_Message             0x2000'1b8c   0x24  Data  Gb  GPS.o [8]
+RSASSA_PSS_OID           0x801'b0f0    0xc  Data  Gb  rsa.o [13]
+RSA_ENCRYPTION_OID       0x801'b0e4    0xc  Data  Gb  rsa.o [13]
+RTC_Months              0x2000'0110   0x18  Data  Gb  GPS.o [8]
+RTC_TAMP_IRQHandler      0x800'd3a3         Code  Wk  startup_stm32g070xx.o [17]
+Record_Production        0x800'8d89  0x504  Code  Gb  sip_protocol.o [14]
+Region$$Table$$Base      0x801'a2fc          --   Gb  - Linker created -
+Region$$Table$$Limit     0x801'a31c          --   Gb  - Linker created -
+Reset_Handler            0x801'adb1         Code  Wk  startup_stm32g070xx.o [17]
+Reset_bit                0x800'b285   0x10  Code  Gb  System_Utility.o [5]
+Rx_line_buffer          0x2000'167c  0x160  Data  Gb  GSM_Utility.o [9]
+SCL_Delay                0x801'56ed   0x14  Code  Gb  accel_i2c.o [2]
+SIP_Check_Digit          0x800'95a1   0x34  Code  Gb  sip_protocol.o [14]
+SIP_Create_Server_Packet
+                         0x800'9611  0x4b8  Code  Gb  sip_protocol.o [14]
+SIP_Manage_Requests_Records
+                         0x800'92bd  0x154  Code  Gb  sip_protocol.o [14]
+SIP_Sending_Packet_to_the_server_process
+                         0x800'942d  0x15e  Code  Gb  sip_protocol.o [14]
+SIP_parse_server_response
+                         0x800'9af1  0x968  Code  Gb  sip_protocol.o [14]
+SMS_Request_ptr         0x2000'01dc   0x24  Data  Gb  SMS_Process.o [9]
+SMS_Response_ptr        0x2000'0200   0x24  Data  Gb  SMS_Process.o [9]
+SMS_Validate_Message     0x801'437d   0xae  Code  Gb  SMS_Process.o [9]
+SMS_Validate_Message_resp
+                         0x801'442d    0x4  Code  Gb  SMS_Process.o [9]
+SMS_check_unread_message
+                         0x801'45f5    0xc  Code  Gb  SMS_Process.o [9]
+SMS_check_unread_message_resp
+                         0x801'460d   0x68  Code  Gb  SMS_Process.o [9]
+SMS_content             0x2000'1a14   0x80  Data  Gb  SMS_Process.o [9]
+SMS_content_length      0x2000'1e56    0x1  Data  Gb  SMS_Process.o [9]
+SMS_create_cmd_info_content
+                         0x801'367d  0xb74  Code  Gb  SMS_Process.o [9]
+SMS_delete_all_message   0x801'4679    0xc  Code  Gb  SMS_Process.o [9]
+SMS_delete_all_message_resp
+                         0x801'468d   0x1a  Code  Gb  SMS_Process.o [9]
+SMS_delete_message       0x801'4545   0x82  Code  Gb  SMS_Process.o [9]
+SMS_delete_message_resp
+                         0x801'45d5   0x1a  Code  Gb  SMS_Process.o [9]
+SMS_extract_SMS_content
+                         0x801'2f45   0x5e  Code  Gb  SMS_Process.o [9]
+SMS_extract_phone_number
+                         0x801'2efd   0x48  Code  Gb  SMS_Process.o [9]
+SMS_find_CMD_code        0x801'30b5  0x106  Code  Gb  SMS_Process.o [9]
+SMS_increment_read_index
+                         0x801'41f9   0x16  Code  Gb  SMS_Process.o [9]
+SMS_next_stage          0x2000'1e5b    0x1  Data  Gb  SMS_Process.o [9]
+SMS_parse_CMD            0x801'3209  0x456  Code  Gb  SMS_Process.o [9]
+SMS_parse_short_message
+                         0x801'2fa3  0x10c  Code  Gb  SMS_Process.o [9]
+SMS_phone_num_length    0x2000'1e55    0x1  Data  Gb  SMS_Process.o [9]
+SMS_phone_number        0x2000'1bb0   0x20  Data  Gb  SMS_Process.o [9]
+SMS_pre_send             0x801'445f   0x72  Code  Gb  SMS_Process.o [9]
+SMS_pre_send_resp        0x801'44d9   0x1a  Code  Gb  SMS_Process.o [9]
+SMS_read_message         0x801'4231   0x86  Code  Gb  SMS_Process.o [9]
+SMS_read_message_resp    0x801'42d5   0x94  Code  Gb  SMS_Process.o [9]
+SMS_seek_OK              0x801'46a9    0x4  Code  Gb  SMS_Process.o [9]
+SMS_seek_OK_resp         0x801'46ad   0x1a  Code  Gb  SMS_Process.o [9]
+SMS_send_buffer         0x2000'17dc  0x12c  Data  Gb  SMS_Process.o [9]
+SMS_send_content         0x801'44f3   0x1a  Code  Gb  SMS_Process.o [9]
+SMS_send_content_resp    0x801'4511   0x20  Code  Gb  SMS_Process.o [9]
+SMS_set_Format           0x801'4431    0xc  Code  Gb  SMS_Process.o [9]
+SMS_set_Format_resp      0x801'4445   0x1a  Code  Gb  SMS_Process.o [9]
+SMS_stage               0x2000'1e5a    0x1  Data  Gb  SMS_Process.o [9]
+SMS_stage_action        0x2000'1e59    0x1  Data  Gb  SMS_Process.o [9]
+SMS_stage_number_of_retries
+                        0x2000'1e5c    0x1  Data  Gb  SMS_Process.o [9]
+SPI1_IRQHandler          0x801'9abb         Code  Wk  startup_stm32g070xx.o [17]
+SPI2_IRQHandler          0x801'a2df         Code  Wk  startup_stm32g070xx.o [17]
+SPIF_Erase_Sector        0x800'cfa5   0x3e  Code  Gb  SPIF_Driver.o [16]
+SPIF_Erase_Security_Register
+                         0x800'cfe3   0x3a  Code  Gb  SPIF_Driver.o [16]
+SPIF_Erase_certificates
+                         0x800'8969   0x40  Code  Gb  SPIF.o [16]
+SPIF_Program_Security_Register
+                         0x800'd01d   0x5c  Code  Gb  SPIF_Driver.o [16]
+SPIF_Read                0x800'cd71   0x40  Code  Gb  SPIF_Driver.o [16]
+SPIF_ReadID              0x800'cc55   0x3e  Code  Gb  SPIF_Driver.o [16]
+SPIF_Read_SR             0x800'cce7   0x24  Code  Gb  SPIF_Driver.o [16]
+SPIF_Read_Security_Register
+                         0x800'd079   0x5a  Code  Gb  SPIF_Driver.o [16]
+SPIF_Read_sys_temp_params
+                         0x800'8707   0x2a  Code  Gb  SPIF.o [16]
+SPIF_SR_Volatile_Write_Enable
+                         0x800'cca9   0x16  Code  Gb  SPIF_Driver.o [16]
+SPIF_Save_Cert_size      0x800'8943   0x26  Code  Gb  SPIF.o [16]
+SPIF_Save_FW_chunk       0x800'87b9   0xa2  Code  Gb  SPIF.o [16]
+SPIF_Wait_Busy           0x800'cd5f   0x12  Code  Gb  SPIF_Driver.o [16]
+SPIF_Write_Enable        0x800'cc93   0x16  Code  Gb  SPIF_Driver.o [16]
+SPIF_Write_Page          0x800'cdb1   0x48  Code  Gb  SPIF_Driver.o [16]
+SPIF_Write_Page_Continous
+                         0x800'cf33   0x72  Code  Gb  SPIF_Driver.o [16]
+SPIF_Write_SR_Volatile   0x800'ccbf   0x28  Code  Gb  SPIF_Driver.o [16]
+SPIF_Write_Sector        0x800'ce01   0xb8  Code  Gb  SPIF_Driver.o [16]
+SPIF_Write_address_without_erase
+                         0x800'ceb9   0x7a  Code  Gb  SPIF_Driver.o [16]
+SPIF_Write_sys_temp_params
+                         0x800'86f7   0x10  Code  Gb  SPIF.o [16]
+SPIF_cfg_chip            0x800'85e9   0x14  Code  Gb  SPIF.o [16]
+SPIF_cfg_spi             0x801'51e5  0x102  Code  Gb  SPIF_spi.o [16]
+SPIF_device_ID          0x2000'1de4    0x2  Data  Gb  SPIF.o [16]
+SPIF_enable_RST_Pin      0x800'cd0b   0x24  Code  Gb  SPIF_Driver.o [16]
+SPIF_enable_full_read_strength
+                         0x800'cd2f   0x30  Code  Gb  SPIF_Driver.o [16]
+SPIF_read_SPIx_DMA       0x801'534d  0x190  Code  Gb  SPIF_spi.o [16]
+SPIF_read_certificate_file
+                         0x800'875b   0x24  Code  Gb  SPIF.o [16]
+SPIF_read_certificate_file_size
+                         0x800'8731   0x2a  Code  Gb  SPIF.o [16]
+SPIF_read_setting        0x800'860f   0x2e  Code  Gb  SPIF.o [16]
+SPIF_read_system_IMEI    0x800'863d   0x64  Code  Gb  SPIF.o [16]
+SPIF_read_system_serial
+                         0x800'86a1   0x56  Code  Gb  SPIF.o [16]
+SPIF_save_HTTP_file_chunk
+                         0x800'885b   0xe8  Code  Gb  SPIF.o [16]
+SPIF_spi_counter        0x2000'1de6    0x2  Data  Gb  SPIF_spi.o [16]
+SPIF_write_SPIx_DMA      0x801'5505   0xf6  Code  Gb  SPIF_spi.o [16]
+SPIF_write_setting       0x800'85fd   0x12  Code  Gb  SPIF.o [16]
+SPIx_ReadWriteByte       0x801'52e7   0x3a  Code  Gb  SPIF_spi.o [16]
+SSL_Activate_FGCNT       0x800'eff5    0xc  Code  Gb  SSL_Process.o [9]
+SSL_Activate_FGCNT_resp
+                         0x800'f001   0x1a  Code  Gb  SSL_Process.o [9]
+SSL_CIPSHUT              0x800'f5d7    0xc  Code  Gb  SSL_Process.o [9]
+SSL_CIPSHUT_resp         0x800'f5f9   0x54  Code  Gb  SSL_Process.o [9]
+SSL_Close_Socket         0x800'f591    0xc  Code  Gb  SSL_Process.o [9]
+SSL_Close_Socket_resp    0x800'f59d   0x3a  Code  Gb  SSL_Process.o [9]
+SSL_Connect_GPRS         0x800'efcb    0xc  Code  Gb  SSL_Process.o [9]
+SSL_Connect_GPRS_resp    0x800'efd7   0x1a  Code  Gb  SSL_Process.o [9]
+SSL_Disable_GSM_Power    0x800'e35d   0x2c  Code  Gb  SSL_Process.o [9]
+SSL_Disable_GSM_Power_resp
+                         0x800'e389    0x4  Code  Gb  SSL_Process.o [9]
+SSL_Enable_GSM_Power     0x800'e38d   0x1a  Code  Gb  SSL_Process.o [9]
+SSL_Enable_GSM_Power_resp
+                         0x800'e3a9    0x4  Code  Gb  SSL_Process.o [9]
+SSL_Module_OFF           0x800'e3ad   0x1e  Code  Gb  SSL_Process.o [9]
+SSL_Module_OFF_resp      0x800'e3cd    0x4  Code  Gb  SSL_Process.o [9]
+SSL_Module_ON            0x800'e3d1   0x40  Code  Gb  SSL_Process.o [9]
+SSL_Module_ON_resp       0x800'e411    0x4  Code  Gb  SSL_Process.o [9]
+SSL_Open_Socket          0x800'f215   0xee  Code  Gb  SSL_Process.o [9]
+SSL_Open_Socket_resp     0x800'f321   0xb8  Code  Gb  SSL_Process.o [9]
+SSL_Pre_send_Data        0x800'f3e1   0x66  Code  Gb  SSL_Process.o [9]
+SSL_Pre_send_Data_resp   0x800'f447   0x1a  Code  Gb  SSL_Process.o [9]
+SSL_Query_GPRS_attachment
+                         0x800'e851    0xc  Code  Gb  SSL_Process.o [9]
+SSL_Query_GPRS_attachment_resp
+                         0x800'e865   0x50  Code  Gb  SSL_Process.o [9]
+SSL_Read_server_response
+                         0x800'f4ed   0x10  Code  Gb  SSL_Process.o [9]
+SSL_Read_server_response_resp
+                         0x800'f50d   0x84  Code  Gb  SSL_Process.o [9]
+SSL_Receive_Server_response
+                         0x800'f4ad    0x4  Code  Gb  SSL_Process.o [9]
+SSL_Receive_Server_response_resp
+                         0x800'f4b1   0x36  Code  Gb  SSL_Process.o [9]
+SSL_Request_ptr         0x2000'0224   0xec  Data  Gb  SSL_Process.o [9]
+SSL_Response_ptr        0x2000'0310   0xec  Data  Gb  SSL_Process.o [9]
+SSL_Send_Data            0x800'f465    0xe  Code  Gb  SSL_Process.o [9]
+SSL_Send_Data_resp       0x800'f479   0x2e  Code  Gb  SSL_Process.o [9]
+SSL_cfg_APN              0x800'efa9    0x8  Code  Gb  SSL_Process.o [9]
+SSL_cfg_APN_resp         0x800'efb1   0x1a  Code  Gb  SSL_Process.o [9]
+SSL_cfg_CREG             0x800'e50f    0xc  Code  Gb  SSL_Process.o [9]
+SSL_cfg_CREG_resp        0x800'e51b   0x16  Code  Gb  SSL_Process.o [9]
+SSL_cfg_Call_Carrier     0x800'e5c3    0xc  Code  Gb  SSL_Process.o [9]
+SSL_cfg_Call_Carrier_resp
+                         0x800'e5d9   0x1c  Code  Gb  SSL_Process.o [9]
+SSL_cfg_GPRS_attachment
+                         0x800'e8b5    0xc  Code  Gb  SSL_Process.o [9]
+SSL_cfg_GPRS_attachment_resp
+                         0x800'e8c9   0x1a  Code  Gb  SSL_Process.o [9]
+SSL_cfg_MUX              0x800'e825    0xc  Code  Gb  SSL_Process.o [9]
+SSL_cfg_MUX_resp         0x800'e831   0x1a  Code  Gb  SSL_Process.o [9]
+SSL_cfg_RI               0x800'e597    0xc  Code  Gb  SSL_Process.o [9]
+SSL_cfg_RI_resp          0x800'e5ad   0x16  Code  Gb  SSL_Process.o [9]
+SSL_cfg_SMS_URC          0x800'e575    0xc  Code  Gb  SSL_Process.o [9]
+SSL_cfg_SMS_URC_resp     0x800'e581   0x16  Code  Gb  SSL_Process.o [9]
+SSL_cfg_SMS_memory       0x800'e5f5    0xc  Code  Gb  SSL_Process.o [9]
+SSL_cfg_SMS_memory_resp
+                         0x800'e60d   0x42  Code  Gb  SSL_Process.o [9]
+SSL_cfg_SMS_mode         0x800'e553    0xc  Code  Gb  SSL_Process.o [9]
+SSL_cfg_SMS_mode_resp    0x800'e55f   0x16  Code  Gb  SSL_Process.o [9]
+SSL_cfg_URC              0x800'e531    0xc  Code  Gb  SSL_Process.o [9]
+SSL_cfg_URC_resp         0x800'e53d   0x16  Code  Gb  SSL_Process.o [9]
+SSL_cfg_foreground_context
+                         0x800'e791    0xc  Code  Gb  SSL_Process.o [9]
+SSL_cfg_foreground_context_resp
+                         0x800'e7a1   0x1a  Code  Gb  SSL_Process.o [9]
+SSL_cfg_ssl_CA_cer       0x800'f19d    0xc  Code  Gb  SSL_Process.o [9]
+SSL_cfg_ssl_CA_cer_resp
+                         0x800'f1a9   0x1a  Code  Gb  SSL_Process.o [9]
+SSL_cfg_ssl_CC_cer       0x800'f1c3    0xc  Code  Gb  SSL_Process.o [9]
+SSL_cfg_ssl_CC_cer_resp
+                         0x800'f1cf   0x1a  Code  Gb  SSL_Process.o [9]
+SSL_cfg_ssl_CK_cer       0x800'f1e9    0xc  Code  Gb  SSL_Process.o [9]
+SSL_cfg_ssl_CK_cer_resp
+                         0x800'f1f5   0x1a  Code  Gb  SSL_Process.o [9]
+SSL_cfg_ssl_cipher       0x800'f127    0xc  Code  Gb  SSL_Process.o [9]
+SSL_cfg_ssl_cipher_resp
+                         0x800'f133   0x1a  Code  Gb  SSL_Process.o [9]
+SSL_cfg_ssl_ignore_time
+                         0x800'f177    0xc  Code  Gb  SSL_Process.o [9]
+SSL_cfg_ssl_ignore_time_resp
+                         0x800'f183   0x1a  Code  Gb  SSL_Process.o [9]
+SSL_cfg_ssl_sec_lvl      0x800'f14d    0xc  Code  Gb  SSL_Process.o [9]
+SSL_cfg_ssl_sec_lvl_resp
+                         0x800'f15d   0x1a  Code  Gb  SSL_Process.o [9]
+SSL_cfg_ssl_version      0x800'f101    0xc  Code  Gb  SSL_Process.o [9]
+SSL_cfg_ssl_version_resp
+                         0x800'f10d   0x1a  Code  Gb  SSL_Process.o [9]
+SSL_check_cer_file_stages
+                         0x800'f67d   0x3a  Code  Gb  SSL_Process.o [9]
+SSL_delete_RAM_CA0_file
+                         0x800'ea3d    0xc  Code  Gb  SSL_Process.o [9]
+SSL_delete_RAM_CA0_file_resp
+                         0x800'ea49   0x1a  Code  Gb  SSL_Process.o [9]
+SSL_delete_RAM_CC0_file
+                         0x800'ea63    0xc  Code  Gb  SSL_Process.o [9]
+SSL_delete_RAM_CC0_file_resp
+                         0x800'ea75   0x1a  Code  Gb  SSL_Process.o [9]
+SSL_delete_RAM_CK0_file
+                         0x800'ea8f    0xc  Code  Gb  SSL_Process.o [9]
+SSL_delete_RAM_CK0_file_resp
+                         0x800'eaa1   0x1a  Code  Gb  SSL_Process.o [9]
+SSL_disable_echo         0x800'e4cb    0xc  Code  Gb  SSL_Process.o [9]
+SSL_disable_echo_resp    0x800'e4d7   0x16  Code  Gb  SSL_Process.o [9]
+SSL_enable_CME_ERROR     0x800'e4ed    0xc  Code  Gb  SSL_Process.o [9]
+SSL_enable_CME_ERROR_resp
+                         0x800'e4f9   0x16  Code  Gb  SSL_Process.o [9]
+SSL_pre_upload_RAM_CA0_file
+                         0x800'eac5   0xd8  Code  Gb  SSL_Process.o [9]
+SSL_pre_upload_RAM_CA0_file_resp
+                         0x800'eb9d   0x1a  Code  Gb  SSL_Process.o [9]
+SSL_pre_upload_RAM_CC0_file
+                         0x800'ebc9   0xd8  Code  Gb  SSL_Process.o [9]
+SSL_pre_upload_RAM_CC0_file_resp
+                         0x800'eca5   0x1a  Code  Gb  SSL_Process.o [9]
+SSL_pre_upload_RAM_CK0_file
+                         0x800'ecc5   0xd8  Code  Gb  SSL_Process.o [9]
+SSL_pre_upload_RAM_CK0_file_resp
+                         0x800'eda1   0x1a  Code  Gb  SSL_Process.o [9]
+SSL_query_CPIN           0x800'e6a1    0xc  Code  Gb  SSL_Process.o [9]
+SSL_query_CPIN_resp      0x800'e6b1   0x20  Code  Gb  SSL_Process.o [9]
+SSL_query_CSQ            0x800'e70d    0xc  Code  Gb  SSL_Process.o [9]
+SSL_query_CSQ_resp       0x800'e719   0x10  Code  Gb  SSL_Process.o [9]
+SSL_query_IMEI           0x800'e681    0xc  Code  Gb  SSL_Process.o [9]
+SSL_query_IMEI_resp      0x800'e691   0x10  Code  Gb  SSL_Process.o [9]
+SSL_query_IMSI           0x800'e6ed    0xc  Code  Gb  SSL_Process.o [9]
+SSL_query_IMSI_resp      0x800'e6fd   0x10  Code  Gb  SSL_Process.o [9]
+SSL_query_Local_IP       0x800'f01b    0xc  Code  Gb  SSL_Process.o [9]
+SSL_query_Local_IP_resp
+                         0x800'f02d   0xce  Code  Gb  SSL_Process.o [9]
+SSL_query_MUX            0x800'e7bb    0xc  Code  Gb  SSL_Process.o [9]
+SSL_query_MUX_resp       0x800'e7d1   0x50  Code  Gb  SSL_Process.o [9]
+SSL_query_RAM_CA0_file   0x800'e8ff    0xc  Code  Gb  SSL_Process.o [9]
+SSL_query_RAM_CA0_file_resp
+                         0x800'e91d   0x50  Code  Gb  SSL_Process.o [9]
+SSL_query_RAM_CC0_file   0x800'e96d    0xc  Code  Gb  SSL_Process.o [9]
+SSL_query_RAM_CC0_file_resp
+                         0x800'e985   0x50  Code  Gb  SSL_Process.o [9]
+SSL_query_RAM_CK0_file   0x800'e9d9    0xc  Code  Gb  SSL_Process.o [9]
+SSL_query_RAM_CK0_file_resp
+                         0x800'e9ed   0x50  Code  Gb  SSL_Process.o [9]
+SSL_query_current_connection_Status
+                         0x800'e8e3    0xc  Code  Gb  SSL_Process.o [9]
+SSL_query_current_connection_Status_resp
+                         0x800'e8ef   0x10  Code  Gb  SSL_Process.o [9]
+SSL_query_foreground_context
+                         0x800'e729    0xc  Code  Gb  SSL_Process.o [9]
+SSL_query_foreground_context_resp
+                         0x800'e73d   0x50  Code  Gb  SSL_Process.o [9]
+SSL_query_network        0x800'e6d1    0xc  Code  Gb  SSL_Process.o [9]
+SSL_query_network_resp   0x800'e6dd   0x10  Code  Gb  SSL_Process.o [9]
+SSL_reset_module         0x800'e415   0x46  Code  Gb  SSL_Process.o [9]
+SSL_reset_module_resp    0x800'e45b   0x1a  Code  Gb  SSL_Process.o [9]
+SSL_save_setting         0x800'e64f    0xc  Code  Gb  SSL_Process.o [9]
+SSL_save_setting_resp    0x800'e665   0x1c  Code  Gb  SSL_Process.o [9]
+SSL_seek_OK              0x800'f64d    0x4  Code  Gb  SSL_Process.o [9]
+SSL_seek_OK_resp         0x800'f651   0x1a  Code  Gb  SSL_Process.o [9]
+SSL_test_serial_port     0x800'e475   0x22  Code  Gb  SSL_Process.o [9]
+SSL_test_serial_port_resp
+                         0x800'e497   0x34  Code  Gb  SSL_Process.o [9]
+SSL_upload_RAM_CA0_file
+                         0x800'edc9   0x38  Code  Gb  SSL_Process.o [9]
+SSL_upload_RAM_CA0_file_resp
+                         0x800'ee05   0x5e  Code  Gb  SSL_Process.o [9]
+SSL_upload_RAM_CC0_file
+                         0x800'ee75   0x38  Code  Gb  SSL_Process.o [9]
+SSL_upload_RAM_CC0_file_resp
+                         0x800'eeb5   0x5e  Code  Gb  SSL_Process.o [9]
+SSL_upload_RAM_CK0_file
+                         0x800'ef13   0x38  Code  Gb  SSL_Process.o [9]
+SSL_upload_RAM_CK0_file_resp
+                         0x800'ef4b   0x5e  Code  Gb  SSL_Process.o [9]
+SVC_Handler              0x800'85e7         Code  Wk  startup_stm32g070xx.o [17]
+SYS_cfg_Peripherals_RCC
+                         0x800'b1e9   0x54  Code  Gb  System_Utility.o [5]
+Sensor_traveled_distance
+                        0x2000'1d54    0x4  Data  Gb  sip_protocol.o [14]
+Set_bit                  0x800'b279    0xc  Code  Gb  System_Utility.o [5]
+Set_zero                 0x800'b261   0x18  Code  Gb  System_Utility.o [5]
+Sipaad_check_SPIF_Certs
+                         0x800'412f  0x120  Code  Gb  HTTP_Process.o [9]
+Software_version         0x801'a97c   0x14  Data  Gb  System_Utility.o [5]
+SysTick_Config           0x800'ad25   0x32  Code  Lc  System_Utility.o [5]
+SysTick_Handler          0x801'9aff    0x8  Code  Gb  System_Interrupts.o [5]
+Sys_cfg_clock_HSE        0x800'ae11  0x1cc  Code  Gb  System_Utility.o [5]
+Sys_cfg_clock_HSI        0x800'b02d  0x146  Code  Gb  System_Utility.o [5]
+SystemCoreClock         0x2000'03fc    0x4  Data  Gb  system_stm32g0xx.o [17]
+SystemInit               0x801'b4a9    0x2  Code  Gb  system_stm32g0xx.o [17]
+System_Config            0x800'ad57   0xa2  Code  Gb  System_Utility.o [5]
+System_Startup_Initiate
+                         0x800'8a7d   0x28  Code  Gb  sip_protocol.o [14]
+System_change_state      0x801'0d23   0x20  Code  Gb  system.o [14]
+System_check_errors      0x801'0d05   0x1e  Code  Gb  system.o [14]
+System_check_state       0x801'0ed7   0x34  Code  Gb  system.o [14]
+System_execute_change_state
+                         0x801'0d43  0x194  Code  Gb  system.o [14]
+TIM14_IRQHandler         0x801'7daf         Code  Wk  startup_stm32g070xx.o [17]
+TIM15_IRQHandler         0x801'885b         Code  Wk  startup_stm32g070xx.o [17]
+TIM16_IRQHandler         0x801'9417         Code  Wk  startup_stm32g070xx.o [17]
+TIM17_IRQHandler         0x801'94eb         Code  Wk  startup_stm32g070xx.o [17]
+TIM1_BRK_UP_TRG_COM_IRQHandler
+                         0x801'6ab3         Code  Wk  startup_stm32g070xx.o [17]
+TIM1_CC_IRQHandler       0x801'76ff         Code  Wk  startup_stm32g070xx.o [17]
+TIM3_IRQHandler          0x801'9b17    0x8  Code  Gb  System_Interrupts.o [5]
+TIM6_IRQHandler          0x801'9b07    0x8  Code  Gb  System_Interrupts.o [5]
+TIM7_IRQHandler          0x801'9b0f    0x8  Code  Gb  System_Interrupts.o [5]
+Tick_decrement           0x800'b295   0x76  Code  Gb  System_Utility.o [5]
+Time_Counter_of_new_detached_algoritm
+                        0x2000'1df6    0x1  Data  Gb  dev_attachment.o [2]
+Time_of_PRE_Device_detached_Flag
+                        0x2000'1df5    0x1  Data  Gb  dev_attachment.o [2]
+Time_of_car_has_been_turned_off
+                        0x2000'1dfe    0x1  Data  Gb  dev_attachment.o [2]
+Twentyfive_Hz_Timer_Init
+                         0x801'4a0b   0x56  Code  Gb  System_Timers.o [18]
+Twentyfive_Hz_handler    0x801'515d   0x1e  Code  Gb  System_Timers.o [18]
+USART1_IRQHandler        0x801'a2ef         Code  Wk  startup_stm32g070xx.o [17]
+USART2_IRQHandler        0x801'9b1f   0x4a  Code  Gb  System_Interrupts.o [5]
+USART3_4_IRQHandler      0x801'9b69   0x4a  Code  Gb  System_Interrupts.o [5]
+WWDG_IRQHandler          0x800'd383         Code  Wk  startup_stm32g070xx.o [17]
+_Ttotm_ts               0x2000'1b38   0x2c  Data  Lc  xttotm64.o [19]
+_Tzoff                   0x801'6357    0x4  Code  Gb  xTzoff_nop.o [19]
+__ICFEDIT_region_RAM_end__ {Abs}
+                        0x2000'8fff          --   Gb  <internal module>
+__ICFEDIT_region_RAM_start__ {Abs}
+                        0x2000'0100          --   Gb  <internal module>
+__NVIC_ClearPendingIRQ   0x801'5c21   0x18  Code  Lc  GPS_USART.o [8]
+__NVIC_ClearPendingIRQ   0x800'd0f5   0x18  Code  Lc  Module_USART.o [9]
+__NVIC_ClearPendingIRQ   0x801'9abd   0x18  Code  Lc  System_Interrupts.o [5]
+__NVIC_ClearPendingIRQ   0x801'48a5   0x18  Code  Lc  System_Timers.o [18]
+__NVIC_EnableIRQ         0x801'5c09   0x18  Code  Lc  GPS_USART.o [8]
+__NVIC_EnableIRQ         0x800'd0dd   0x18  Code  Lc  Module_USART.o [9]
+__NVIC_EnableIRQ         0x801'488d   0x18  Code  Lc  System_Timers.o [18]
+__NVIC_SetPriority       0x801'5c39   0x8c  Code  Lc  GPS_USART.o [8]
+__NVIC_SetPriority       0x800'd10d   0x8c  Code  Lc  Module_USART.o [9]
+__NVIC_SetPriority       0x801'48bd   0x8c  Code  Lc  System_Timers.o [18]
+__NVIC_SetPriority       0x800'ac85   0x8c  Code  Lc  System_Utility.o [5]
+__NVIC_SystemReset       0x800'8a69   0x14  Code  Lc  sip_protocol.o [14]
+__NVIC_SystemReset       0x801'2ee9   0x14  Code  Lc  SMS_Process.o [9]
+__NVIC_SystemReset       0x801'4949   0x14  Code  Lc  System_Timers.o [18]
+__NVIC_SystemReset       0x800'ad11   0x14  Code  Lc  System_Utility.o [5]
+__aeabi_cdcmple          0x801'97c9         Code  Gb  DblCmpLe.o [20]
+__aeabi_cfcmple          0x801'8835         Code  Gb  FltCmpLe.o [20]
+__aeabi_cfrcmple         0x801'885d         Code  Gb  FltCmpGe.o [20]
+__aeabi_d2f              0x800'fbbd         Code  Gb  DblToFlt.o [20]
+__aeabi_d2iz             0x801'97fd         Code  Gb  DblToI32.o [20]
+__aeabi_d2uiz            0x801'9821         Code  Gb  DblToI32.o [20]
+__aeabi_dadd             0x801'7ea5         Code  Gb  DblAddSub.o [20]
+__aeabi_ddiv             0x801'7de3         Code  Gb  DblDiv.o [20]
+__aeabi_dmul             0x800'fa39         Code  Gb  DblMul.o [20]
+__aeabi_dsub             0x801'7f6b         Code  Gb  DblAddSub.o [20]
+__aeabi_f2d              0x801'7db1         Code  Gb  FltToDbl.o [20]
+__aeabi_f2iz             0x800'd8f5         Code  Gb  FltToS32.o [20]
+__aeabi_f2uiz            0x800'd931         Code  Gb  FltToU32.o [20]
+__aeabi_fadd             0x801'8059         Code  Gb  FltAddSub.o [20]
+__aeabi_fdiv             0x800'f8b1         Code  Gb  FltDiv.o [20]
+__aeabi_fmul             0x800'f955         Code  Gb  FltMul.o [20]
+__aeabi_fsub             0x801'80c9         Code  Gb  FltAddSub.o [20]
+__aeabi_i2d              0x800'fa25         Code  Gb  IxxToDbl.o [20]
+__aeabi_i2f              0x801'7d99         Code  Gb  IxxToFlt.o [20]
+__aeabi_idiv             0x800'cb47         Code  Gb  I32DivModFast.o [21]
+__aeabi_idiv0            0x801'6355         Code  Gb  IntDivZer.o [21]
+__aeabi_idivmod          0x800'cb47         Code  Gb  I32DivModFast.o [21]
+__aeabi_ldiv0            0x801'9415         Code  Gb  I64DivZer.o [21]
+__aeabi_ldivmod          0x801'6279         Code  Gb  I64DivMod.o [21]
+__aeabi_lmul             0x800'd351         Code  Gb  I64Mul.o [21]
+__aeabi_memcpy           0x800'b3a5         Code  Gb  ABImemcpy.o [21]
+__aeabi_memcpy4          0x800'b371         Code  Gb  ABImemcpy.o [21]
+__aeabi_memcpy8          0x800'b371         Code  Gb  ABImemcpy.o [21]
+__aeabi_memset           0x800'8599         Code  Gb  ABImemset.o [21]
+__aeabi_ui2d             0x800'fa05         Code  Gb  IxxToDbl.o [20]
+__aeabi_ui2f             0x801'7d79         Code  Gb  IxxToFlt.o [20]
+__aeabi_uidiv            0x800'cb4d         Code  Gb  I32DivModFast.o [21]
+__aeabi_uidivmod         0x800'cb4d         Code  Gb  I32DivModFast.o [21]
+__aeabi_ul2f             0x801'7d51         Code  Gb  IxxToFlt.o [20]
+__aeabi_uldivmod         0x801'62b7         Code  Gb  I64DivMod.o [21]
+__aeabi_uread4           0x800'cb05         Code  Gb  uread4.o [21]
+__aeabi_uwrite4          0x800'd8e1         Code  Gb  uwrite4.o [21]
+__basic_free             0x801'77b1   0x16  Code  Gb  heap0.o [19]
+__basic_free_intern      0x801'77c7   0x76  Code  Lc  heap0.o [19]
+__basic_malloc           0x801'7701   0x18  Code  Gb  heap0.o [19]
+__basic_malloc_intern    0x801'7719   0x98  Code  Lc  heap0.o [19]
+__cmain                  0x801'a2b1         Code  Gb  cmain.o [21]
+__data_GetMemChunk       0x801'979d   0x2c  Code  Gb  xgetmemchunk.o [19]
+__data_GetMemChunk::start
+                        0x2000'1d7c    0x4  Data  Lc  xgetmemchunk.o [19]
+__exit                   0x801'a2f1         Code  Gb  XXexit.o [21]
+__iar_Atan64             0x801'9851  0x228  Code  Gb  iar_Atan64.o [20]
+__iar_Daysto64           0x801'9445   0x6c  Code  Gb  xDaysTo64.o [19]
+__iar_Isdst64            0x801'94e5    0x6  Code  Gb  xisdst_nop64.o [19]
+__iar_Memcpy             0x800'b3b1         Code  Gb  ABImemcpy.o [21]
+__iar_Memset4_word       0x800'85b9         Code  Gb  ABImemset.o [21]
+__iar_Memset_word        0x800'85a5         Code  Gb  ABImemset.o [21]
+__iar_MonTab64           0x801'9419   0x2c  Code  Gb  xDaysTo64.o [19]
+__iar_Sin64              0x801'8179  0x3c8  Code  Lc  cos_sin64.o [20]
+__iar_Strchr             0x801'64e5         Code  Gb  strchr.o [21]
+__iar_Ttotm64            0x801'635d  0x188  Code  Gb  xttotm64.o [19]
+__iar_atan2_64           0x801'85c5  0x1a8  Code  Gb  atan2_64.o [20]
+__iar_cos64              0x801'85b1    0xa  Code  Gb  cos_sin64.o [20]
+__iar_cos_medium         0x801'85b1    0xa  Code  Gb  cos_sin64.o [20]
+__iar_cos_medium64       0x801'85b1    0xa  Code  Gb  cos_sin64.o [20]
+__iar_cos_mediuml        0x801'85b1    0xa  Code  Gb  cos_sin64.o [20]
+__iar_d2uiz              0x801'9825         Code  Gb  DblToI32.o [20]
+__iar_data_init3         0x801'a21d   0x28  Code  Gb  data_init.o [21]
+__iar_lz77_init_single3
+                         0x801'9da1   0x80  Code  Gb  lz77_init_single.o [21]
+__iar_program_start      0x801'a545         Code  Gb  cstartup_M.o [21]
+__iar_sin64              0x801'85bb    0xa  Code  Gb  cos_sin64.o [20]
+__iar_sin_medium         0x801'85bb    0xa  Code  Gb  cos_sin64.o [20]
+__iar_sin_medium64       0x801'85bb    0xa  Code  Gb  cos_sin64.o [20]
+__iar_sin_mediuml        0x801'85bb    0xa  Code  Gb  cos_sin64.o [20]
+__iar_sqrt64             0x801'876d         Code  Gb  sqrt.o [20]
+__iar_zero_init3         0x801'9fd9   0x3c  Code  Gb  zero_init3.o [21]
+__localtime64            0x800'cbfb   0x1e  Code  Gb  localtim64.o [19]
+__low_level_init         0x801'a2d3    0x4  Code  Gb  low_level_init.o [19]
+__vector_table           0x800'4000         Data  Gb  startup_stm32g070xx.o [17]
+_call_main               0x801'a2bd         Code  Gb  cmain.o [21]
+_exit                    0x801'a2e1         Code  Gb  cexit.o [21]
+_exit_2                  0x801'a2e5         Code  Gb  cexit_2.o [21]
+a                        0x801'9ea8   0x40  Data  Lc  iar_Atan64.o [20]
+abs                      0x801'882d    0x8  Code  Wk  abs.o [19]
+accel_500ms_window_counter
+                        0x2000'1df1    0x1  Data  Gb  dev_attachment.o [2]
+accel_idle_detection_counter
+                        0x2000'1d82    0x2  Data  Gb  dev_attachment.o [2]
+accel_idle_x_detection_counter
+                        0x2000'1ded    0x1  Data  Gb  dev_attachment.o [2]
+accel_idle_y_detection_counter
+                        0x2000'1dee    0x1  Data  Gb  dev_attachment.o [2]
+accel_idle_z_detection_counter
+                        0x2000'1def    0x1  Data  Gb  dev_attachment.o [2]
+accel_move_detection_counter
+                        0x2000'1d80    0x2  Data  Gb  dev_attachment.o [2]
+accident_detection_counter
+                        0x2000'1df0    0x1  Data  Gb  dev_attachment.o [2]
+activate_record_production
+                        0x2000'0404    0x1  Data  Gb  sip_protocol.o [14]
+api_interval_counter    0x2000'1dc0    0x2  Data  Gb  HTTP_Process.o [9]
+asn1CheckOid             0x801'96ef   0x3c  Code  Gb  asn1.o [6]
+asn1CheckTag             0x801'96c9   0x26  Code  Gb  asn1.o [6]
+asn1DumpObject           0x801'972b    0x6  Code  Gb  asn1.o [6]
+asn1ReadSequence         0x801'9699   0x30  Code  Gb  asn1.o [6]
+asn1ReadTag              0x801'95b9   0xe0  Code  Gb  asn1.o [6]
+atan2                    0x801'85c5  0x1a8  Code  Gb  atan2_64.o [20]
+atan2l                   0x801'85c5  0x1a8  Code  Gb  atan2_64.o [20]
+average_iteration       0x2000'1dec    0x1  Data  Gb  ADC_Config.o [1]
+base64DecTable           0x801'9d20   0x80  Data  Lc  base64.o [6]
+base64Decode             0x801'94ed   0xc4  Code  Gb  base64.o [6]
+bluetooth_device_count  0x2000'1e53    0x1  Data  Gb  sip_protocol.o [14]
+bluetooth_mac_addr      0x2000'1ad0   0x3c  Data  Gb  sip_protocol.o [14]
+cfg_timeout_counter     0x2000'1dea    0x2  Data  Gb  System_Utility.o [5]
+change_record_production
+                        0x2000'1e2b    0x1  Data  Gb  sip_protocol.o [14]
+check_location_jump     0x2000'1e05    0x1  Data  Gb  GPS.o [8]
+check_server_certificates_and_fwu
+                        0x2000'1e4b    0x1  Data  Gb  sip_protocol.o [14]
+check_server_ok_after_gps_fix
+                        0x2000'1e49    0x1  Data  Gb  sip_protocol.o [14]
+check_startup_server_ok
+                         0x800'8c3b   0x50  Code  Gb  sip_protocol.o [14]
+check_updating_timeunix
+                        0x2000'1e09    0x1  Data  Gb  GPS.o [8]
+check_vehicle_idle      0x2000'1e46    0x1  Data  Gb  sip_protocol.o [14]
+compareArray             0x800'd863   0x1e  Code  Gb  general_functions.o [5]
+convert_char_to_int      0x800'b531    0x6  Code  Gb  GSM_Utility.o [9]
+convert_int_to_char      0x800'b537    0x6  Code  Gb  GSM_Utility.o [9]
+cos                      0x801'85b1    0xa  Code  Gb  cos_sin64.o [20]
+cosl                     0x801'85b1    0xa  Code  Gb  cos_sin64.o [20]
+create_normal_event     0x2000'1e29    0x1  Data  Gb  sip_protocol.o [14]
+create_normal_event_counter
+                        0x2000'1d3c    0x4  Data  Gb  sip_protocol.o [14]
+crystal_is_failed       0x2000'1e65    0x1  Data  Gb  System_Utility.o [5]
+current_sms_index       0x2000'1e57    0x1  Data  Gb  SMS_Process.o [9]
+data_packet             0x2000'0dcc  0x354  Data  Gb  sip_protocol.o [14]
+data_packet_length      0x2000'1dd0    0x2  Data  Gb  sip_protocol.o [14]
+data_send_rate_counter  0x2000'1d40    0x4  Data  Gb  sip_protocol.o [14]
+debug_mode              0x2000'1e54    0x1  Data  Gb  sip_protocol.o [14]
+debug_mode_counter      0x2000'1dda    0x2  Data  Gb  sip_protocol.o [14]
+decrypt_server_response
+                         0x800'fc3b   0x38  Code  Gb  RSA_Cryptographic.o [15]
+device_has_speed        0x2000'1e07    0x1  Data  Gb  GPS.o [8]
+disable_accel_timer     0x2000'0406    0x1  Data  Gb  System_Timers.o [18]
+disable_any_gsm_activity
+                        0x2000'1e10    0x1  Data  Gb  GSM_Utility.o [9]
+disable_http_pdp        0x2000'1e17    0x1  Data  Gb  HTTP_Process.o [9]
+emePkcs1v15Decode        0x800'ffe3   0x9a  Code  Gb  rsa.o [13]
+enable_disable_record_production
+                        0x2000'1e2c    0x1  Data  Gb  sip_protocol.o [14]
+enable_http_process     0x2000'1e12    0x1  Data  Gb  HTTP_Process.o [9]
+enable_send_data_to_sipaad
+                        0x2000'1e2d    0x1  Data  Gb  sip_protocol.o [14]
+exit                     0x801'a2d7    0x8  Code  Gb  exit.o [19]
+file_header_is_read     0x2000'1e51    0x1  Data  Gb  sip_protocol.o [14]
+firmware_base_address   0x2000'1d68    0x4  Data  Gb  sip_protocol.o [14]
+firmware_chunk_index    0x2000'1dd8    0x2  Data  Gb  sip_protocol.o [14]
+firmware_chunk_size     0x2000'1dd6    0x2  Data  Gb  sip_protocol.o [14]
+firmware_downloaded_size
+                        0x2000'1d6c    0x4  Data  Gb  sip_protocol.o [14]
+firmware_downloading_process
+                        0x2000'1e52    0x1  Data  Gb  sip_protocol.o [14]
+force_create_event      0x2000'1e2a    0x1  Data  Gb  sip_protocol.o [14]
+fota_file_version       0x2000'1d64    0x4  Data  Gb  sip_protocol.o [14]
+free                     0x801'7841    0x8  Code  Gb  heaptramp0.o [19]
+get_n_number_from_till   0x801'1355   0x7e  Code  Gb  GPS.o [8]
+gps_activity            0x2000'1e0c    0x1  Data  Gb  GPS.o [8]
+gps_enter_sleep         0x2000'1e0a    0x1  Data  Gb  GPS.o [8]
+gps_exit_sleep          0x2000'1e0b    0x1  Data  Gb  GPS.o [8]
+gps_is_fixed_for_first_time
+                        0x2000'1e06    0x1  Data  Gb  GPS.o [8]
+gps_jump_count          0x2000'1de0    0x2  Data  Gb  sip_protocol.o [14]
+gps_led_counter         0x2000'1e1c    0x1  Data  Gb  LEDs.o [18]
+gps_led_pulse_count     0x2000'1e1f    0x1  Data  Gb  LEDs.o [18]
+gps_led_pulse_mode      0x2000'1e19    0x1  Data  Gb  LEDs.o [18]
+gps_led_state           0x2000'1e22    0x1  Data  Gb  LEDs.o [18]
+gps_led_twice_counter   0x2000'1e25    0x1  Data  Gb  LEDs.o [18]
+gps_notfix_event_counter
+                        0x2000'1e35    0x1  Data  Gb  sip_protocol.o [14]
+gsm_led_counter         0x2000'1e1b    0x1  Data  Gb  LEDs.o [18]
+gsm_led_pulse_count     0x2000'1e1e    0x1  Data  Gb  LEDs.o [18]
+gsm_led_pulse_mode      0x2000'1e18    0x1  Data  Gb  LEDs.o [18]
+gsm_led_state           0x2000'1e21    0x1  Data  Gb  LEDs.o [18]
+gsm_led_twice_counter   0x2000'1e24    0x1  Data  Gb  LEDs.o [18]
+gsm_power_status        0x2000'1e39    0x1  Data  Gb  sip_protocol.o [14]
+gsm_pt_timeout          0x2000'1d24    0x4  Data  Gb  GSM_Utility.o [9]
+gsm_sr_timeout          0x2000'1d28    0x4  Data  Gb  GSM_Utility.o [9]
+halt_event_production_counter
+                        0x2000'0403    0x1  Data  Gb  sip_protocol.o [14]
+halt_http_process       0x2000'1e14    0x1  Data  Gb  HTTP_Process.o [9]
+halt_http_process_counter
+                        0x2000'1dbe    0x2  Data  Gb  HTTP_Process.o [9]
+http_SPIF_Cert_wr_index
+                        0x2000'0128    0x4  Data  Gb  HTTP_Process.o [9]
+http_SPIF_Fwr_wr_index  0x2000'1d34    0x4  Data  Gb  HTTP_Process.o [9]
+http_firmware_upgrade_ready
+                        0x2000'1e16    0x1  Data  Gb  HTTP_Process.o [9]
+http_has_request        0x2000'1e13    0x1  Data  Gb  HTTP_Process.o [9]
+http_stage_TO_CME_Error
+                         0x801'a5f0   0x18  Data  Gb  HTTP_Process.o [9]
+http_stage_max_num_of_retries
+                         0x801'a5c0   0x18  Data  Gb  HTTP_Process.o [9]
+http_stage_retries_redirect
+                         0x801'a5d8   0x18  Data  Gb  HTTP_Process.o [9]
+http_stage_timeout       0x801'a5a8   0x18  Data  Gb  HTTP_Process.o [9]
+idle_started_counter    0x2000'1dd2    0x2  Data  Gb  sip_protocol.o [14]
+ignition_changed        0x2000'1e01    0x1  Data  Gb  Digital_IO.o [11]
+k                        0x801'9c20  0x100  Data  Lc  md5.o [10]
+keep_GSM_module_awake   0x2000'0405    0x1  Data  Gb  sip_protocol.o [14]
+last_PPS_time_unix      0x2000'1d20    0x4  Data  Gb  GPS.o [8]
+last_record_COG         0x2000'1dac    0x2  Data  Gb  GPS.o [8]
+last_record_latitude    0x2000'1d18    0x4  Data  Gb  GPS.o [8]
+last_record_longitude   0x2000'1d1c    0x4  Data  Gb  GPS.o [8]
+last_record_unixtime    0x2000'1d58    0x4  Data  Gb  sip_protocol.o [14]
+last_sipaad_logined_unixtime
+                        0x2000'1d60    0x4  Data  Gb  sip_protocol.o [14]
+last_valid_COG          0x2000'1daa    0x2  Data  Gb  GPS.o [8]
+last_valid_altitude     0x2000'1da8    0x2  Data  Gb  GPS.o [8]
+last_valid_latitude     0x2000'1d10    0x4  Data  Gb  GPS.o [8]
+last_valid_longitude    0x2000'1d14    0x4  Data  Gb  GPS.o [8]
+line_buffer_counter     0x2000'1dba    0x2  Data  Gb  GSM_Utility.o [9]
+line_buffer_rd_index    0x2000'1db8    0x2  Data  Gb  GSM_Utility.o [9]
+lmos                     0x801'94b4   0x18  Data  Lc  xDaysTo64.o [19]
+localtime                0x800'cbfb   0x1e  Code  Gb  localtim64.o [19]
+logined_to_the_server   0x2000'1e41    0x1  Data  Gb  sip_protocol.o [14]
+low_battery_detection   0x2000'1e34    0x1  Data  Gb  sip_protocol.o [14]
+main                     0x801'a121   0x30  Code  Gb  main.o [5]
+main_sumation_value     0x2000'1d00    0x4  Data  Gb  ADC_Config.o [1]
+mainpower_connection_counter
+                        0x2000'1dde    0x2  Data  Gb  sip_protocol.o [14]
+mainpower_disconnection_counter
+                        0x2000'1ddc    0x2  Data  Gb  sip_protocol.o [14]
+md5Final                 0x801'0131   0x78  Code  Gb  md5.o [10]
+md5Init                  0x801'00a5   0x1e  Code  Gb  md5.o [10]
+md5ProcessBlock          0x801'01c1  0x72a  Code  Gb  md5.o [10]
+md5Update                0x801'00c3   0x6e  Code  Gb  md5.o [10]
+memcmp                   0x800'd385         Code  Gb  memcmp.o [21]
+mos                      0x801'94cc   0x18  Data  Lc  xDaysTo64.o [19]
+moving_status           0x2000'1e08    0x1  Data  Gb  GPS.o [8]
+mpiAdd                   0x801'6fd1   0x4c  Code  Gb  mpi.o [12]
+mpiAddAbs                0x801'7069   0xfc  Code  Gb  mpi.o [12]
+mpiComp                  0x801'6bb9   0x94  Code  Gb  mpi.o [12]
+mpiCompAbs               0x801'6c83   0x72  Code  Gb  mpi.o [12]
+mpiCompInt               0x801'6c4d   0x36  Code  Gb  mpi.o [12]
+mpiCopy                  0x801'6cf5   0x6a  Code  Gb  mpi.o [12]
+mpiExpMod                0x801'7849  0x3fe  Code  Wk  mpi.o [12]
+mpiExport                0x801'6ef7   0xda  Code  Gb  mpi.o [12]
+mpiFree                  0x801'6ac1   0x2c  Code  Gb  mpi.o [12]
+mpiGetBitLength          0x801'6b55   0x3e  Code  Gb  mpi.o [12]
+mpiGetBitValue           0x801'6b93   0x26  Code  Gb  mpi.o [12]
+mpiGetByteLength         0x801'6b17   0x3e  Code  Gb  mpi.o [12]
+mpiGetLength             0x801'6aed   0x2a  Code  Gb  mpi.o [12]
+mpiGrow                  0x801'9731   0x6c  Code  Wk  mpi.o [12]
+mpiImport                0x801'6db5  0x142  Code  Gb  mpi.o [12]
+mpiInit                  0x801'6ab5    0xc  Code  Gb  mpi.o [12]
+mpiMod                   0x801'7401   0xd0  Code  Gb  mpi.o [12]
+mpiMontgomeryMul         0x801'7501  0x132  Code  Gb  mpi.o [12]
+mpiMontgomeryRed         0x801'7633   0x2e  Code  Gb  mpi.o [12]
+mpiMul                   0x801'7c47  0x10a  Code  Wk  mpi.o [12]
+mpiMulAccCore            0x801'7661   0x9e  Code  Gb  mpi.o [12]
+mpiMulMod                0x801'74d1   0x30  Code  Gb  mpi.o [12]
+mpiSetValue              0x801'6d5f   0x56  Code  Gb  mpi.o [12]
+mpiShiftLeft             0x801'7265   0xc4  Code  Gb  mpi.o [12]
+mpiShiftRight            0x801'7329   0xd8  Code  Gb  mpi.o [12]
+mpiSub                   0x801'701d   0x4c  Code  Gb  mpi.o [12]
+mpiSubAbs                0x801'7165  0x100  Code  Gb  mpi.o [12]
+new_firmware_available  0x2000'1e50    0x1  Data  Gb  sip_protocol.o [14]
+number_of_http_process_run
+                        0x2000'1e15    0x1  Data  Gb  HTTP_Process.o [9]
+oidComp                  0x801'9a79   0x42  Code  Gb  oid.o [6]
+osAllocMem               0x801'007d    0xe  Code  Gb  os_port_none.o [4]
+osFreeMem                0x801'008b   0x12  Code  Gb  os_port_none.o [4]
+over_speed_happened     0x2000'1e33    0x1  Data  Gb  sip_protocol.o [14]
+packet_tag              0x2000'1e45    0x1  Data  Gb  sip_protocol.o [14]
+padding                  0x801'9e68   0x40  Data  Lc  md5.o [10]
+pemImportRsaPrivateKey   0x801'64f9  0x55c  Code  Gb  pem_import.o [3]
+pemSearchTag             0x801'6a7d   0x36  Code  Gb  pem_import.o [3]
+read_buff_index         0x2000'1e03    0x1  Data  Gb  GPS.o [8]
+read_buffer_until        0x801'1319   0x3c  Code  Gb  GPS.o [8]
+read_system_IMEI        0x2000'1e37    0x1  Data  Gb  sip_protocol.o [14]
+reconfig_accelerometer  0x2000'1e2e    0x1  Data  Gb  sip_protocol.o [14]
+reconfig_gps_protection
+                        0x2000'1e0e    0x1  Data  Gb  GPS.o [8]
+reconfig_gps_protection_counter
+                        0x2000'1db0    0x2  Data  Gb  GPS.o [8]
+reconfigure_GPS         0x2000'1e0d    0x1  Data  Gb  GPS.o [8]
+recover_Accel_error     0x2000'1e60    0x1  Data  Gb  system.o [14]
+recover_accel_error_counter
+                        0x2000'1de8    0x2  Data  Gb  system.o [14]
+repetition_accident_detection_counter
+                        0x2000'1dce    0x2  Data  Gb  sip_protocol.o [14]
+repetition_low_battery_counter
+                        0x2000'1dcc    0x2  Data  Gb  sip_protocol.o [14]
+reset_count             0x2000'000c    0x4  Data  Gb  main.o [5]
+reset_server_unreachable_counter
+                        0x2000'1dd4    0x2  Data  Gb  sip_protocol.o [14]
+rsaFreePrivateKey        0x800'fcb9   0x44  Code  Gb  rsa.o [13]
+rsaInitPrivateKey        0x800'fc75   0x44  Code  Gb  rsa.o [13]
+rsadp                    0x800'fec9  0x11a  Code  Gb  rsa.o [13]
+rsaesPkcs1v15Decrypt     0x800'fcfd  0x198  Code  Gb  rsa.o [13]
+save_changed_setting    0x2000'1e2f    0x1  Data  Gb  sip_protocol.o [14]
+save_server_ok           0x800'8c8b   0x46  Code  Gb  sip_protocol.o [14]
+save_system_IMEI        0x2000'1e36    0x1  Data  Gb  sip_protocol.o [14]
+send_command_to_GSM     0x2000'1e3d    0x1  Data  Gb  sip_protocol.o [14]
+send_data_less_than_10_records
+                        0x2000'1e28    0x1  Data  Gb  sip_protocol.o [14]
+send_request_to_server  0x2000'1e4a    0x1  Data  Gb  sip_protocol.o [14]
+sending_data_is_in_progress
+                        0x2000'1e43    0x1  Data  Gb  sip_protocol.o [14]
+server_errors           0x2000'1d38    0x4  Data  Gb  sip_protocol.o [14]
+server_fault_count      0x2000'1e4d    0x1  Data  Gb  sip_protocol.o [14]
+server_is_unreachable   0x2000'1e4c    0x1  Data  Gb  sip_protocol.o [14]
+server_pack             0x2000'0408  0x9c4  Data  Gb  HTTP_Process.o [9]
+server_pack_length      0x2000'1dc2    0x2  Data  Gb  HTTP_Process.o [9]
+server_packet_count     0x2000'1e40    0x1  Data  Gb  sip_protocol.o [14]
+server_packet_retry_number
+                        0x2000'1e5d    0x1  Data  Gb  SSL_Process.o [9]
+server_packet_type      0x2000'1e44    0x1  Data  Gb  sip_protocol.o [14]
+server_records          0x2000'133c  0x1e0  Data  Gb  sip_protocol.o [14]
+server_requests         0x2000'1ce0    0x8  Data  Gb  sip_protocol.o [14]
+server_security_code    0x2000'1ca4   0x10  Data  Gb  sip_protocol.o [14]
+server_socket           0x2000'1e42    0x1  Data  Gb  sip_protocol.o [14]
+set_gps_sleep_counter   0x2000'1dae    0x2  Data  Gb  GPS.o [8]
+setting                 0x2000'1908  0x10c  Data  Gb  sip_protocol.o [14]
+sim_SMS_stage_TO         0x801'b1d4    0xc  Data  Gb  SMS_Process.o [9]
+sim_SMS_stage_cme_error
+                         0x801'b1c8    0xc  Data  Gb  SMS_Process.o [9]
+sim_SMS_stage_timeout_timer
+                         0x801'b1bc    0xc  Data  Gb  SMS_Process.o [9]
+sim_stage_TO_CME_Error   0x801'9f9c   0x3c  Data  Gb  SSL_Process.o [9]
+sim_stage_max_number_of_retries
+                         0x801'9f24   0x3c  Data  Gb  SSL_Process.o [9]
+sim_stage_retries_redirect
+                         0x801'9f60   0x3c  Data  Gb  SSL_Process.o [9]
+sim_stage_timeout        0x801'9ee8   0x3c  Data  Gb  SSL_Process.o [9]
+sin                      0x801'85bb    0xa  Code  Gb  cos_sin64.o [20]
+sinl                     0x801'85bb    0xa  Code  Gb  cos_sin64.o [20]
+sipaad_server_is_ok     0x2000'1e48    0x1  Data  Gb  sip_protocol.o [14]
+sms_panel_send          0x2000'1e3f    0x1  Data  Gb  sip_protocol.o [14]
+sms_send_length         0x2000'1de2    0x2  Data  Gb  SMS_Process.o [9]
+socket_connection_attempts
+                        0x2000'1e5e    0x1  Data  Gb  SSL_Process.o [9]
+sqrt                     0x801'876d         Code  Gb  sqrt.o [20]
+sqrtl                    0x801'876d         Code  Gb  sqrt.o [20]
+startup_fixed_counter   0x2000'1e04    0x1  Data  Gb  GPS.o [8]
+startup_latitude_average
+                        0x2000'1cd0    0x8  Data  Gb  GPS.o [8]
+startup_longitude_average
+                        0x2000'1cd8    0x8  Data  Gb  GPS.o [8]
+str_to_llint             0x800'b53d   0x58  Code  Gb  GSM_Utility.o [9]
+strchr                   0x801'64e5         Code  Gb  strchr.o [21]
+strcmp                   0x800'89b9         Code  Gb  strcmp.o [21]
+strlen                   0x800'cc19         Code  Gb  strlen.o [21]
+strstr                   0x800'cc27   0x2e  Code  Gb  strstr.o [19]
+sysTick_decrement       0x2000'1d74    0x4  Data  Gb  System_Utility.o [5]
+sys_led_counter         0x2000'1e1d    0x1  Data  Gb  LEDs.o [18]
+sys_led_pulse_count     0x2000'1e20    0x1  Data  Gb  LEDs.o [18]
+sys_led_pulse_mode      0x2000'1e1a    0x1  Data  Gb  LEDs.o [18]
+sys_led_state           0x2000'1e23    0x1  Data  Gb  LEDs.o [18]
+sys_led_twice_counter   0x2000'1e26    0x1  Data  Gb  LEDs.o [18]
+system_IMEI             0x2000'1ce8    0x8  Data  Gb  sip_protocol.o [14]
+system_Serial           0x2000'1cf0    0x8  Data  Gb  sip_protocol.o [14]
+system_Unixtime         0x2000'0008    0x4  Data  Gb  main.o [5]
+system_current_state    0x2000'1e62    0x1  Data  Gb  system.o [14]
+system_error            0x2000'1cb4   0x10  Data  Gb  system.o [14]
+system_has_error        0x2000'1e5f    0x1  Data  Gb  system.o [14]
+system_has_short_message
+                        0x2000'1e58    0x1  Data  Gb  SMS_Process.o [9]
+system_is_initiating    0x2000'0402    0x1  Data  Gb  main.o [5]
+system_new_state        0x2000'1e63    0x1  Data  Gb  system.o [14]
+system_pause_change_state_counter
+                        0x2000'1e61    0x1  Data  Gb  system.o [14]
+system_temp_params      0x2000'1b64   0x28  Data  Gb  SPIF.o [16]
+system_uptime           0x2000'1d70    0x4  Data  Gb  System_Timers.o [18]
+systick_check_IO_counter
+                        0x2000'1da6    0x2  Data  Gb  Digital_IO.o [11]
+ten_sec_timer           0x2000'1e64    0x1  Data  Gb  System_Timers.o [18]
+timer_of_Count_of_pre_detached_occure
+                        0x2000'1df7    0x1  Data  Gb  dev_attachment.o [2]
+timers_does_not_work    0x2000'1e27    0x1  Data  Gb  main.o [5]
+total_generated_record  0x2000'1dca    0x2  Data  Gb  sip_protocol.o [14]
+turn_off_gsm            0x2000'1e3a    0x1  Data  Gb  sip_protocol.o [14]
+turn_on_gsm             0x2000'1e3b    0x1  Data  Gb  sip_protocol.o [14]
+vcc_digital_changed     0x2000'1e02    0x1  Data  Gb  Digital_IO.o [11]
+vehicle_idle_state      0x2000'1e47    0x1  Data  Gb  sip_protocol.o [14]
+vehicle_total_movement  0x2000'1d44    0x4  Data  Gb  sip_protocol.o [14]
+window_dx_accel         0x2000'1d90    0x2  Data  Gb  dev_attachment.o [2]
+window_dy_accel         0x2000'1d92    0x2  Data  Gb  dev_attachment.o [2]
+window_dz_accel         0x2000'1d94    0x2  Data  Gb  dev_attachment.o [2]
+window_end_x_accel      0x2000'1d8a    0x2  Data  Gb  dev_attachment.o [2]
+window_end_y_accel      0x2000'1d8c    0x2  Data  Gb  dev_attachment.o [2]
+window_end_z_accel      0x2000'1d8e    0x2  Data  Gb  dev_attachment.o [2]
+window_start_x_accel    0x2000'1d84    0x2  Data  Gb  dev_attachment.o [2]
+window_start_y_accel    0x2000'1d86    0x2  Data  Gb  dev_attachment.o [2]
+window_start_z_accel    0x2000'1d88    0x2  Data  Gb  dev_attachment.o [2]
+
+
+[1] = D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\A2D_14972411234166948354.dir
+[2] = D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\Accelerometer_5802565934898969246.dir
+[3] = D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\Certificate_4819519691248422992.dir
+[4] = D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\Common_388439453444075512.dir
+[5] = D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\EWARM_14282830314136953809.dir
+[6] = D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\Encoding_17640052530797874392.dir
+[7] = D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\Flash_3222999600733985888.dir
+[8] = D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\GPS_13805737646085544899.dir
+[9] = D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\GSM_14571738266252155766.dir
+[10] = D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\Hash_7788234830195085610.dir
+[11] = D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\IOs_17766050923318551339.dir
+[12] = D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\MPI_4282649160496547225.dir
+[13] = D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\PKC_17023933510945847088.dir
+[14] = D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\Protocol_10540556707541943501.dir
+[15] = D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\RSA_7683435025872950055.dir
+[16] = D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\SPIF_2069707202072327316.dir
+[17] = D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\System_14878279498866883008.dir
+[18] = D:\PROGRAM\Sipaad_S500_Main_code_250426\Application\EWARM\Debug\Obj\Timers_7884078857485784167.dir
+[19] = dl6M_tlf.a
+[20] = m6M_tl.a
+[21] = rt6M_tl.a
+
+  89'518 bytes of readonly  code memory
+   6'515 bytes of readonly  data memory
+  27'509 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
