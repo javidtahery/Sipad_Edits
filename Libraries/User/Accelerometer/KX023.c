@@ -2,8 +2,66 @@
 
 
 KX023_acceleration_typeDef   KX023;
-uint8_t KX023_EXTI1_Halt_Timer = KX023_EXTI_HALT_DEFAULT_TIME;
 
+KX023_typeDef   Kx023_buffer[KX023_Moving_Average_Buffer_Size];
+uint8_t MA_index=0;
+uint8_t KX023_EXTI1_Halt_Timer = KX023_EXTI_HALT_DEFAULT_TIME;
+uint8_t Disturb_Condition=0;
+
+void push_To_KX023_buffer(KX023_acceleration_typeDef *data)
+{
+      //test if disturbance is too high
+      uint_t prev_index = (MA_index == 0 ? KX023_Moving_Average_Buffer_Size-1 : MA_index-1);
+      
+      if((fabsf(data->axis_x - Kx023_buffer[prev_index].axis_x) >= Disturbance_Limmit_Offset) ||
+         (fabsf(data->axis_y - Kx023_buffer[prev_index].axis_y) >= Disturbance_Limmit_Offset) ||
+           (fabsf(data->axis_z - Kx023_buffer[prev_index].axis_z) >= Disturbance_Limmit_Offset))
+      {
+        
+         Disturb_Condition=1;
+         return;
+      }
+      else
+      {
+       Disturb_Condition=0; 
+      }
+       //-----------    
+      Kx023_buffer[MA_index].axis_x = data->axis_x;
+      Kx023_buffer[MA_index].axis_y = data->axis_y;
+      Kx023_buffer[MA_index].axis_z = data->axis_z;
+      Kx023_buffer[MA_index].Filled = FILLED;
+      MA_index++;
+      if(MA_index >= KX023_Moving_Average_Buffer_Size)
+        MA_index=0;
+}
+
+void Calculate_MovingAverage_Offset(float *offset_x, float *offset_y, float *offset_z)
+{
+  float x_value=0;
+  float y_value=0;
+  float z_value=0;
+  int i;
+  
+  for(i=0; i<KX023_Moving_Average_Buffer_Size; i++)
+  {
+    if(Kx023_buffer[i].Filled == FILLED)
+    {
+      x_value+= Kx023_buffer[i].axis_x;
+      y_value+= Kx023_buffer[i].axis_y;
+      z_value+= Kx023_buffer[i].axis_z;
+    }
+    else
+      return;   //do nothing till all data get filled
+  }
+  x_value /= (float)i;
+  *offset_x=x_value;
+  
+    y_value /= (float)i;
+  *offset_y=y_value;
+  
+    z_value /= (float)i;
+  *offset_z=z_value;
+}
 
 void KX023_EXTI_Config(void)
 {
@@ -344,6 +402,15 @@ void KX023_startup_calibration(void)
   KX023.x_offset = KX023.axis_x;
   KX023.y_offset = KX023.axis_y;
   KX023.z_offset = KX023.axis_z;
+  
+  //fill moving average buffer if empty
+  for(int i=0; i<KX023_Moving_Average_Buffer_Size && Kx023_buffer[i].Filled == EMPTY; i++)
+  {
+    Kx023_buffer[i].axis_x =KX023.x_offset;
+    Kx023_buffer[i].axis_y =KX023.y_offset;
+    Kx023_buffer[i].axis_z =KX023.z_offset;
+  }
+    
 }
 
 

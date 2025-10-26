@@ -85,6 +85,10 @@
 #define KX023_ACCEL_ALPHA                        0.3
 
 
+#define KX023_Moving_Average_Buffer_Size        20
+#define FILLED  1
+#define EMPTY   0
+#define Disturbance_Limmit_Offset       200
 /* ---------------- Enum ---------------- */
 
 
@@ -105,10 +109,11 @@ typedef struct{
   uint8_t vehicle_moving;
 }KX023_acceleration_typeDef;
 
-typedef struct{
+typedef struct KX023_typeDef{
   float axis_x;
   float axis_y;
   float axis_z;
+  uint8_t Filled;
 }KX023_typeDef;
 
 
@@ -117,7 +122,8 @@ extern uint8_t KX023_EXTI1_Halt_Timer;
 extern KX023_acceleration_typeDef   KX023;
 
 
-
+extern uint8_t Disturb_Condition;
+extern KX023_typeDef   Kx023_buffer[KX023_Moving_Average_Buffer_Size];
 /* ---------------- Prototype ---------------- */
 void KX023_Config(void);
 void KX023_INT1_Handle(void);
@@ -125,5 +131,7 @@ void KX023_read_raw_data(int16_t* data_x, int16_t* data_y, int16_t* data_z);
 void KX023_EXTI1_Callback(void);
 void KX023_startup_calibration(void);
 uint8_t Accel_Recovery_I2C(void);
+void push_To_KX023_buffer(KX023_acceleration_typeDef *data);
+void Calculate_MovingAverage_Offset(float *offset_x, float *offset_y, float *offset_z);
 
 #endif /* __KX023_H */

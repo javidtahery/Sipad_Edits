@@ -502,7 +502,7 @@ void Fifty_Hz_handler(void)
     }
 #endif
     /* ----- End of ODO Meter ----- */
-    
+    static volatile int counter_=0;
     if(disable_accel_timer == RESET)
     {
       uint8_t counter = 0;
@@ -526,6 +526,13 @@ void Fifty_Hz_handler(void)
       KX023.axis_y = (accel_y_sum / 41) * 0.244140625;
       KX023.axis_z = (accel_z_sum / 41) * 0.244140625;
       
+      counter_++;
+      if(counter_ > 25) //500ms
+      {
+        counter_=0;
+        push_To_KX023_buffer(&KX023);
+      }
+      Calculate_MovingAverage_Offset(&KX023.x_offset, &KX023.y_offset, &KX023.z_offset);
       KX023.axis_x -= KX023.x_offset;
       KX023.axis_y -= KX023.y_offset;
       KX023.axis_z -= KX023.z_offset;
